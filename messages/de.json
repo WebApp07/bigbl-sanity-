@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "title": "Licendi – Offizielle Microsoft-Softwarelizenzen",
+    "description": "Kaufen Sie echte Microsoft-Softwarelizenzen, Download-Schlüssel und sofortige digitale Lieferung."
+  },
+  "common": {
+    "loading": "Licendi wird geladen...",
+    "home": "Startseite",
+    "login": "Anmelden",
+    "addToCart": "In den Warenkorb",
+    "addedToCart": "{name} erfolgreich hinzugefügt!",
+    "removedFromCart": "{name} erfolgreich entfernt!",
+    "quantityDecreased": "Menge erfolgreich verringert!",
+    "outOfStock": "Nicht vorrätig",
+    "inStock": "Auf Lager",
+    "quantity": "Menge",
+    "subtotal": "Zwischensumme",
+    "discount": "Rabatt",
+    "total": "Gesamt",
+    "na": "N/A",
+    "default": "Standard",
+    "variant": "Variante",
+    "status": "Status"
+  },
+  "localeSwitcher": {
+    "label": "Sprache",
+    "ariaLabel": "Sprache wählen"
+  },
+  "header": {
+    "home": "Startseite",
+    "blog": "Blog",
+    "brands": "Marken"
+  },
+  "search": {
+    "title": "Produktsuche",
+    "placeholder": "Durchsuchen Sie Ihre Produkte...",
+    "searching": "Suche läuft...",
+    "noMatch": "Nichts passt zum Suchbegriff {keyword}. Bitte versuchen Sie etwas anderes.",
+    "explore": "Durchsuchen und entdecken Sie Ihre Produkte von Licendi.",
+    "productImage": "Produktbild"
+  },
+  "footer": {
+    "description": "Ihre vertrauenswürdige Quelle für echte Microsoft-Softwarelizenzen mit sofortiger Lieferung und lebenslangem Support.",
+    "quickLinks": "Schnellzugriff",
+    "categories": "Kategorien",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Abonnieren Sie unseren Newsletter, um Updates und exklusive Angebote zu erhalten.",
+    "emailPlaceholder": "E-Mail eingeben",
+    "subscribe": "Abonnieren",
+    "visitUs": "Besuchen Sie uns",
+    "chatWhatsapp": "Chat auf WhatsApp",
+    "workingHours": "Öffnungszeiten",
+    "emailUs": "E-Mail an uns",
+    "aboutUs": "Über uns",
+    "contactUs": "Kontakt",
+    "termsConditions": "AGB",
+    "privacyPolicy": "Datenschutz",
+    "faqs": "FAQ",
+    "refundPolicy": "Rückerstattungs- & Umtauschrichtlinie",
+    "shippingPolicy": "Versand- & Lieferrichtlinie",
+    "blog": "Blog"
+  },
+  "banner": {
+    "title": "Offizielle Microsoft-Produkte",
+    "subtitle": "Kaufen Sie echte Microsoft-Software und -Lösungen von einem offiziellen Microsoft-Partner. Erhalten Sie die neuesten Produkte, sichere Lizenzen und zuverlässigen Support für alle Ihre digitalen Bedürfnisse."
+  },
+  "home": {
+    "productsByCategory": "Produkte nach Kategorie",
+    "noProductAvailable": "Kein Produkt verfügbar",
+    "noMatchCriteria": "Es tut uns leid, aber es gibt derzeit keine Produkte, die den Kriterien von {tab} entsprechen.",
+    "restocking": "Wir füllen den Bestand bald wieder auf",
+    "checkBack": "Bitte schauen Sie später wieder vorbei oder erkunden Sie unsere anderen Produktkategorien.",
+    "loading": "Produkt wird geladen..."
+  },
+  "product": {
+    "color": "Farbe",
+    "size": "Größe",
+    "selectSize": "Größe wählen",
+    "sizeGuide": "Größentabelle",
+    "up": "und mehr",
+    "productDetails": "Produktdetails",
+    "manufacturerSku": "Hersteller-SKU",
+    "brand": "Marke",
+    "gender": "Zielgruppe",
+    "nickname": "Spitzname",
+    "releaseDate": "Erscheinungsdatum",
+    "compareColor": "Farbe vergleichen",
+    "askQuestion": "Eine Frage stellen",
+    "deliveryReturn": "Lieferung & Rückgabe",
+    "share": "Teilen",
+    "freeShipping": "Kostenloser Versand",
+    "freeShippingDesc": "Kostenloser Versand ab 120 $ Bestellwert",
+    "flexiblePayment": "Flexible Zahlung",
+    "payWithCards": "Zahlung mit mehreren Kreditkarten",
+    "characteristics": "{name}: Eigenschaften",
+    "collection": "Kollektion",
+    "type": "Typ",
+    "sku": "SKU",
+    "operatingSystems": "Unterstützte Betriebssysteme",
+    "versionType": "Versionstyp",
+    "productStatus": "Produktstatus",
+    "placeOfOrigin": "Ursprungsort",
+    "activation": "Aktivierung",
+    "shippingMethod": "Liefermethode",
+    "packageInclude": "Lieferumfang",
+    "language": "Sprache",
+    "warranty": "Garantie",
+    "deliveryTime": "Lieferzeit",
+    "support": "Support",
+    "function": "Funktion",
+    "paymentMethods": "Zahlungsmethoden",
+    "stock": "Lagerbestand",
+    "available": "Verfügbar",
+    "intro": "Einführung",
+    "brandName": "Markenname",
+    "unknown": "Unbekannt"
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "addToFavorite": "Zu Favoriten hinzufügen",
+    "deleteProduct": "Produkt löschen",
+    "resetCart": "Warenkorb zurücksetzen",
+    "confirmReset": "Sind Sie sicher, dass Sie den Warenkorb zurücksetzen möchten?",
+    "cartReset": "Ihr Warenkorb wurde erfolgreich zurückgesetzt!",
+    "productDeleted": "Produkt erfolgreich gelöscht!",
+    "orderSummary": "Bestellübersicht",
+    "fullName": "Vollständiger Name",
+    "namePlaceholder": "Vollständigen Namen eingeben",
+    "emailAddress": "E-Mail-Adresse",
+    "emailPlaceholder": "E-Mail eingeben",
+    "deliveryNote": "* Ihr digitales Produkt wird an diese E-Mail-Adresse geliefert.",
+    "enterNameEmail": "Bitte geben Sie Ihren Namen und Ihre E-Mail-Adresse ein.",
+    "payStripe": "Bestellung aufgeben",
+    "orPayWith": "Oder bezahlen mit",
+    "guestBanner": "Sie bezahlen als Gast",
+    "guestNote": "Ihre Bestellung wird keinem Konto zugeordnet. Melden Sie sich an, um Bestellungen zu verfolgen und jederzeit darauf zuzugreifen.",
+    "guestSignIn": "Anmelden",
+    "stripeHint": "Sichere Zahlung über Stripe"
+  },
+  "emptyCart": {
+    "title": "Ihr Warenkorb fühlt sich einsam an",
+    "desc": "Es sieht so aus, als hätten Sie noch nichts in den Warenkorb gelegt. Lassen Sie uns das ändern und tolle Produkte für Sie finden!",
+    "cta": "Produkte entdecken"
+  },
+  "auth": {
+    "welcomeBack": "Willkommen zurück!",
+    "loginDesc": "Melden Sie sich an, um Ihren Warenkorb anzusehen und zur Kasse zu gehen, oder fahren Sie ohne Konto als Gast fort.",
+    "signIn": "Anmelden",
+    "noAccount": "Noch kein Konto?",
+    "createAccount": "Konto erstellen",
+    "or": "oder",
+    "continueAsGuest": "Als Gast fortfahren",
+    "guestDesc": "Bestellen ohne Konto. Ihre Bestellung wird keinem Profil zugeordnet."
+  },
+  "orders": {
+    "title": "Bestellliste",
+    "orderNumber": "Bestellnummer",
+    "date": "Datum",
+    "customer": "Kunde",
+    "email": "E-Mail",
+    "total": "Gesamt",
+    "status": "Status",
+    "method": "Methode",
+    "invoiceNumber": "Rechnungsnummer",
+    "action": "Aktion",
+    "invoice": "Rechnung",
+    "receipt": "Beleg",
+    "noOrders": "Keine Bestellungen gefunden",
+    "noOrdersDesc": "Sieht so aus, als hätten Sie noch keine Bestellungen aufgegeben. Beginnen Sie mit dem Einkaufen, um Ihre Bestellungen hier zu sehen!",
+    "browseProducts": "Produkte durchsuchen",
+    "invoiceNotAvailable": "Rechnung für diese Bestellung nicht verfügbar",
+    "invoiceNotPaypal": "Rechnung für PayPal-Bestellungen nicht verfügbar",
+    "clickForDetails": "Klicken Sie, um die Bestelldetails zu sehen",
+    "orderDetails": "Bestelldetails - {orderNumber}",
+    "paymentMethod": "Zahlungsmethode",
+    "downloadInvoice": "Rechnung herunterladen",
+    "downloadReceipt": "Beleg herunterladen",
+    "printReceipt": "Beleg drucken",
+    "invoiceNotePaypal": "Die offizielle Stripe-Rechnung ist für PayPal-Bestellungen nicht verfügbar. Sie können diese Seite als Beleg ausdrucken.",
+    "invoiceNote": "Der Rechnungsdownload ist für diese Bestellung nicht verfügbar.",
+    "product": "Produkt",
+    "quantity": "Menge",
+    "price": "Preis"
+  },
+  "success": {
+    "confirmed": "Bestellung bestätigt!",
+    "successNote": "Erfolg! Ihre digitale Bestellung wurde verarbeitet. Prüfen Sie Ihre E-Mail auf Lieferdetails.",
+    "thankYou": "Vielen Dank für Ihren Einkauf. Wir verarbeiten Ihre Bestellung. Eine Bestätigungs-E-Mail mit Ihren Bestelldaten wurde an Ihr Postfach gesendet.",
+    "orderNumber": "Bestellnummer",
+    "sentTo": "Gesendet an",
+    "retrieving": "Bestelldaten werden abgerufen...",
+    "orderItems": "Bestellte Artikel",
+    "qty": "Menge: {quantity}",
+    "totalPaid": "Bezahlter Betrag",
+    "updating": "Die Bestelldaten werden aktualisiert. Sie können sie in wenigen Augenblicken in Ihrem Konto einsehen.",
+    "whatsNext": "Was kommt als Nächstes?",
+    "next1": "Prüfen Sie Ihre E-Mail auf die Bestellbestätigung",
+    "next2": "Digitale Artikel werden sofort an Ihr Postfach gesendet",
+    "next3": "Verfolgen Sie Ihren Bestellstatus jederzeit in Ihrem Dashboard",
+    "home": "Startseite",
+    "orders": "Bestellungen",
+    "shop": "Shop",
+    "loadingStatus": "Bestellstatus wird geladen..."
+  },
+  "payment": {
+    "processing": "Verarbeitung...",
+    "paymentSuccess": "Zahlung erfolgreich!",
+    "paymentFailed": "Zahlung konnte nicht erfasst werden",
+    "paymentError": "Bei der Zahlungsverarbeitung ist ein Fehler aufgetreten",
+    "paypalInitFailed": "Die PayPal-Zahlung konnte nicht initialisiert werden",
+    "enterInfo": "Bitte geben Sie zuerst Ihren Namen und Ihre E-Mail-Adresse ein.",
+    "secureNote": "Sichere Zahlung über PayPal. Kredit- und Debitkarten werden akzeptiert."
+  },
+  "purchaseProcess": {
+    "title": "Kaufprozess",
+    "subtitle": "Erhalten Sie Ihre Softwarelizenz(en) in nur 4 einfachen Schritten",
+    "step1Title": "Fügen Sie Ihr Produkt zum Warenkorb hinzu",
+    "step1Desc": "Finden Sie die Lizenz, die Ihren Bedürfnissen am besten entspricht, und fügen Sie sie mit einem Klick zum Warenkorb hinzu.",
+    "step2Title": "Wählen Sie Ihre Zahlungsmethode",
+    "step2Desc": "Wählen Sie die bequemste Zahlungsmethode für Ihren Kauf und schließen Sie den Kauf ab.",
+    "step3Title": "Erhalten Sie Ihre Lizenz sofort",
+    "step3Desc": "Finden Sie Ihren Lizenzschlüssel, Download-Links und die Installationsanleitung in Ihrem Kundenbereich und in Ihrem E-Mail-Postfach.",
+    "step4Title": "Wir sind für Sie da",
+    "step4Desc": "Wir sind stolz auf unseren hervorragenden Kundenservice. Wenn Sie Unterstützung benötigen, können Sie uns sofort per Chat, E-Mail oder Telefon kontaktieren. Zusätzlich erhalten Sie eine lebenslange Garantie mit Licendi."
+  },
+  "trustedPartners": {
+    "title": "Vertrauen durch die Technologie, die wir nutzen",
+    "subtitle": "Wir arbeiten mit vertrauenswürdigen führenden Plattformen und Technologien zusammen, um sichere, zuverlässige und nahtlose Softwarelizenzierung zu gewährleisten."
+  },
+  "about": {
+    "title": "Über Licendi",
+    "intro": "Licendi ist der Online-Shop von KeyVersely LLC, einem offiziellen Microsoft-Partner, der echte Microsoft-Softwarelizenzen mit sofortiger digitaler Lieferung anbietet.",
+    "missionTitle": "Unsere Mission",
+    "mission": "Wir machen echte Microsoft-Software einfach, sicher und sofort verfügbar. Von Windows und Office bis hin zu Windows Server liefern wir verifizierte Lizenzschlüssel direkt in Ihr Postfach – nur wenige Minuten nach Ihrer Bestellung.",
+    "partnerTitle": "Offizieller Microsoft-Partner",
+    "partner": "Licendi wird von KeyVersely LLC betrieben, einem verifizierten Partner im offiziellen Microsoft-Partnerverzeichnis. Jede von uns verkaufte Lizenz ist echt und stammt aus autorisierten Kanälen.",
+    "partnerCta": "Microsoft-Partnerprofil ansehen",
+    "productsTitle": "Was wir verkaufen",
+    "products": "Wir sind spezialisiert auf echte Microsoft-Softwarelizenzen, einschließlich Windows-Betriebssystemen, Microsoft Office und Windows Server – digital und zu wettbewerbsfähigen Preisen.",
+    "deliveryTitle": "Sofortige digitale Lieferung",
+    "delivery": "Nach dem Checkout werden Ihr Lizenzschlüssel und Ihre Download-Links innerhalb weniger Minuten an Ihre E-Mail gesendet. Kein Versand, kein Warten – direkt aktivieren und installieren.",
+    "trustTitle": "Warum bei Licendi kaufen?",
+    "trust": [
+      "Offizieller Microsoft-Partner",
+      "Echte, verifizierte Lizenzschlüssel",
+      "Sofortige E-Mail-Zustellung",
+      "Sicherer Checkout mit Stripe & PayPal",
+      "Lebenslanger Produktsupport"
+    ],
+    "businessTitle": "Unternehmensdaten",
+    "businessCompany": "Rechtlicher Firmenname",
+    "businessCompanyValue": "KeyVersely LLC",
+    "businessAddress": "Registrierte Adresse",
+    "businessAddressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "businessEmail": "E-Mail",
+    "businessEmailValue": "support@keyversely.com",
+    "ctaTitle": "Bereit loszulegen?",
+    "ctaDesc": "Entdecken Sie unsere echten Microsoft-Lizenzen und erhalten Sie Ihren Schlüssel in wenigen Minuten.",
+    "ctaButton": "Lizenzen kaufen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "desc": "Fragen zu einer Bestellung, zur Aktivierung oder zu einem Lizenzschlüssel? Unser Support-Team hilft Ihnen gerne. Wir antworten in der Regel innerhalb von 24 Stunden an Werktagen.",
+    "businessTitle": "Unternehmensinformationen",
+    "companyName": "Rechtlicher Firmenname",
+    "companyValue": "KeyVersely LLC",
+    "address": "Registrierte Adresse",
+    "addressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "email": "E-Mail",
+    "emailValue": "support@keyversely.com",
+    "hours": "Support-Zeiten",
+    "hoursValue": "Montag – Freitag, 9:00 – 18:00 (MEZ)",
+    "name": "Name",
+    "message": "Nachricht",
+    "send": "Nachricht senden"
+  },
+  "faqs": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Wie schnell erhalte ich meinen Lizenzschlüssel?",
+        "a": "Sofort nach Bestätigung Ihrer Zahlung werden Ihr Lizenzschlüssel und die Download-Links an die bei der Bestellung angegebene E-Mail-Adresse gesendet – in der Regel innerhalb weniger Minuten."
+      },
+      {
+        "q": "Was erhalte ich nach der Bestellung?",
+        "a": "Sie erhalten einen echten Microsoft-Lizenzschlüssel zusammen mit offiziellen Download-Links und einer Installationsanleitung, zugestellt an Ihr E-Mail-Postfach."
+      },
+      {
+        "q": "Sind Ihre Lizenzschlüssel echt?",
+        "a": "Ja. Licendi wird von KeyVersely LLC betrieben, einem offiziellen Microsoft-Partner. Jeder von uns verkaufte Schlüssel ist echt und stammt aus autorisierten Kanälen."
+      },
+      {
+        "q": "Kann ich eine Rückerstattung erhalten?",
+        "a": "Da digitale Lizenzschlüssel sofort geliefert und unmittelbar aktiviert werden können, sind Käufe nach dem Versand des Schlüssels nicht erstattungsfähig. Bei einem echten Problem wenden Sie sich an unser Support-Team – wir helfen Ihnen gerne."
+      },
+      {
+        "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "a": "Wir akzeptieren alle gängigen Kredit- und Debitkarten über Stripe sowie PayPal."
+      },
+      {
+        "q": "Was, wenn ich die E-Mail mit meinem Lizenzschlüssel nicht erhalte?",
+        "a": "Prüfen Sie zunächst Ihren Spam- oder Junk-Ordner. Ist sie nicht dort, kontaktieren Sie uns unter support@keyversely.com – wir senden Ihren Schlüssel innerhalb weniger Minuten erneut."
+      },
+      {
+        "q": "Funktioniert die Lizenz in meinem Land?",
+        "a": "Ja, unsere Microsoft-Lizenzen sind für die weltweite Aktivierung konzipiert und funktionieren überall auf der Welt."
+      },
+      {
+        "q": "Welchen Support bieten Sie an?",
+        "a": "Jeder Kauf beinhaltet lebenslangen Support. Wenn Sie Hilfe bei Aktivierung oder Installation benötigen, kontaktieren Sie uns – unser Team unterstützt Sie."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "sections": [
+      {
+        "heading": "1. Geltungsbereich der Bedingungen",
+        "body": "Durch den Zugriff auf oder die Nutzung der Licendi-Website (die 'Website') stimmen Sie zu, an diese Allgemeinen Geschäftsbedingungen gebunden zu sein. Wenn Sie nicht zustimmen, nutzen Sie die Website bitte nicht."
+      },
+      {
+        "heading": "2. Produkte und Dienstleistungen",
+        "body": "Licendi, betrieben von KeyVersely LLC, verkauft digitale Softwarelizenzen, hauptsächlich echte Microsoft-Produkte wie Windows, Microsoft Office und Windows Server. Alle Produkte werden elektronisch geliefert."
+      },
+      {
+        "heading": "3. Digitale Lieferung",
+        "body": "Unmittelbar nach einer erfolgreichen Zahlung werden Lizenzschlüssel und Download-Anweisungen an die von Ihnen angegebene E-Mail-Adresse gesendet. Sie sind dafür verantwortlich, eine gültige und erreichbare E-Mail-Adresse anzugeben."
+      },
+      {
+        "heading": "4. Rückerstattungsrichtlinie",
+        "body": "Aufgrund der sofortigen elektronischen Lieferung von Lizenzschlüsseln sind alle Verkäufe endgültig und nach dem Versand des Schlüssels nicht erstattungsfähig. Ausnahmen werden bei echten Liefer- oder technischen Problemen im Einzelfall geprüft."
+      },
+      {
+        "heading": "5. Lizenznutzung",
+        "body": "Sie dürfen die gekauften Lizenzschlüssel nur für Ihre eigene persönliche oder geschäftliche Nutzung gemäß den Lizenzbedingungen von Microsoft verwenden. Der Weiterverkauf, das Teilen oder die Weitergabe von Schlüsseln ist untersagt."
+      },
+      {
+        "heading": "6. Geistiges Eigentum",
+        "body": "Alle Inhalte der Website, einschließlich Texte, Grafiken, Logos und Software, sind Eigentum von KeyVersely LLC oder ihrer Lizenzgeber und durch geltende Gesetze zum geistigen Eigentum geschützt."
+      },
+      {
+        "heading": "7. Haftungsbeschränkung",
+        "body": "Soweit gesetzlich zulässig, haftet KeyVersely LLC nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung der Website oder unserer Produkte entstehen."
+      },
+      {
+        "heading": "8. Anwendbares Recht",
+        "body": "Diese Allgemeinen Geschäftsbedingungen unterliegen den Gesetzen des Bundesstaates Wyoming, Vereinigte Staaten, und werden nach diesen ausgelegt, ohne Berücksichtigung kollisionsrechtlicher Grundsätze."
+      },
+      {
+        "heading": "9. Kontaktinformationen",
+        "body": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns unter support@keyversely.com oder schreiben Sie an KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "sections": [
+      {
+        "heading": "1. Einleitung",
+        "body": "KeyVersely LLC ('wir', 'uns' oder 'unser') betreibt die Licendi-Website. Diese Datenschutzrichtlinie erklärt, welche Informationen wir sammeln, wie wir sie verwenden und welche Wahlmöglichkeiten Sie haben."
+      },
+      {
+        "heading": "2. Welche Informationen wir sammeln",
+        "body": "Wir sammeln Informationen, die Sie direkt angeben, wie Ihren Namen und Ihre E-Mail-Adresse, wenn Sie eine Bestellung aufgeben, ein Konto erstellen oder den Support kontaktieren. Wir erfassen außerdem automatisch technische Informationen wie Ihre IP-Adresse, den Browsertyp und besuchte Seiten."
+      },
+      {
+        "heading": "3. Wie wir Ihre Informationen verwenden",
+        "body": "Wir verwenden Ihre Informationen, um Bestellungen zu verarbeiten und zu liefern, mit Ihnen zu kommunizieren, unsere Website zu verbessern, Betrug zu verhindern und rechtliche Verpflichtungen zu erfüllen."
+      },
+      {
+        "heading": "4. Cookies und Tracking",
+        "body": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Website-Verkehr zu analysieren und personalisierte Werbung zu unterstützen. Sie können Cookies über unser Cookie-Banner annehmen oder ablehnen und jederzeit in Ihren Browsereinstellungen verwalten oder löschen."
+      },
+      {
+        "heading": "5. Dienste Dritter",
+        "body": "Wir arbeiten mit vertrauenswürdigen Dritten zusammen: Stripe und PayPal für die Zahlungsabwicklung, Clerk für die Authentifizierung sowie Analyseanbieter zum Verständnis der Seitennutzung. Diese Parteien verarbeiten Daten nur im erforderlichen Umfang und nach ihren eigenen Datenschutzrichtlinien."
+      },
+      {
+        "heading": "6. Weitergabe von Informationen",
+        "body": "Wir verkaufen Ihre persönlichen Daten nicht. Wir geben Ihre Informationen nur an die oben genannten Dienstleister weiter, wenn es gesetzlich vorgeschrieben ist oder mit Ihrer Zustimmung."
+      },
+      {
+        "heading": "7. Datensicherheit",
+        "body": "Wir verwenden branchenübliche Maßnahmen, um Ihre persönlichen Daten vor Verlust, Diebstahl, Missbrauch und unbefugtem Zugriff zu schützen."
+      },
+      {
+        "heading": "8. Ihre Rechte",
+        "body": "Je nach Standort haben Sie möglicherweise das Recht, auf Ihre persönlichen Daten zuzugreifen, sie zu korrigieren oder zu löschen und bestimmten Verarbeitungen zu widersprechen. Kontaktieren Sie uns unter support@keyversely.com, um diese Rechte auszuüben."
+      },
+      {
+        "heading": "9. Datenschutz für Kinder",
+        "body": "Unsere Dienste richten sich nicht an Kinder unter 16 Jahren, und wir sammeln wissentlich keine persönlichen Daten von Kindern."
+      },
+      {
+        "heading": "10. Änderungen dieser Richtlinie",
+        "body": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Änderungen werden mit überarbeitetem Datum auf dieser Seite veröffentlicht."
+      },
+      {
+        "heading": "11. Kontakt",
+        "body": "Bei Fragen zu dieser Datenschutzrichtlinie kontaktieren Sie uns unter support@keyversely.com oder schreiben Sie an KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "cookieConsent": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Website-Verkehr zu analysieren und personalisierte Werbung zu unterstützen.",
+    "privacyLink": "Datenschutzrichtlinie",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "cms": {
+    "statusNew": "Neu",
+    "statusHot": "Beliebt",
+    "statusSale": "Angebot"
+  },
+  "refundPolicy": {
+    "title": "Rückerstattungs- und Umtauschrichtlinie",
+    "sections": [
+      {
+        "heading": "1. Überblick",
+        "body": "Da unsere Produkte digitale Lizenzschlüssel sind, die sofort geliefert werden, sind alle Verkäufe endgültig, sobald der Schlüssel gesendet wurde."
+      },
+      {
+        "heading": "2. Nicht erstattungsfähige digitale Produkte",
+        "body": "Digitale Produkte, einschließlich Software-Lizenzschlüsseln, sind nicht erstattungs- und nicht umtauschbar, sobald der Lizenzschlüssel an Ihre E-Mail geliefert wurde, da der Schlüssel sofort aktiviert werden kann."
+      },
+      {
+        "heading": "3. Ausnahmen",
+        "body": "Wir prüfen eine Erstattung oder einen Ersatz im Einzelfall, wenn: der Lizenzschlüssel nicht aktiviert werden kann, der Schlüssel aufgrund eines technischen Fehlers auf unserer Seite nicht geliefert wurde oder Sie das falsche Produkt erhalten haben."
+      },
+      {
+        "heading": "4. So beantragen Sie eine Erstattung oder einen Ersatz",
+        "body": "Kontaktieren Sie unser Support-Team unter support@keyversely.com innerhalb von 14 Tagen nach dem Kauf mit Ihrer Bestellnummer und einer Beschreibung des Problems. Wir prüfen den Fall und antworten innerhalb von 24 Stunden."
+      },
+      {
+        "heading": "5. Nicht autorisierte Transaktionen",
+        "body": "Wenn Sie glauben, dass eine Abbuchung nicht autorisiert war, kontaktieren Sie Ihren Zahlungsanbieter und unser Support-Team sofort, damit wir den Fall untersuchen können."
+      },
+      {
+        "heading": "6. Kontaktinformationen",
+        "body": "Bei Fragen zu dieser Richtlinie kontaktieren Sie KeyVersely LLC unter support@keyversely.com oder schreiben Sie an 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Versand- und Lieferrichtlinie",
+    "sections": [
+      {
+        "heading": "1. Digitale Lieferung",
+        "body": "Alle auf Licendi verkauften Produkte sind digitale Softwarelizenzen. Es werden keine physischen Artikel versendet. Nach einer erfolgreichen Zahlung werden Ihr Lizenzschlüssel und Ihre Download-Links sofort gesendet."
+      },
+      {
+        "heading": "2. Lieferzeit",
+        "body": "Lizenzschlüssel werden in der Regel innerhalb weniger Minuten nach Bestätigung der Zahlung geliefert. In seltenen Fällen kann die Lieferung aufgrund der Zahlungsprüfung bis zu ein paar Stunden dauern."
+      },
+      {
+        "heading": "3. Was Sie erhalten",
+        "body": "Ihre Liefer-E-Mail enthält Ihren Lizenzschlüssel, offizielle Download-Links und Installationsanweisungen."
+      },
+      {
+        "heading": "4. E-Mail-Zustellung",
+        "body": "Schlüssel werden an die bei der Bestellung angegebene E-Mail-Adresse gesendet. Bitte stellen Sie sicher, dass die Adresse korrekt ist. Prüfen Sie Ihren Spam- oder Junk-Ordner, wenn Sie die E-Mail nicht sehen."
+      },
+      {
+        "heading": "5. Verpasste Zustellung",
+        "body": "Wenn Sie Ihre E-Mail innerhalb weniger Stunden nicht erhalten haben, kontaktieren Sie uns unter support@keyversely.com und wir senden sie erneut."
+      },
+      {
+        "heading": "6. Kein physischer Versand",
+        "body": "Da alle Produkte digital sind, fallen keine Versandkosten an, und die Lieferung erfolgt weltweit ohne Zoll- oder Einfuhrabgaben."
+      },
+      {
+        "heading": "7. Kontaktinformationen",
+        "body": "Bei Fragen kontaktieren Sie KeyVersely LLC unter support@keyversely.com oder schreiben Sie an 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Licendi Blog",
+    "description": "Ratgeber, Tipps und Neuigkeiten zu echten Microsoft-Softwarelizenzen von Licendi.",
+    "readMore": "Weiterlesen",
+    "readArticle": "Artikel lesen",
+    "publishedOn": "Veröffentlicht am",
+    "by": "von",
+    "backToBlog": "Zurück zum Blog",
+    "featured": "Empfohlen",
+    "latestPosts": "Neueste Artikel",
+    "recentPosts": "Aktuelle Beiträge",
+    "share": "Diesen Artikel teilen",
+    "minRead": "Min. Lesezeit",
+    "noPosts": "Noch keine Artikel veröffentlicht. Schauen Sie bald wieder vorbei!",
+    "browseAll": "Alle Artikel anzeigen",
+    "authorTitle": "Über den Autor"
+  },
+  "brand": {
+    "home": "Start",
+    "products": "Produkte",
+    "categories": "Kategorien",
+    "posts": "Blogartikel"
+  }
+}

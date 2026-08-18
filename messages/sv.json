@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "title": "Licendi – Officiella Microsoft-programlicenser",
+    "description": "Handla äkta Microsoft-programlicenser, nedladdningsnycklar och omedelbar digital leverans."
+  },
+  "common": {
+    "loading": "Licendi laddas...",
+    "home": "Hem",
+    "login": "Logga in",
+    "addToCart": "Lägg till i kundvagn",
+    "addedToCart": "{name} lades till!",
+    "removedFromCart": "{name} togs bort!",
+    "quantityDecreased": "Antalet minskades!",
+    "outOfStock": "Slut i lager",
+    "inStock": "I lager",
+    "quantity": "Antal",
+    "subtotal": "Delsumma",
+    "discount": "Rabatt",
+    "total": "Totalt",
+    "na": "N/A",
+    "default": "Standard",
+    "variant": "Variant",
+    "status": "Status"
+  },
+  "localeSwitcher": {
+    "label": "Språk",
+    "ariaLabel": "Välj språk"
+  },
+  "header": {
+    "home": "Hem",
+    "blog": "Blogg",
+    "brands": "Varumärken"
+  },
+  "search": {
+    "title": "Produktsökfält",
+    "placeholder": "Sök efter din produkt här...",
+    "searching": "Sökning pågår...",
+    "noMatch": "Inget matchade nyckelordet {keyword}. Försök med något annat.",
+    "explore": "Sök och utforska dina produkter från Licendi.",
+    "productImage": "produktbild"
+  },
+  "footer": {
+    "description": "Din pålitliga källa för äkta Microsoft-programlicenser med omedelbar leverans och livstidssupport.",
+    "quickLinks": "Snabblänkar",
+    "categories": "Kategorier",
+    "newsletter": "Nyhetsbrev",
+    "newsletterDesc": "Prenumerera på vårt nyhetsbrev för att få uppdateringar och exklusiva erbjudanden.",
+    "emailPlaceholder": "Ange din e-post",
+    "subscribe": "Prenumerera",
+    "visitUs": "Besök oss",
+    "chatWhatsapp": "Chatta på WhatsApp",
+    "workingHours": "Öppettider",
+    "emailUs": "Mejla oss",
+    "aboutUs": "Om oss",
+    "contactUs": "Kontakta oss",
+    "termsConditions": "Villkor",
+    "privacyPolicy": "Integritetspolicy",
+    "faqs": "FAQ",
+    "refundPolicy": "Återbetalningspolicy",
+    "shippingPolicy": "Frakt- och leveranspolicy",
+    "blog": "Blogg"
+  },
+  "banner": {
+    "title": "Officiella Microsoft-produkter",
+    "subtitle": "Handla äkta Microsoft-program och lösningar från en officiell Microsoft-partner. Få de senaste produkterna, säkra licenser och pålitlig support för alla dina digitala behov."
+  },
+  "home": {
+    "productsByCategory": "Produkter per kategori",
+    "noProductAvailable": "Ingen produkt tillgänglig",
+    "noMatchCriteria": "Tyvärr finns det inga produkter som matchar {tab}-kriterierna just nu.",
+    "restocking": "Vi fyller på lagret snart",
+    "checkBack": "Kom tillbaka senare eller utforska våra andra produktkategorier.",
+    "loading": "Produkten laddas..."
+  },
+  "product": {
+    "color": "Färg",
+    "size": "Storlek",
+    "selectSize": "Välj storlek",
+    "sizeGuide": "Storleksguide",
+    "up": "och uppåt",
+    "productDetails": "Produktdetaljer",
+    "manufacturerSku": "Tillverkarens SKU",
+    "brand": "Varumärke",
+    "gender": "Kön",
+    "nickname": "Smeknamn",
+    "releaseDate": "Releasedatum",
+    "compareColor": "Jämför färg",
+    "askQuestion": "Ställ en fråga",
+    "deliveryReturn": "Leverans och retur",
+    "share": "Dela",
+    "freeShipping": "Fri frakt",
+    "freeShippingDesc": "Fri frakt vid beställningar över 120 $",
+    "flexiblePayment": "Flexibel betalning",
+    "payWithCards": "Betala med flera kreditkort",
+    "characteristics": "{name}: Egenskaper",
+    "collection": "Kollektion",
+    "type": "Typ",
+    "sku": "SKU",
+    "operatingSystems": "Operativsystem som stöds",
+    "versionType": "Versionstyp",
+    "productStatus": "Produktstatus",
+    "placeOfOrigin": "Ursprungsland",
+    "activation": "Aktivering",
+    "shippingMethod": "Leveranssätt",
+    "packageInclude": "Paketets innehåll",
+    "language": "Språk",
+    "warranty": "Garanti",
+    "deliveryTime": "Leveranstid",
+    "support": "Support",
+    "function": "Funktion",
+    "paymentMethods": "Betalningsmetoder",
+    "stock": "Lager",
+    "available": "Tillgänglig",
+    "intro": "Introduktion",
+    "brandName": "Varumärke",
+    "unknown": "Okänd"
+  },
+  "cart": {
+    "title": "Varukorg",
+    "addToFavorite": "Lägg till i favoriter",
+    "deleteProduct": "Ta bort produkt",
+    "resetCart": "Töm varukorg",
+    "confirmReset": "Är du säker på att du vill tömma varukorgen?",
+    "cartReset": "Varukorgen tömdes!",
+    "productDeleted": "Produkten togs bort!",
+    "orderSummary": "Ordersammanfattning",
+    "fullName": "Fullständigt namn",
+    "namePlaceholder": "Ange ditt fullständiga namn",
+    "emailAddress": "E-postadress",
+    "emailPlaceholder": "Ange din e-post",
+    "deliveryNote": "* Din digitala produkt levereras till den här e-postadressen.",
+    "enterNameEmail": "Ange ditt namn och din e-postadress.",
+    "payStripe": "Lägg beställning",
+    "orPayWith": "Eller betala med",
+    "guestBanner": "Du betalar som gäst",
+    "guestNote": "Din beställning kopplas inte till ett konto. Logga in för att följa dina beställningar och komma åt dem när som helst.",
+    "guestSignIn": "Logga in",
+    "stripeHint": "Säker betalning via Stripe"
+  },
+  "emptyCart": {
+    "title": "Din varukorg känner sig ensam",
+    "desc": "Det ser ut som att du inte har lagt till något i varukorgen ännu. Låt oss ändra på det och hitta fantastiska produkter åt dig!",
+    "cta": "Upptäck produkter"
+  },
+  "auth": {
+    "welcomeBack": "Välkommen tillbaka!",
+    "loginDesc": "Logga in för att se din varukorg och slutföra köpet, eller fortsätt som gäst utan att skapa ett konto.",
+    "signIn": "Logga in",
+    "noAccount": "Har du inget konto?",
+    "createAccount": "Skapa konto",
+    "or": "eller",
+    "continueAsGuest": "Fortsätt som gäst",
+    "guestDesc": "Slutför köpet utan konto. Din beställning kopplas inte till en profil."
+  },
+  "orders": {
+    "title": "Orderlista",
+    "orderNumber": "Ordernummer",
+    "date": "Datum",
+    "customer": "Kund",
+    "email": "E-post",
+    "total": "Totalt",
+    "status": "Status",
+    "method": "Metod",
+    "invoiceNumber": "Fakturanummer",
+    "action": "Åtgärd",
+    "invoice": "Faktura",
+    "receipt": "Kvitto",
+    "noOrders": "Inga ordrar hittades",
+    "noOrdersDesc": "Det ser ut som att du inte har lagt några ordrar ännu. Börja shoppa för att se dina ordrar här!",
+    "browseProducts": "Bläddra bland produkter",
+    "invoiceNotAvailable": "Faktura inte tillgänglig för denna order",
+    "invoiceNotPaypal": "Faktura inte tillgänglig för PayPal-ordrar",
+    "clickForDetails": "Klicka för att se orderdetaljer",
+    "orderDetails": "Orderdetaljer - {orderNumber}",
+    "paymentMethod": "Betalningsmetod",
+    "downloadInvoice": "Ladda ner faktura",
+    "downloadReceipt": "Ladda ner kvitto",
+    "printReceipt": "Skriv ut kvitto",
+    "invoiceNotePaypal": "Officiell Stripe-faktura är inte tillgänglig för PayPal-ordrar. Du kan skriva ut den här sidan som kvitto.",
+    "invoiceNote": "Nedladdning av faktura är inte tillgänglig för denna order.",
+    "product": "Produkt",
+    "quantity": "Antal",
+    "price": "Pris"
+  },
+  "success": {
+    "confirmed": "Order bekräftad!",
+    "successNote": "Klart! Din digitala order har behandlats. Kontrollera din e-post för leveransdetaljer.",
+    "thankYou": "Tack för ditt köp. Vi behandlar din order. Ett bekräftelsemail med dina orderuppgifter har skickats till din inkorg.",
+    "orderNumber": "Ordernummer",
+    "sentTo": "Skickat till",
+    "retrieving": "Hämtar orderdetaljer...",
+    "orderItems": "Orderartiklar",
+    "qty": "Antal: {quantity}",
+    "totalPaid": "Totalt betalt",
+    "updating": "Orderdetaljerna uppdateras. Du kan se dem på ditt konto om en liten stund.",
+    "whatsNext": "Vad händer nu?",
+    "next1": "Kontrollera din e-post för orderbekräftelse",
+    "next2": "Digitala artiklar skickas omedelbart till din inkorg",
+    "next3": "Följ din orderstatus när som helst i din instrumentpanel",
+    "home": "Hem",
+    "orders": "Ordrar",
+    "shop": "Butik",
+    "loadingStatus": "Laddar orderstatus..."
+  },
+  "payment": {
+    "processing": "Bearbetar...",
+    "paymentSuccess": "Betalningen lyckades!",
+    "paymentFailed": "Betalningsfångst misslyckades",
+    "paymentError": "Ett fel uppstod under betalningsbehandlingen",
+    "paypalInitFailed": "PayPal-betalningen kunde inte initieras",
+    "enterInfo": "Ange först ditt namn och din e-postadress.",
+    "secureNote": "Säker betalning via PayPal. Kredit- och bankkort accepteras."
+  },
+  "purchaseProcess": {
+    "title": "Köpprocess",
+    "subtitle": "Få din programlicens(er) i bara 4 enkla steg",
+    "step1Title": "Lägg till produkten i varukorgen",
+    "step1Desc": "Hitta licensen som passar dina behov bäst och lägg till den i varukorgen med ett enda klick.",
+    "step2Title": "Välj din betalningsmetod",
+    "step2Desc": "Välj den mest bekväma betalningsmetoden för ditt köp och slutför beställningen.",
+    "step3Title": "Få din licens omedelbart",
+    "step3Desc": "Hitta din licensnyckel, nedladdningslänkar och installationsguide i ditt kundområde och i din inkorg.",
+    "step4Title": "Vi finns här för att hjälpa dig",
+    "step4Desc": "Vi är stolta över vår utmärkta kundservice. Om du behöver support kan du kontakta oss direkt via chat, e-post eller telefon. Dessutom får du livstidsgaranti med Licendi."
+  },
+  "trustedPartners": {
+    "title": "Förtroende för den teknik vi använder",
+    "subtitle": "Vi arbetar med branschledande och pålitliga plattformar och teknik för att erbjuda säkra, pålitliga och sömlösa programlicenser."
+  },
+  "about": {
+    "title": "Om Licendi",
+    "intro": "Licendi är webbutiken för KeyVersely LLC, en officiell Microsoft-partner som levererar äkta Microsoft-programlicenser med omedelbar digital leverans.",
+    "missionTitle": "Vår mission",
+    "mission": "Vi gör äkta Microsoft-programvara enkel, säker och omedelbar. Från Windows och Office till Windows Server levererar vi verifierade licensnycklar direkt till din inkorg några minuter efter din beställning.",
+    "partnerTitle": "Officiell Microsoft-partner",
+    "partner": "Licendi drivs av KeyVersely LLC, en verifierad partner som är listad i den officiella Microsoft-partnerkatalogen. Varje licens vi säljer är äkta och kommer från auktoriserade kanaler.",
+    "partnerCta": "Se vår Microsoft-partnerprofil",
+    "productsTitle": "Vad vi säljer",
+    "products": "Vi specialiserar oss på äkta Microsoft-programlicenser, inklusive Windows-operativsystem, Microsoft Office och Windows Server — levererade digitalt till konkurrenskraftiga priser.",
+    "deliveryTitle": "Omedelbar digital leverans",
+    "delivery": "Efter betalning skickas din licensnyckel och nedladdningslänkar till din e-post inom några minuter. Ingen frakt, ingen väntan — aktivera och installera direkt.",
+    "trustTitle": "Varför köpa från Licendi",
+    "trust": [
+      "Officiell Microsoft-partner",
+      "Äkta, verifierade licensnycklar",
+      "Omedelbar e-postleverans",
+      "Säker betalning med Stripe & PayPal",
+      "Livstids produktsupport"
+    ],
+    "businessTitle": "Företagsuppgifter",
+    "businessCompany": "Juridiskt företagsnamn",
+    "businessCompanyValue": "KeyVersely LLC",
+    "businessAddress": "Registrerad adress",
+    "businessAddressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "businessEmail": "E-post",
+    "businessEmailValue": "support@keyversely.com",
+    "ctaTitle": "Redo att börja?",
+    "ctaDesc": "Bläddra bland våra äkta Microsoft-licenser och få din nyckel inom några minuter.",
+    "ctaButton": "Köp licenser"
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "desc": "Frågor om en beställning, aktivering eller en licensnyckel? Vårt supportteam finns här för att hjälpa dig. Vi svarar vanligtvis inom 24 timmar på vardagar.",
+    "businessTitle": "Företagsinformation",
+    "companyName": "Juridiskt företagsnamn",
+    "companyValue": "KeyVersely LLC",
+    "address": "Registrerad adress",
+    "addressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "email": "E-post",
+    "emailValue": "support@keyversely.com",
+    "hours": "Supporttider",
+    "hoursValue": "Måndag – Fredag, 9:00 – 18:00 (CET)",
+    "name": "Namn",
+    "message": "Meddelande",
+    "send": "Skicka meddelande"
+  },
+  "faqs": {
+    "title": "Vanliga frågor",
+    "items": [
+      {
+        "q": "Hur snabbt får jag min licensnyckel?",
+        "a": "Omedelbart efter att din betalning har bekräftats skickas din licensnyckel och nedladdningslänkar till den e-postadress du angav vid kassan — vanligtvis inom några minuter."
+      },
+      {
+        "q": "Vad får jag efter att ha lagt en beställning?",
+        "a": "Du får en äkta Microsoft-licensnyckel tillsammans med officiella nedladdningslänkar och en installationsguide, levererad till din inkorg."
+      },
+      {
+        "q": "Är era licensnycklar äkta?",
+        "a": "Ja. Licendi drivs av KeyVersely LLC, en officiell Microsoft-partner. Varje nyckel vi säljer är äkta och kommer från auktoriserade kanaler."
+      },
+      {
+        "q": "Kan jag få återbetalning?",
+        "a": "Eftersom digitala licensnycklar levereras direkt och kan aktiveras omedelbart, är köp ej återbetalningsbara när nyckeln väl har skickats. Om du har ett verkligt problem, kontakta vårt supportteam så hjälper vi dig så gott vi kan."
+      },
+      {
+        "q": "Vilka betalningsmetoder accepterar ni?",
+        "a": "Vi accepterar alla större kredit- och betalkort via Stripe, samt PayPal."
+      },
+      {
+        "q": "Vad händer om jag inte får e-post med min licensnyckel?",
+        "a": "Kontrollera först din skräppost- eller skräppostmapp. Om den inte finns där, kontakta oss på support@keyversely.com så skickar vi din nyckel inom några minuter."
+      },
+      {
+        "q": "Fungerar licensen i mitt land?",
+        "a": "Ja, våra Microsoft-licenser är utformade för global aktivering och fungerar över hela världen."
+      },
+      {
+        "q": "Vilken support erbjuder ni?",
+        "a": "Varje köp inkluderar livstidssupport. Om du behöver hjälp med aktivering eller installation, kontakta oss så hjälper vårt team dig."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Villkor",
+    "sections": [
+      {
+        "heading": "1. Godkännande av villkor",
+        "body": "Genom att komma åt eller använda Licendi-webbplatsen ('Webbplatsen') samtycker du till att vara bunden av dessa villkor. Om du inte samtycker, vänligen använd inte Webbplatsen."
+      },
+      {
+        "heading": "2. Produkter och tjänster",
+        "body": "Licendi, som drivs av KeyVersely LLC, säljer digitala programlicenser, främst äkta Microsoft-produkter som Windows, Microsoft Office och Windows Server. Alla produkter levereras elektroniskt."
+      },
+      {
+        "heading": "3. Digital leverans",
+        "body": "Omedelbart efter en lyckad betalning skickas licensnycklar och nedladdningsinstruktioner till den e-postadress du angav. Du ansvarar för att ange en giltig och nåbar e-postadress."
+      },
+      {
+        "heading": "4. Återbetalningspolicy",
+        "body": "På grund av omedelbar elektronisk leverans av licensnycklar är alla försäljningar slutgiltiga och ej återbetalningsbara när nyckeln har skickats. Undantag prövas från fall till fall vid verkliga leverans- eller tekniska problem."
+      },
+      {
+        "heading": "5. Licensanvändning",
+        "body": "Du får använda de köpta licensnycklarna endast för ditt eget personliga eller företagsmässiga bruk i enlighet med Microsofts licensvillkor. Vidareförsäljning, delning eller redistribuering av nycklar är förbjuden."
+      },
+      {
+        "heading": "6. Immateriella rättigheter",
+        "body": "Allt innehåll på Webbplatsen, inklusive text, grafik, logotyper och programvara, tillhör KeyVersely LLC eller dess licensgivare och skyddas av tillämpliga immaterialrättsliga lagar."
+      },
+      {
+        "heading": "7. Ansvarsbegränsning",
+        "body": "I den utsträckning lagen tillåter ska KeyVersely LLC inte vara ansvarigt för några indirekta, tillfälliga, särskilda, följaktiga eller straffande skador som uppstår från din användning av Webbplatsen eller våra produkter."
+      },
+      {
+        "heading": "8. Tillämplig lag",
+        "body": "Dessa villkor styrs och tolkas i enlighet med lagarna i delstaten Wyoming, USA, utan hänsyn till lagvalsprinciper."
+      },
+      {
+        "heading": "9. Kontaktuppgifter",
+        "body": "Om du har frågor om dessa villkor, kontakta oss på support@keyversely.com eller skriv till KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "sections": [
+      {
+        "heading": "1. Introduktion",
+        "body": "KeyVersely LLC ('vi', 'oss') driver webbplatsen Licendi. Denna integritetspolicy förklarar vilken information vi samlar in, hur vi använder den och vilka val du har."
+      },
+      {
+        "heading": "2. Information vi samlar in",
+        "body": "Vi samlar in information du lämnar direkt, såsom ditt namn och din e-postadress när du lägger en beställning, skapar ett konto eller kontaktar supporten. Vi samlar även automatiskt in teknisk information såsom din IP-adress, webbläsartyp och besökta sidor."
+      },
+      {
+        "heading": "3. Hur vi använder din information",
+        "body": "Vi använder din information för att behandla och leverera dina beställningar, kommunicera med dig, förbättra vår Webbplats, förhindra bedrägerier och uppfylla juridiska skyldigheter."
+      },
+      {
+        "heading": "4. Cookies och spårning",
+        "body": "Vi använder cookies för att förbättra din upplevelse, analysera webbplatstrafik och stödja personaliserad reklam. Du kan acceptera eller avvisa cookies via vår cookie-banner och hantera eller ta bort cookies när som helst i dina webbläsarinställningar."
+      },
+      {
+        "heading": "5. Tredjepartstjänster",
+        "body": "Vi samarbetar med pålitliga tredje parter för att driva vår butik: Stripe och PayPal för betalningshantering, Clerk för autentisering och analysleverantörer för att förstå webbplatsanvändningen. Dessa parter behandlar data endast i den mån det behövs och enligt sina egna integritetspolicyer."
+      },
+      {
+        "heading": "6. Informationsdelning",
+        "body": "Vi säljer inte din personliga information. Vi delar din information endast med de tjänsteleverantörer som beskrivs ovan, när lagen kräver det eller med ditt samtycke."
+      },
+      {
+        "heading": "7. Datasäkerhet",
+        "body": "Vi använder branschstandardmått för att skydda din personliga information från förlust, stöld, missbruk och obehörig åtkomst."
+      },
+      {
+        "heading": "8. Dina rättigheter",
+        "body": "Beroende på var du befinner dig kan du ha rätt att få åtkomst till, korrigera eller radera din personliga information och att invända mot viss behandling. För att utöva dessa rättigheter, kontakta oss på support@keyversely.com."
+      },
+      {
+        "heading": "9. Barns integritet",
+        "body": "Våra tjänster riktar sig inte till barn under 16 år, och vi samlar inte medvetet in personlig information från barn."
+      },
+      {
+        "heading": "10. Ändringar av denna policy",
+        "body": "Vi kan uppdatera denna integritetspolicy då och då. Vi publicerar eventuella ändringar på denna sida med ett reviderat datum."
+      },
+      {
+        "heading": "11. Kontakta oss",
+        "body": "För frågor om denna integritetspolicy, kontakta oss på support@keyversely.com eller skriv till KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "cookieConsent": {
+    "message": "Vi använder cookies för att förbättra din upplevelse, analysera webbplatstrafik och stödja personaliserad reklam.",
+    "privacyLink": "Integritetspolicy",
+    "accept": "Acceptera",
+    "decline": "Avvisa"
+  },
+  "cms": {
+    "statusNew": "Ny",
+    "statusHot": "Populär",
+    "statusSale": "Rea"
+  },
+  "refundPolicy": {
+    "title": "Återbetalnings- och returpolicy",
+    "sections": [
+      {
+        "heading": "1. Översikt",
+        "body": "Eftersom våra produkter är digitala licensnycklar som levereras direkt, är alla försäljningar slutgiltiga när nyckeln väl har skickats."
+      },
+      {
+        "heading": "2. Ej återbetalningsbara digitala produkter",
+        "body": "Digitala produkter, inklusive programlicensnycklar, är varken återbetalningsbara eller returbara när licensnyckeln har levererats till din e-post, eftersom nyckeln kan aktiveras omedelbart."
+      },
+      {
+        "heading": "3. Undantag",
+        "body": "Vi överväger återbetalning eller ersättning från fall till fall om: licensnyckeln inte aktiveras, nyckeln inte levererades på grund av ett tekniskt fel hos oss, eller du fick fel produkt."
+      },
+      {
+        "heading": "4. Så begär du återbetalning eller ersättning",
+        "body": "Kontakta vårt supportteam på support@keyversely.com inom 14 dagar efter köpet med ditt ordernummer och en beskrivning av problemet. Vi undersöker ärendet och svarar inom 24 timmar."
+      },
+      {
+        "heading": "5. Obehöriga transaktioner",
+        "body": "Om du tror att en debitering var obehörig, kontakta omedelbart din betalleverantör och vårt supportteam så att vi kan undersöka saken."
+      },
+      {
+        "heading": "6. Kontaktuppgifter",
+        "body": "För frågor om denna policy, kontakta KeyVersely LLC på support@keyversely.com eller skriv till 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Frakt- och leveranspolicy",
+    "sections": [
+      {
+        "heading": "1. Digital leverans",
+        "body": "Alla produkter som säljs på Licendi är digitala programlicenser. Inga fysiska artiklar skickas. Efter en lyckad betalning skickas din licensnyckel och nedladdningslänkar omedelbart."
+      },
+      {
+        "heading": "2. Leveranstid",
+        "body": "Licensnycklar levereras vanligtvis inom några minuter efter att betalningen har bekräftats. I sällsynta fall kan leveransen ta upp till några timmar på grund av betalningsverifiering."
+      },
+      {
+        "heading": "3. Vad du får",
+        "body": "Din leveransmejl innehåller din licensnyckel, officiella nedladdningslänkar och installationsinstruktioner."
+      },
+      {
+        "heading": "4. Leverans via e-post",
+        "body": "Nycklar skickas till den e-postadress du angav vid kassan. Kontrollera att adressen är korrekt. Kontrollera din skräppostmapp om du inte ser e-postmeddelandet."
+      },
+      {
+        "heading": "5. Missad leverans",
+        "body": "Om du inte har fått din e-post inom några timmar, kontakta oss på support@keyversely.com så skickar vi den igen."
+      },
+      {
+        "heading": "6. Ingen fysisk frakt",
+        "body": "Eftersom alla produkter är digitala finns inga fraktkostnader, och leveransen sker över hela världen utan tull- eller importavgifter."
+      },
+      {
+        "heading": "7. Kontaktuppgifter",
+        "body": "För frågor, kontakta KeyVersely LLC på support@keyversely.com eller skriv till 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Licendi-bloggen",
+    "description": "Guider, tips och nyheter om äkta Microsoft-programlicenser från Licendi.",
+    "readMore": "Läs mer",
+    "readArticle": "Läs artikel",
+    "publishedOn": "Publicerad",
+    "by": "av",
+    "backToBlog": "Tillbaka till bloggen",
+    "featured": "Utvalt",
+    "latestPosts": "Senaste artiklarna",
+    "recentPosts": "Senaste inläggen",
+    "share": "Dela den här artikeln",
+    "minRead": "min läsning",
+    "noPosts": "Inga artiklar publicerade ännu. Kom tillbaka snart!",
+    "browseAll": "Visa alla artiklar",
+    "authorTitle": "Om författaren"
+  },
+  "brand": {
+    "home": "Hem",
+    "products": "Produkter",
+    "categories": "Kategorier",
+    "posts": "Blogginlägg"
+  }
+}

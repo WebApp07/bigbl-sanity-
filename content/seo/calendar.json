@@ -1,0 +1,47 @@
+{
+  "cadence": "one post per day",
+  "timezone": "UTC",
+  "entries": [
+    {
+      "date": "2026-08-13",
+      "status": "published",
+      "slug": "windows-11-pro-vs-home-license",
+      "title": "Windows 11 Pro vs Home: Which License Should You Buy?",
+      "cluster": "windows-11",
+      "keyword": "windows 11 pro vs home"
+    },
+    {
+      "date": "2026-08-14",
+      "status": "published",
+      "slug": "windows-11-oem-vs-retail-license",
+      "title": "Windows 11 OEM vs Retail: What's the Difference?",
+      "cluster": "windows-11",
+      "keyword": "windows 11 oem vs retail",
+      "note": "Scheduled for 08-14, published 2026-08-15"
+    },
+    {
+      "date": "2026-08-16",
+      "status": "published",
+      "slug": "digital-license-vs-product-key",
+      "title": "Digital License vs Product Key: How Windows Activation Works",
+      "cluster": "windows-activation",
+      "keyword": "digital license vs product key"
+    },
+    {
+      "date": "2026-08-17",
+      "status": "published",
+      "slug": "microsoft-365-vs-office-2024",
+      "title": "Microsoft 365 vs Office 2024: Which One Should You Buy?",
+      "cluster": "microsoft-365",
+      "keyword": "microsoft 365 vs office 2024"
+    },
+    {
+      "date": "2026-08-18",
+      "status": "published",
+      "slug": "office-2024-home-and-business",
+      "title": "Office 2024 Home & Business: What's Included and Is It Worth It?",
+      "cluster": "office-perpetual",
+      "keyword": "office 2024 home and business"
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "title": "Licendi – Official Microsoft Software Licensing",
+    "description": "Shop genuine Microsoft software licenses, download keys and instant digital delivery."
+  },
+  "common": {
+    "loading": "Licendi is loading...",
+    "home": "Home",
+    "login": "Login",
+    "addToCart": "Add to cart",
+    "addedToCart": "{name} added successfully!",
+    "removedFromCart": "{name} removed successfully!",
+    "quantityDecreased": "Quantity decreased successfully!",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "total": "Total",
+    "na": "N/A",
+    "default": "Default",
+    "variant": "Variant",
+    "status": "Status"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "ariaLabel": "Choose language"
+  },
+  "header": {
+    "home": "Home",
+    "blog": "Blog",
+    "brands": "Brands"
+  },
+  "search": {
+    "title": "Product Searchbar",
+    "placeholder": "Search your product here...",
+    "searching": "Searching on progress...",
+    "noMatch": "Nothing matched the keyword {keyword}. Please try something else.",
+    "explore": "Search and explore your products from Licendi.",
+    "productImage": "productImage"
+  },
+  "footer": {
+    "description": "Your trusted source for genuine Microsoft software licenses with instant delivery and lifetime support.",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to our newsletter to receive updates and exclusive offers.",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "visitUs": "Visit Us",
+    "chatWhatsapp": "Chat on WhatsApp",
+    "workingHours": "Working Hours",
+    "emailUs": "Email Us",
+    "aboutUs": "About us",
+    "contactUs": "Contact us",
+    "termsConditions": "Terms & Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "faqs": "FAQs",
+    "refundPolicy": "Refund & Returns Policy",
+    "shippingPolicy": "Shipping & Delivery Policy",
+    "blog": "Blog"
+  },
+  "banner": {
+    "title": "Official Microsoft Products",
+    "subtitle": "Shop genuine Microsoft software and solutions from an official Microsoft partner. Get the latest products, secure licenses, and trusted support for all your digital needs."
+  },
+  "home": {
+    "productsByCategory": "Products by Category",
+    "noProductAvailable": "No Product Available",
+    "noMatchCriteria": "We are sorry, but there are no products matching {tab} criteria at the moment.",
+    "restocking": "We are restocking shortly",
+    "checkBack": "Please check back later or explore our other product categories.",
+    "loading": "Product is loading..."
+  },
+  "product": {
+    "color": "Color",
+    "size": "Size",
+    "selectSize": "Select Size",
+    "sizeGuide": "Size Guide",
+    "up": "& up",
+    "productDetails": "Product Details",
+    "manufacturerSku": "Manufacturer SKU",
+    "brand": "Brand",
+    "gender": "Gender",
+    "nickname": "Nickname",
+    "releaseDate": "Release Date",
+    "compareColor": "Compare color",
+    "askQuestion": "Ask a question",
+    "deliveryReturn": "Delivery & Return",
+    "share": "Share",
+    "freeShipping": "Free Shipping",
+    "freeShippingDesc": "Free shipping over order $120",
+    "flexiblePayment": "Flexible Payment",
+    "payWithCards": "Pay with multiple credit cards",
+    "characteristics": "{name}: Characteristics",
+    "collection": "Collection",
+    "type": "Type",
+    "sku": "SKU",
+    "operatingSystems": "Operating Systems Supported",
+    "versionType": "Version Type",
+    "productStatus": "Product Status",
+    "placeOfOrigin": "Place of Origin",
+    "activation": "Activation",
+    "shippingMethod": "Shipping Method",
+    "packageInclude": "Package Include",
+    "language": "Language",
+    "warranty": "Warranty",
+    "deliveryTime": "Delivery Time",
+    "support": "Support",
+    "function": "Function",
+    "paymentMethods": "Payment Methods",
+    "stock": "Stock",
+    "available": "Available",
+    "intro": "Intro",
+    "brandName": "Brand Name",
+    "unknown": "Unknown"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "addToFavorite": "Add to Favorite",
+    "deleteProduct": "Delete product",
+    "resetCart": "Reset Cart",
+    "confirmReset": "Are you sure you want to reset your cart?",
+    "cartReset": "Your cart has been reset successfully!",
+    "productDeleted": "Product deleted successfully!",
+    "orderSummary": "Order Summary",
+    "fullName": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "deliveryNote": "* Your digital product will be delivered to this email address.",
+    "enterNameEmail": "Please enter your name and email address.",
+    "payStripe": "Place Order",
+    "orPayWith": "Or pay with",
+    "guestBanner": "You are checking out as a guest",
+    "guestNote": "Your order will not be linked to an account. Sign in to track your orders and access them anytime.",
+    "guestSignIn": "Sign in",
+    "stripeHint": "Secure payment via Stripe"
+  },
+  "emptyCart": {
+    "title": "Your cart is feeling lonely",
+    "desc": "It looks like you have not added anything to your cart yet. Let us change that and find some amazing products for you!",
+    "cta": "Discover Products"
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back!",
+    "loginDesc": "Log in to view your cart items and checkout, or continue as a guest without creating an account.",
+    "signIn": "Sign in",
+    "noAccount": "Do not have an account?",
+    "createAccount": "Create an account",
+    "or": "or",
+    "continueAsGuest": "Continue as Guest",
+    "guestDesc": "Checkout without an account. Your order will not be linked to a profile."
+  },
+  "orders": {
+    "title": "Order List",
+    "orderNumber": "Order Number",
+    "date": "Date",
+    "customer": "Customer",
+    "email": "Email",
+    "total": "Total",
+    "status": "Status",
+    "method": "Method",
+    "invoiceNumber": "Invoice Number",
+    "action": "Action",
+    "invoice": "Invoice",
+    "receipt": "Receipt",
+    "noOrders": "No orders found",
+    "noOrdersDesc": "It looks like you have not placed any orders yet. Start shopping to see your orders here!",
+    "browseProducts": "Browse Products",
+    "invoiceNotAvailable": "Invoice not available for this order",
+    "invoiceNotPaypal": "Invoice not available for PayPal orders",
+    "clickForDetails": "Click to see order details",
+    "orderDetails": "Order Details - {orderNumber}",
+    "paymentMethod": "Payment Method",
+    "downloadInvoice": "Download Invoice",
+    "downloadReceipt": "Download Receipt",
+    "printReceipt": "Print Receipt",
+    "invoiceNotePaypal": "Official Stripe invoice is not available for PayPal orders. You can print this page as a receipt.",
+    "invoiceNote": "Invoice download is not available for this order.",
+    "product": "Product",
+    "quantity": "Quantity",
+    "price": "Price"
+  },
+  "success": {
+    "confirmed": "Order confirmed!",
+    "successNote": "Success! Your digital order has been processed. Check your email for delivery details.",
+    "thankYou": "Thank you for your purchase. We are processing your order. A confirmation email with your order details has been sent to your inbox.",
+    "orderNumber": "Order Number",
+    "sentTo": "Sent To",
+    "retrieving": "Retrieving order details...",
+    "orderItems": "Order Items",
+    "qty": "Qty: {quantity}",
+    "totalPaid": "Total Paid",
+    "updating": "Order details are being updated. You can view them in your account in a few moments.",
+    "whatsNext": "What is Next?",
+    "next1": "Check your email for order confirmation",
+    "next2": "Digital items are sent immediately to your inbox",
+    "next3": "Track your order status anytime in your dashboard",
+    "home": "Home",
+    "orders": "Orders",
+    "shop": "Shop",
+    "loadingStatus": "Loading order status..."
+  },
+  "payment": {
+    "processing": "Processing...",
+    "paymentSuccess": "Payment successful!",
+    "paymentFailed": "Payment capture failed",
+    "paymentError": "An error occurred during payment processing",
+    "paypalInitFailed": "PayPal payment failed to initialize",
+    "enterInfo": "Please enter your name and email address first.",
+    "secureNote": "Secure payment via PayPal. Credit and Debit cards accepted."
+  },
+  "purchaseProcess": {
+    "title": "Purchase process",
+    "subtitle": "Get your software license(s) in just 4 simple steps",
+    "step1Title": "Add your product to the cart",
+    "step1Desc": "Find the licence that best suits your needs and add it to your cart with just one click.",
+    "step2Title": "Select your payment method",
+    "step2Desc": "Select the most convenient payment method for your purchase and complete the purchase.",
+    "step3Title": "Receive your licence immediately",
+    "step3Desc": "Find your license key, download links, and installation guide in your customer area and in your email inbox.",
+    "step4Title": "We are here to help you",
+    "step4Desc": "We take pride in our excellent customer service. If you need support, you can contact us instantly via chat, email, or phone. Additionally, you get a lifetime warranty with Licendi."
+  },
+  "trustedPartners": {
+    "title": "Trusted by the technology we use",
+    "subtitle": "We work with trusted industry-leading platforms and technologies to provide secure, reliable, and seamless software licensing."
+  },
+  "about": {
+    "title": "About Licendi",
+    "intro": "Licendi is the online storefront of KeyVersely LLC, an official Microsoft partner delivering genuine Microsoft software licenses with instant digital delivery.",
+    "missionTitle": "Our Mission",
+    "mission": "We make genuine Microsoft software simple, secure and instant. From Windows and Office to Windows Server, we deliver verified license keys straight to your inbox minutes after you order.",
+    "partnerTitle": "Official Microsoft Partner",
+    "partner": "Licendi is operated by KeyVersely LLC, a verified partner listed in the official Microsoft Partner Directory. Every license we sell is genuine and sourced through authorized channels.",
+    "partnerCta": "View our Microsoft Partner profile",
+    "productsTitle": "What We Sell",
+    "products": "We specialize in genuine Microsoft software licenses, including Windows operating systems, Microsoft Office, and Windows Server — delivered digitally at competitive prices.",
+    "deliveryTitle": "Instant Digital Delivery",
+    "delivery": "After checkout, your license key and download links are sent to your email within minutes. No shipping, no waiting — activate and install right away.",
+    "trustTitle": "Why Buy From Licendi",
+    "trust": [
+      "Official Microsoft partner",
+      "Genuine, verified license keys",
+      "Instant email delivery",
+      "Secure checkout with Stripe & PayPal",
+      "Lifetime product support"
+    ],
+    "businessTitle": "Business Details",
+    "businessCompany": "Legal Company Name",
+    "businessCompanyValue": "KeyVersely LLC",
+    "businessAddress": "Registered Address",
+    "businessAddressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "businessEmail": "Email",
+    "businessEmailValue": "support@keyversely.com",
+    "ctaTitle": "Ready to get started?",
+    "ctaDesc": "Browse our genuine Microsoft licenses and receive your key in minutes.",
+    "ctaButton": "Shop Licenses"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "desc": "Questions about an order, activation, or a license key? Our support team is here to help. We usually respond within 24 hours on business days.",
+    "businessTitle": "Business Information",
+    "companyName": "Legal Company Name",
+    "companyValue": "KeyVersely LLC",
+    "address": "Registered Address",
+    "addressValue": "63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA",
+    "email": "Email",
+    "emailValue": "support@keyversely.com",
+    "hours": "Support Hours",
+    "hoursValue": "Monday – Friday, 9:00 – 18:00 (CET)",
+    "name": "Name",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How quickly will I receive my license key?",
+        "a": "Immediately after your payment is confirmed, your license key and download links are sent to the email address you provided at checkout — usually within minutes."
+      },
+      {
+        "q": "What do I receive after I place an order?",
+        "a": "You receive a genuine Microsoft license key together with official download links and an installation guide, delivered to your email inbox."
+      },
+      {
+        "q": "Are your license keys genuine?",
+        "a": "Yes. Licendi is operated by KeyVersely LLC, an official Microsoft partner. Every key we sell is genuine and sourced through authorized channels."
+      },
+      {
+        "q": "Can I get a refund?",
+        "a": "Because digital license keys are delivered instantly and can be activated immediately, purchases are non-refundable once the key has been sent. If you have a genuine issue, contact our support team and we will do our best to help."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "We accept all major credit and debit cards via Stripe, as well as PayPal."
+      },
+      {
+        "q": "What if I don't receive the email with my license key?",
+        "a": "First check your spam or junk folder. If it is not there, contact us at support@keyversely.com and we will resend your key within minutes."
+      },
+      {
+        "q": "Does the license work in my country?",
+        "a": "Yes, our Microsoft licenses are designed for global activation and work worldwide."
+      },
+      {
+        "q": "What support do you offer?",
+        "a": "Every purchase includes lifetime support. If you need help with activation or installation, contact us and our team will assist you."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "body": "By accessing or using the Licendi website (the 'Website'), you agree to be bound by these Terms and Conditions. If you do not agree, please do not use the Website."
+      },
+      {
+        "heading": "2. Products and Services",
+        "body": "Licendi, operated by KeyVersely LLC, sells digital software licenses, primarily genuine Microsoft products such as Windows, Microsoft Office, and Windows Server. All products are delivered electronically."
+      },
+      {
+        "heading": "3. Digital Delivery",
+        "body": "Immediately after a successful payment, license keys and download instructions are sent to the email address you provided. You are responsible for providing a valid and accessible email address."
+      },
+      {
+        "heading": "4. Refund Policy",
+        "body": "Due to the instant electronic delivery of license keys, all sales are final and non-refundable once the key has been sent. Exceptions are considered on a case-by-case basis for genuine delivery or technical issues."
+      },
+      {
+        "heading": "5. License Usage",
+        "body": "You may use the purchased license keys only for your own personal or business use in accordance with Microsoft's licensing terms. Reselling, sharing, or redistributing keys is prohibited."
+      },
+      {
+        "heading": "6. Intellectual Property",
+        "body": "All content on the Website, including text, graphics, logos, and software, is the property of KeyVersely LLC or its licensors and is protected by applicable intellectual property laws."
+      },
+      {
+        "heading": "7. Limitation of Liability",
+        "body": "To the maximum extent permitted by law, KeyVersely LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Website or our products."
+      },
+      {
+        "heading": "8. Governing Law",
+        "body": "These Terms and Conditions are governed by and construed in accordance with the laws of the State of Wyoming, United States, without regard to conflict-of-law principles."
+      },
+      {
+        "heading": "9. Contact Information",
+        "body": "If you have any questions about these Terms, contact us at support@keyversely.com or write to KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "body": "KeyVersely LLC ('we', 'us', or 'our') operates the Licendi website. This Privacy Policy explains what information we collect, how we use it, and the choices you have."
+      },
+      {
+        "heading": "2. Information We Collect",
+        "body": "We collect information you provide directly, such as your name and email address when you place an order, create an account, or contact support. We also automatically collect technical information such as your IP address, browser type, and pages visited."
+      },
+      {
+        "heading": "3. How We Use Your Information",
+        "body": "We use your information to process and deliver your orders, communicate with you, improve our Website, prevent fraud, and comply with legal obligations."
+      },
+      {
+        "heading": "4. Cookies and Tracking",
+        "body": "We use cookies to improve your experience, analyze website traffic, and support personalized advertising. You can accept or decline cookies through our cookie banner, and you can manage or delete cookies at any time in your browser settings."
+      },
+      {
+        "heading": "5. Third-Party Services",
+        "body": "We work with trusted third parties to run our store: Stripe and PayPal for payment processing, Clerk for authentication, and analytics providers to understand site usage. These parties process data only as needed to provide their services and under their own privacy policies."
+      },
+      {
+        "heading": "6. Information Sharing",
+        "body": "We do not sell your personal information. We share your information only with the service providers described above, when required by law, or with your consent."
+      },
+      {
+        "heading": "7. Data Security",
+        "body": "We use industry-standard measures to protect your personal information from loss, theft, misuse, and unauthorized access."
+      },
+      {
+        "heading": "8. Your Rights",
+        "body": "Depending on your location, you may have the right to access, correct, or delete your personal information, and to object to certain processing. To exercise these rights, contact us at support@keyversely.com."
+      },
+      {
+        "heading": "9. Children's Privacy",
+        "body": "Our services are not directed to children under 16, and we do not knowingly collect personal information from children."
+      },
+      {
+        "heading": "10. Changes to This Policy",
+        "body": "We may update this Privacy Policy from time to time. We will post any changes on this page with a revised date."
+      },
+      {
+        "heading": "11. Contact Us",
+        "body": "For any questions about this Privacy Policy, contact us at support@keyversely.com or write to KeyVersely LLC, 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "cookieConsent": {
+    "message": "We use cookies to improve your experience, analyze website traffic, and support personalized advertising.",
+    "privacyLink": "Privacy Policy",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "cms": {
+    "statusNew": "New",
+    "statusHot": "Hot",
+    "statusSale": "Sale"
+  },
+  "refundPolicy": {
+    "title": "Refund & Returns Policy",
+    "sections": [
+      {
+        "heading": "1. Overview",
+        "body": "Because our products are digital license keys delivered instantly, all sales are final once the key has been sent."
+      },
+      {
+        "heading": "2. Non-Refundable Digital Products",
+        "body": "Digital products, including software license keys, are non-refundable and non-returnable once the license key has been delivered to your email, because the key can be activated immediately."
+      },
+      {
+        "heading": "3. Exceptions",
+        "body": "We will consider a refund or replacement on a case-by-case basis if: the license key does not activate, the key was not delivered due to a technical error on our side, or you received the wrong product."
+      },
+      {
+        "heading": "4. How to Request a Refund or Replacement",
+        "body": "Contact our support team at support@keyversely.com within 14 days of purchase with your order number and a description of the issue. We will investigate and respond within 24 hours."
+      },
+      {
+        "heading": "5. Unauthorized Transactions",
+        "body": "If you believe a charge was unauthorized, contact your payment provider and our support team immediately so we can investigate."
+      },
+      {
+        "heading": "6. Contact Information",
+        "body": "For any questions about this policy, contact KeyVersely LLC at support@keyversely.com or write to 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "shippingPolicy": {
+    "title": "Shipping & Delivery Policy",
+    "sections": [
+      {
+        "heading": "1. Digital Delivery",
+        "body": "All products sold on Licendi are digital software licenses. No physical items are shipped. After a successful payment, your license key and download links are sent instantly."
+      },
+      {
+        "heading": "2. Delivery Time",
+        "body": "License keys are usually delivered within minutes after payment is confirmed. In rare cases, delivery may take up to a few hours due to payment verification."
+      },
+      {
+        "heading": "3. What You Receive",
+        "body": "Your delivery email contains your license key, official download links, and installation instructions."
+      },
+      {
+        "heading": "4. Email Delivery",
+        "body": "Keys are sent to the email address you provided at checkout. Please make sure the address is correct. Check your spam or junk folder if you do not see the email."
+      },
+      {
+        "heading": "5. Missed Delivery",
+        "body": "If you have not received your email within a few hours, contact us at support@keyversely.com and we will resend it."
+      },
+      {
+        "heading": "6. No Physical Shipping",
+        "body": "Since all products are digital, there are no shipping fees, and delivery is worldwide with no customs or import charges."
+      },
+      {
+        "heading": "7. Contact Information",
+        "body": "For any questions, contact KeyVersely LLC at support@keyversely.com or write to 63 N Burritt Ave Rm 100 Pmb 1180, Buffalo, Wyoming 82834 USA."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Licendi Blog",
+    "description": "Guides, tips and news about genuine Microsoft software licenses from Licendi.",
+    "readMore": "Read more",
+    "readArticle": "Read article",
+    "publishedOn": "Published on",
+    "by": "by",
+    "backToBlog": "Back to blog",
+    "featured": "Featured",
+    "latestPosts": "Latest articles",
+    "recentPosts": "Recent posts",
+    "share": "Share this article",
+    "minRead": "min read",
+    "noPosts": "No articles published yet. Check back soon!",
+    "browseAll": "Browse all articles",
+    "authorTitle": "About the author"
+  },
+  "brand": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "posts": "Blog Posts"
+  }
+}

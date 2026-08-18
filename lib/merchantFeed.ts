@@ -63,7 +63,7 @@ function googleProductCategory(slug?: string | null): string {
 
 function resolveBrand(p: FeedProduct): string {
   return (
-    p.brandRefTitle || p.brand?.trim() || p.brandName?.trim() || "Microsoft"
+    p.brandRefTitle || p.brand?.trim() || p.brandName?.trim() || "Bigbl"
   );
 }
 
@@ -119,9 +119,9 @@ function buildFeedXml(products: FeedProduct[]): string {
     `<?xml version="1.0" encoding="UTF-8"?>`,
     `<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">`,
     "<channel>",
-    "<title>Licendi</title>",
+    "<title>Bigbl</title>",
     `<link>${escapeXml(SITE_URL)}</link>`,
-    "<description>Official Microsoft software licensing store. Digital license keys delivered by email.</description>",
+    "<description>Digital marketplace for software, game keys, subscriptions and gift cards. Instant email delivery.</description>",
     items,
     "</channel>",
     "</rss>",

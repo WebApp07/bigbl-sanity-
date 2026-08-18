@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Licendi – Licenze software ufficiali Microsoft",
-    "description": "Acquista licenze software Microsoft autentiche, chiavi di download e consegna digitale istantanea."
+    "title": "Bigbl – Marketplace digitale per software, giochi e altro",
+    "description": "Chiavi software, chiavi di gioco, abbonamenti e carte regalo in un unico marketplace digitale. Consegna immediata via e-mail, pagamento sicuro e supporto reale."
   },
   "common": {
-    "loading": "Licendi si sta caricando...",
+    "loading": "Bigbl si sta caricando...",
     "home": "Home",
     "login": "Accedi",
     "addToCart": "Aggiungi al carrello",
@@ -36,11 +36,11 @@
     "placeholder": "Cerca il tuo prodotto qui...",
     "searching": "Ricerca in corso...",
     "noMatch": "Niente corrisponde alla parola chiave {keyword}. Riprova con qualcos'altro.",
-    "explore": "Cerca ed esplora i tuoi prodotti su Licendi.",
+    "explore": "Cerca ed esplora i tuoi prodotti su Bigbl.",
     "productImage": "immagine del prodotto"
   },
   "footer": {
-    "description": "La tua fonte affidabile per licenze software Microsoft autentiche con consegna istantanea e supporto a vita.",
+    "description": "Bigbl by Keyversely LLC — un marketplace digitale per chiavi software, chiavi di gioco, abbonamenti e carte regalo con consegna immediata e supporto quando ne hai bisogno.",
     "quickLinks": "Link rapidi",
     "categories": "Categorie",
     "newsletter": "Newsletter",
@@ -61,8 +61,8 @@
     "blog": "Blog"
   },
   "banner": {
-    "title": "Prodotti Microsoft ufficiali",
-    "subtitle": "Acquista software e soluzioni Microsoft autentici da un partner ufficiale Microsoft. Ottieni i prodotti più recenti, licenze sicure e supporto affidabile per tutte le tue esigenze digitali."
+    "title": "Tutto il digitale, in un unico marketplace",
+    "subtitle": "Chiavi software, giochi, abbonamenti e carte regalo — pagamento sicuro, consegna immediata via e-mail e supporto di persone reali."
   },
   "home": {
     "productsByCategory": "Prodotti per categoria",
@@ -213,39 +213,39 @@
   },
   "purchaseProcess": {
     "title": "Processo di acquisto",
-    "subtitle": "Ottieni la tua licenza software in soli 4 semplici passaggi",
+    "subtitle": "Ottieni il tuo prodotto digitale in soli 4 semplici passaggi",
     "step1Title": "Aggiungi il prodotto al carrello",
-    "step1Desc": "Trova la licenza più adatta alle tue esigenze e aggiungila al carrello con un solo clic.",
+    "step1Desc": "Trova il prodotto digitale che ti serve e aggiungilo al carrello con un solo clic.",
     "step2Title": "Scegli il metodo di pagamento",
-    "step2Desc": "Scegli il metodo di pagamento più comodo per il tuo acquisto e completa l'ordine.",
-    "step3Title": "Ricevi subito la tua licenza",
-    "step3Desc": "Trova la tua chiave di licenza, i link di download e la guida all'installazione nella tua area clienti e nella casella di posta.",
+    "step2Desc": "Paga in modo sicuro con il metodo che preferisci e conferma il tuo ordine.",
+    "step3Title": "Ricevi subito il tuo prodotto",
+    "step3Desc": "Le tue chiavi, i link di download e gli accessi arrivano nella tua casella di posta e nella tua area clienti subito dopo il pagamento.",
     "step4Title": "Siamo qui per aiutarti",
-    "step4Desc": "Siamo orgogliosi del nostro eccellente servizio clienti. Se hai bisogno di supporto, contattaci immediatamente via chat, email o telefono. Inoltre, ricevi una garanzia a vita con Licendi."
+    "step4Desc": "Se succede qualcosa, contattaci via chat, e-mail o telefono. Ogni ordine include supporto post-vendita e le domande ricevono risposta rapidamente."
   },
   "trustedPartners": {
     "title": "La fiducia della tecnologia che utilizziamo",
-    "subtitle": "Collaboriamo con piattaforme e tecnologie leader di settore per offrire licenze software sicure, affidabili e senza interruzioni."
+    "subtitle": "Lavoriamo con piattaforme leader e affidabili perché il tuo pagamento resti sicuro e la tua consegna veloce."
   },
   "about": {
     "title": "Chi siamo",
-    "intro": "Licendi è il negozio online di KeyVersely LLC, un partner Microsoft ufficiale che offre licenze software Microsoft autentiche con consegna digitale immediata.",
+    "intro": "Bigbl è il marketplace digitale di Keyversely LLC. Vendiamo chiavi software, chiavi di gioco, abbonamenti e carte regalo con consegna immediata e pagamento sicuro.",
     "missionTitle": "La nostra missione",
-    "mission": "Rendiamo il software Microsoft autentico semplice, sicuro e immediato. Da Windows e Office a Windows Server, consegniamo chiavi di licenza verificate direttamente nella tua casella di posta pochi minuti dopo l'ordine.",
-    "partnerTitle": "Partner Microsoft ufficiale",
-    "partner": "Licendi è gestita da KeyVersely LLC, un partner verificato elencato nella directory ufficiale dei partner Microsoft. Ogni licenza che vendiamo è autentica e proviene da canali autorizzati.",
-    "partnerCta": "Vedi il nostro profilo partner Microsoft",
+    "mission": "Vogliamo che comprare prodotti digitali sia semplice e sicuro. Ordini, paghi e il prodotto è nella tua casella di posta pochi minuti dopo — senza attese, senza sorprese.",
+    "partnerTitle": "Un marketplace digitale affidabile",
+    "partner": "Bigbl è gestito da Keyversely LLC. I prodotti provengono da canali autorizzati e vengono verificati prima della vendita; i pagamenti sono gestiti da Stripe e PayPal.",
+    "partnerCta": "Esplora il marketplace",
     "productsTitle": "Cosa vendiamo",
-    "products": "Siamo specializzati in licenze software Microsoft autentiche, tra cui sistemi operativi Windows, Microsoft Office e Windows Server — consegnate digitalmente a prezzi competitivi.",
+    "products": "Chiavi software, chiavi di gioco per PC e console, abbonamenti a streaming e app, carte regalo e altro — consegnati digitalmente a prezzi equi.",
     "deliveryTitle": "Consegna digitale immediata",
-    "delivery": "Dopo il pagamento, la tua chiave di licenza e i link di download vengono inviati alla tua e-mail in pochi minuti. Nessuna spedizione, nessuna attesa: attiva e installa subito.",
-    "trustTitle": "Perché acquistare da Licendi",
+    "delivery": "Dopo il pagamento, le tue chiavi e i tuoi accessi vengono inviati alla tua e-mail in pochi minuti. Nessuna spedizione, nessuna attesa.",
+    "trustTitle": "Perché acquistare da Bigbl",
     "trust": [
-      "Partner Microsoft ufficiale",
-      "Chiavi di licenza autentiche e verificate",
+      "Prodotti verificati e autorizzati",
       "Consegna immediata via e-mail",
       "Pagamento sicuro con Stripe e PayPal",
-      "Assistenza prodotto a vita"
+      "Assistenza clienti reattiva",
+      "Prezzi equi e trasparenti"
     ],
     "businessTitle": "Dati aziendali",
     "businessCompany": "Nome legale dell'azienda",
@@ -255,12 +255,12 @@
     "businessEmail": "E-mail",
     "businessEmailValue": "support@keyversely.com",
     "ctaTitle": "Pronto per iniziare?",
-    "ctaDesc": "Sfoglia le nostre licenze Microsoft autentiche e ricevi la tua chiave in pochi minuti.",
-    "ctaButton": "Acquista licenze"
+    "ctaDesc": "Esplora il marketplace e ricevi i tuoi prodotti digitali in pochi minuti.",
+    "ctaButton": "Acquista ora"
   },
   "contact": {
     "title": "Contattaci",
-    "desc": "Domande su un ordine, un'attivazione o una chiave di licenza? Il nostro team di supporto è qui per aiutarti. Di solito rispondiamo entro 24 ore nei giorni lavorativi.",
+    "desc": "Domande su un ordine, una chiave di prodotto o un abbonamento? Il nostro team di supporto è qui per aiutarti. Di solito rispondiamo entro 24 ore nei giorni lavorativi.",
     "businessTitle": "Informazioni aziendali",
     "companyName": "Nome legale dell'azienda",
     "companyValue": "KeyVersely LLC",
@@ -278,36 +278,36 @@
     "title": "Domande frequenti",
     "items": [
       {
-        "q": "Quanto velocemente riceverò la mia chiave di licenza?",
-        "a": "Immediatamente dopo la conferma del pagamento, la tua chiave di licenza e i link di download vengono inviati all'indirizzo e-mail fornito al momento dell'acquisto — di solito in pochi minuti."
+        "q": "Quanto velocemente riceverò il mio ordine?",
+        "a": "Non appena il pagamento viene confermato, i dettagli dell'ordine e le chiavi o i link di download vengono inviati all'e-mail fornita — di solito in pochi minuti."
       },
       {
         "q": "Cosa ricevo dopo aver effettuato un ordine?",
-        "a": "Ricevi una chiave di licenza Microsoft autentica insieme a link di download ufficiali e una guida all'installazione, consegnata nella tua casella di posta."
+        "a": "Ricevi tutto ciò che serve per usare il prodotto, incluse le chiavi di attivazione dove previsto e le istruzioni di download o accesso, consegnate nella tua casella di posta."
       },
       {
-        "q": "Le vostre chiavi di licenza sono autentiche?",
-        "a": "Sì. Licendi è gestita da KeyVersely LLC, un partner Microsoft ufficiale. Ogni chiave che vendiamo è autentica e proviene da canali autorizzati."
+        "q": "I prodotti sono autentici?",
+        "a": "Sì. Bigbl è gestito da Keyversely LLC e i prodotti provengono da canali autorizzati e vengono verificati prima della vendita."
       },
       {
         "q": "Posso ottenere un rimborso?",
-        "a": "Poiché le chiavi di licenza digitali vengono consegnate immediatamente e possono essere attivate subito, gli acquisti non sono rimborsabili una volta inviata la chiave. In caso di problema reale, contatta il nostro team di supporto e faremo del nostro meglio per aiutarti."
+        "a": "Poiché i prodotti digitali vengono consegnati immediatamente e possono essere usati subito, gli acquisti non sono rimborsabili una volta inviata la chiave o il link di accesso. In caso di problema reale, contatta il nostro team di supporto e faremo del nostro meglio per aiutarti."
       },
       {
         "q": "Quali metodi di pagamento accettate?",
         "a": "Accettiamo tutte le principali carte di credito e debito tramite Stripe, oltre a PayPal."
       },
       {
-        "q": "Cosa succede se non ricevo l'e-mail con la mia chiave di licenza?",
-        "a": "Controlla prima la cartella spam o posta indesiderata. Se non c'è, contattaci a support@keyversely.com e ti rinvieremo la chiave in pochi minuti."
+        "q": "Cosa succede se non ricevo l'e-mail con il mio ordine?",
+        "a": "Controlla prima la cartella spam o posta indesiderata. Se non c'è, contattaci a support@keyversely.com e ti rinvieremo i dettagli dell'ordine in pochi minuti."
       },
       {
-        "q": "La licenza funziona nel mio paese?",
-        "a": "Sì, le nostre licenze Microsoft sono progettate per l'attivazione globale e funzionano in tutto il mondo."
+        "q": "I vostri prodotti funzionano nel mio paese?",
+        "a": "La maggior parte dei nostri prodotti digitali è disponibile in tutto il mondo. Controlla la pagina del prodotto per eventuali note regionali prima di ordinare."
       },
       {
         "q": "Che assistenza offrite?",
-        "a": "Ogni acquisto include assistenza a vita. Se hai bisogno di aiuto con l'attivazione o l'installazione, contattaci e il nostro team ti assisterà."
+        "a": "Ogni acquisto include assistenza. Se hai bisogno di aiuto per accedere al prodotto o attivarlo, contattaci e il nostro team ti assisterà."
       }
     ]
   },
@@ -316,23 +316,23 @@
     "sections": [
       {
         "heading": "1. Accettazione dei termini",
-        "body": "Accedendo o utilizzando il sito web Licendi (il 'Sito web'), accetti di essere vincolato ai presenti Termini e condizioni. Se non sei d'accordo, non utilizzare il Sito web."
+        "body": "Accedendo o utilizzando il sito web Bigbl (il 'Sito web'), accetti di essere vincolato ai presenti Termini e condizioni. Se non sei d'accordo, non utilizzare il Sito web."
       },
       {
         "heading": "2. Prodotti e servizi",
-        "body": "Licendi, gestita da KeyVersely LLC, vende licenze software digitali, principalmente prodotti Microsoft autentici come Windows, Microsoft Office e Windows Server. Tutti i prodotti vengono consegnati elettronicamente."
+        "body": "Bigbl, gestito da Keyversely LLC, vende prodotti digitali, tra cui chiavi software, chiavi di gioco, abbonamenti e carte regalo. Tutti i prodotti vengono consegnati elettronicamente."
       },
       {
         "heading": "3. Consegna digitale",
-        "body": "Immediatamente dopo un pagamento riuscito, le chiavi di licenza e le istruzioni di download vengono inviate all'indirizzo e-mail fornito. Sei responsabile di fornire un indirizzo e-mail valido e raggiungibile."
+        "body": "Immediatamente dopo un pagamento riuscito, i dettagli del prodotto, le chiavi e le istruzioni di accesso vengono inviati all'indirizzo e-mail fornito. Sei responsabile di fornire un indirizzo e-mail valido e raggiungibile."
       },
       {
         "heading": "4. Politica di rimborso",
-        "body": "A causa della consegna elettronica immediata delle chiavi di licenza, tutte le vendite sono definitive e non rimborsabili una volta inviata la chiave. Le eccezioni vengono valutate caso per caso per problemi reali di consegna o tecnici."
+        "body": "A causa della consegna elettronica immediata dei prodotti digitali, tutte le vendite sono definitive e non rimborsabili una volta consegnato il prodotto. Le eccezioni vengono valutate caso per caso per problemi reali di consegna o tecnici."
       },
       {
         "heading": "5. Utilizzo della licenza",
-        "body": "Puoi utilizzare le chiavi di licenza acquistate solo per il tuo uso personale o aziendale in conformità con i termini di licenza di Microsoft. È vietata la rivendita, la condivisione o la ridistribuzione delle chiavi."
+        "body": "Puoi utilizzare i prodotti acquistati solo per il tuo uso personale o aziendale in conformità con i termini di licenza applicabili. È vietata la rivendita, la condivisione o la ridistribuzione delle chiavi."
       },
       {
         "heading": "6. Proprietà intellettuale",
@@ -357,7 +357,7 @@
     "sections": [
       {
         "heading": "1. Introduzione",
-        "body": "KeyVersely LLC ('noi', 'nostro') gestisce il sito web Licendi. Questa informativa sulla privacy spiega quali informazioni raccogliamo, come le utilizziamo e le scelte che hai."
+        "body": "KeyVersely LLC ('noi', 'nostro') gestisce il sito web Bigbl. Questa informativa sulla privacy spiega quali informazioni raccogliamo, come le utilizziamo e le scelte che hai."
       },
       {
         "heading": "2. Informazioni che raccogliamo",
@@ -417,15 +417,15 @@
     "sections": [
       {
         "heading": "1. Panoramica",
-        "body": "Poiché i nostri prodotti sono chiavi di licenza digitali consegnate immediatamente, tutte le vendite sono definitive una volta inviata la chiave."
+        "body": "Poiché i nostri prodotti sono digitali e vengono consegnati immediatamente, tutte le vendite sono definitive una volta consegnato il prodotto."
       },
       {
         "heading": "2. Prodotti digitali non rimborsabili",
-        "body": "I prodotti digitali, comprese le chiavi di licenza software, non sono rimborsabili né restituibili una volta che la chiave di licenza è stata consegnata alla tua e-mail, poiché la chiave può essere attivata immediatamente."
+        "body": "I prodotti digitali, comprese le chiavi software, le chiavi di gioco e gli abbonamenti, non sono rimborsabili né restituibili una volta che il prodotto è stato consegnato alla tua e-mail, poiché può essere usato immediatamente."
       },
       {
         "heading": "3. Eccezioni",
-        "body": "Prenderemo in considerazione un rimborso o una sostituzione caso per caso se: la chiave di licenza non si attiva, la chiave non è stata consegnata a causa di un errore tecnico da parte nostra o hai ricevuto il prodotto sbagliato."
+        "body": "Prenderemo in considerazione un rimborso o una sostituzione caso per caso se: la chiave del prodotto non funziona, il prodotto non è stato consegnato a causa di un errore tecnico da parte nostra o hai ricevuto il prodotto sbagliato."
       },
       {
         "heading": "4. Come richiedere un rimborso o una sostituzione",
@@ -446,15 +446,15 @@
     "sections": [
       {
         "heading": "1. Consegna digitale",
-        "body": "Tutti i prodotti venduti su Licendi sono licenze software digitali. Nessun articolo fisico viene spedito. Dopo un pagamento riuscito, la tua chiave di licenza e i link di download vengono inviati immediatamente."
+        "body": "Tutti i prodotti venduti su Bigbl sono digitali. Nessun articolo fisico viene spedito. Dopo un pagamento riuscito, i dettagli del prodotto, le chiavi e i link di download vengono inviati immediatamente."
       },
       {
         "heading": "2. Tempo di consegna",
-        "body": "Le chiavi di licenza vengono solitamente consegnate entro pochi minuti dalla conferma del pagamento. In rari casi, la consegna può richiedere fino a poche ore a causa della verifica del pagamento."
+        "body": "I prodotti digitali vengono solitamente consegnati entro pochi minuti dalla conferma del pagamento. In rari casi, la consegna può richiedere fino a poche ore a causa della verifica del pagamento."
       },
       {
         "heading": "3. Cosa ricevi",
-        "body": "La tua e-mail di consegna contiene la chiave di licenza, i link di download ufficiali e le istruzioni di installazione."
+        "body": "La tua e-mail di consegna contiene le chiavi o gli accessi, i link di download e le istruzioni."
       },
       {
         "heading": "4. Consegna via e-mail",
@@ -475,8 +475,8 @@
     ]
   },
   "blog": {
-    "title": "Blog di Licendi",
-    "description": "Guide, consigli e notizie sulle licenze software Microsoft originali di Licendi.",
+    "title": "Blog di Bigbl",
+    "description": "Guide, consigli e notizie sui prodotti digitali, il software e il marketplace di Bigbl.",
     "readMore": "Leggi di più",
     "readArticle": "Leggi l'articolo",
     "publishedOn": "Pubblicato il",

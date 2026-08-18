@@ -52,11 +52,11 @@ const raleway = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Licendi – Official Microsoft Software Licensing",
+    default: "Bigbl – Digital Marketplace for Software, Games & More",
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Shop genuine Microsoft software licenses, download keys and instant digital delivery from an official Microsoft partner.",
+    "Bigbl is a digital marketplace for software keys, game keys, subscriptions and gift cards with instant email delivery and secure checkout.",
 };
 
 export default async function RootLayout({

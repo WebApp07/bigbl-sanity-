@@ -32,7 +32,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, categories }) => {
       >
         <div className="flex items-center justify-between">
           <button onClick={onClose}>
-            <Logo className="text-white">Licendi</Logo>
+            <Logo className="text-white">Bigbl</Logo>
           </button>
           <button className="hover:text-red-500 hoverEffect" onClick={onClose}>
             <X />

@@ -16,9 +16,6 @@ import {
 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
-const MICROSOFT_PARTNER_URL =
-  "https://marketplace.microsoft.com/en-us/marketplace/partner-dir/f2266aa5-5704-4384-ad55-100cf2c530cb/overview";
-
 export async function generateMetadata({
   params,
 }: {
@@ -77,15 +74,13 @@ const AboutPage = async () => {
             {t("partnerTitle")}
           </h2>
           <p className="text-lightColor leading-relaxed mb-4">{t("partner")}</p>
-          <a
-            href={MICROSOFT_PARTNER_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href={"/"}
             className="inline-flex items-center gap-2 text-sm font-semibold text-white bg-darkColor px-5 py-2.5 rounded-lg hover:bg-gray-800 hoverEffect"
           >
             <BadgeCheck className="w-4 h-4" />
             {t("partnerCta")}
-          </a>
+          </Link>
         </div>
       </section>
 

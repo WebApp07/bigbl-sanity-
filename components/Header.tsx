@@ -31,7 +31,7 @@ const Header = async () => {
         <HeaderMenu categories={categories} brands={brands} />
         <div className="w-auto md:w-1/3 flex items-center justify-center gap-2.5">
           <MobileMenu categories={categories} />
-          <Logo>Licendi</Logo>
+          <Logo>Bigbl</Logo>
         </div>
         <div className="w-auto md:w-1/3 flex items-center justify-end gap-5">
           <SearchBar />

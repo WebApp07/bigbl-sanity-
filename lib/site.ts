@@ -1,10 +1,10 @@
 import { routing } from "@/i18n/routing";
 
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_BASE_URL || "https://licendi.xyz"
+  process.env.NEXT_PUBLIC_BASE_URL || "https://bigbl.com"
 ).replace(/\/+$/, "");
 
-export const SITE_NAME = "Licendi";
+export const SITE_NAME = "Bigbl";
 
 export function localizedUrl(locale: string, path: string): string {
   const suffix = path === "" ? "" : path.startsWith("/") ? path : `/${path}`;

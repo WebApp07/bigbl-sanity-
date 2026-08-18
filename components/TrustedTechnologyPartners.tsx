@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 
 const partners = [
   {
-    name: "Microsoft Partner",
+    name: "Microsoft",
     logo: (
       <span className="flex items-center gap-2">
         <span className="inline-flex grayscale opacity-75 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300">
@@ -18,7 +18,7 @@ const partners = [
           </svg>
         </span>
         <span className="text-xl font-semibold leading-tight text-gray-400 group-hover:text-darkColor transition-colors duration-300 whitespace-nowrap">
-          Microsoft Partner
+          Microsoft
         </span>
       </span>
     ),
@@ -56,6 +56,21 @@ const partners = [
     logo: (
       <span className="text-2xl font-semibold lowercase text-gray-400 group-hover:text-darkColor transition-colors duration-300">
         bizee
+      </span>
+    ),
+  },
+  {
+    name: "Vercel",
+    logo: (
+      <span className="flex items-center gap-2">
+        <span className="inline-flex grayscale opacity-75 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300">
+          <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden>
+            <path d="M12 3l9 16.5H3z" fill="#000" />
+          </svg>
+        </span>
+        <span className="text-xl font-semibold leading-tight text-gray-400 group-hover:text-darkColor transition-colors duration-300 whitespace-nowrap">
+          Vercel
+        </span>
       </span>
     ),
   },

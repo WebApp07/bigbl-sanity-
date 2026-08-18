@@ -11,27 +11,27 @@ export const quickLinksData = [
 
 export const faqsData = [
   {
-    question: "What services does Licendi offer?",
+    question: "What does Bigbl sell?",
     answer:
-      "Licendi offers genuine Microsoft software licenses, including Windows, Office and Windows Server, delivered instantly by email.",
+      "Bigbl is a digital marketplace for software keys, game keys, subscriptions and gift cards, delivered instantly by email.",
   },
   {
-    question: "How can I get support for Licendi products?",
+    question: "How can I get support for my order?",
     answer:
       "You can reach our support team through our contact page or by emailing support@keyversely.com.",
   },
   {
     question: "How fast is delivery?",
     answer:
-      "License keys and download links are sent to your email within minutes after checkout.",
+      "Order details, keys and access links are sent to your email within minutes after checkout.",
   },
   {
-    question: "Are the licenses genuine?",
+    question: "Are the products genuine?",
     answer:
-      "Yes. Licendi is operated by KeyVersely LLC, an official Microsoft partner. Every license is genuine and sourced through authorized channels.",
+      "Yes. Bigbl is operated by Keyversely LLC. Products are sourced through authorized channels and verified before sale.",
   },
   {
-    question: "How does Licendi ensure data security?",
+    question: "How does Bigbl ensure data security?",
     answer:
       "We employ industry-standard security measures and comply with all relevant data protection regulations to ensure the security of our clients' data.",
   },

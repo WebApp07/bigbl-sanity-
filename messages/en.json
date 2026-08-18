@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Licendi – Official Microsoft Software Licensing",
-    "description": "Shop genuine Microsoft software licenses, download keys and instant digital delivery."
+    "title": "Bigbl – Digital Marketplace for Software, Games & More",
+    "description": "Software keys, game keys, subscriptions and gift cards from one digital marketplace. Instant email delivery, secure checkout and real support."
   },
   "common": {
-    "loading": "Licendi is loading...",
+    "loading": "Bigbl is loading...",
     "home": "Home",
     "login": "Login",
     "addToCart": "Add to cart",
@@ -36,11 +36,11 @@
     "placeholder": "Search your product here...",
     "searching": "Searching on progress...",
     "noMatch": "Nothing matched the keyword {keyword}. Please try something else.",
-    "explore": "Search and explore your products from Licendi.",
+    "explore": "Search and explore your products from Bigbl.",
     "productImage": "productImage"
   },
   "footer": {
-    "description": "Your trusted source for genuine Microsoft software licenses with instant delivery and lifetime support.",
+    "description": "Bigbl by Keyversely LLC — a digital marketplace for software keys, game keys, subscriptions and gift cards with instant delivery and support when you need it.",
     "quickLinks": "Quick Links",
     "categories": "Categories",
     "newsletter": "Newsletter",
@@ -61,8 +61,8 @@
     "blog": "Blog"
   },
   "banner": {
-    "title": "Official Microsoft Products",
-    "subtitle": "Shop genuine Microsoft software and solutions from an official Microsoft partner. Get the latest products, secure licenses, and trusted support for all your digital needs."
+    "title": "Everything Digital, In One Marketplace",
+    "subtitle": "Software keys, games, subscriptions and gift cards — secure checkout, instant email delivery, and support from real people."
   },
   "home": {
     "productsByCategory": "Products by Category",
@@ -213,39 +213,39 @@
   },
   "purchaseProcess": {
     "title": "Purchase process",
-    "subtitle": "Get your software license(s) in just 4 simple steps",
+    "subtitle": "Get your digital product in 4 simple steps",
     "step1Title": "Add your product to the cart",
-    "step1Desc": "Find the licence that best suits your needs and add it to your cart with just one click.",
+    "step1Desc": "Find the digital product you need and add it to your cart in one click.",
     "step2Title": "Select your payment method",
-    "step2Desc": "Select the most convenient payment method for your purchase and complete the purchase.",
-    "step3Title": "Receive your licence immediately",
-    "step3Desc": "Find your license key, download links, and installation guide in your customer area and in your email inbox.",
+    "step2Desc": "Pay securely with the method you prefer and confirm your order.",
+    "step3Title": "Receive your product instantly",
+    "step3Desc": "Your keys, download links and access details land in your email inbox and customer area right after checkout.",
     "step4Title": "We are here to help you",
-    "step4Desc": "We take pride in our excellent customer service. If you need support, you can contact us instantly via chat, email, or phone. Additionally, you get a lifetime warranty with Licendi."
+    "step4Desc": "If anything comes up, reach us by chat, email or phone. Every order includes post-purchase support, and questions are answered quickly."
   },
   "trustedPartners": {
     "title": "Trusted by the technology we use",
-    "subtitle": "We work with trusted industry-leading platforms and technologies to provide secure, reliable, and seamless software licensing."
+    "subtitle": "We run on trusted, industry-leading platforms so your checkout stays secure and your delivery stays fast."
   },
   "about": {
-    "title": "About Licendi",
-    "intro": "Licendi is the online storefront of KeyVersely LLC, an official Microsoft partner delivering genuine Microsoft software licenses with instant digital delivery.",
+    "title": "About Bigbl",
+    "intro": "Bigbl is the digital marketplace of Keyversely LLC. We sell software keys, game keys, subscriptions and gift cards with instant delivery and secure checkout.",
     "missionTitle": "Our Mission",
-    "mission": "We make genuine Microsoft software simple, secure and instant. From Windows and Office to Windows Server, we deliver verified license keys straight to your inbox minutes after you order.",
-    "partnerTitle": "Official Microsoft Partner",
-    "partner": "Licendi is operated by KeyVersely LLC, a verified partner listed in the official Microsoft Partner Directory. Every license we sell is genuine and sourced through authorized channels.",
-    "partnerCta": "View our Microsoft Partner profile",
+    "mission": "We want buying digital products to be simple and safe. You order, pay, and the product is in your inbox minutes later — no waiting, no guessing.",
+    "partnerTitle": "A Trusted Digital Marketplace",
+    "partner": "Bigbl is operated by Keyversely LLC. Products are sourced through authorized channels and checked before they go on sale, and payments are handled by Stripe and PayPal.",
+    "partnerCta": "Browse the marketplace",
     "productsTitle": "What We Sell",
-    "products": "We specialize in genuine Microsoft software licenses, including Windows operating systems, Microsoft Office, and Windows Server — delivered digitally at competitive prices.",
+    "products": "Software keys, PC and console game keys, streaming and app subscriptions, gift cards and more — delivered digitally at fair prices.",
     "deliveryTitle": "Instant Digital Delivery",
-    "delivery": "After checkout, your license key and download links are sent to your email within minutes. No shipping, no waiting — activate and install right away.",
-    "trustTitle": "Why Buy From Licendi",
+    "delivery": "After checkout, your keys and access details are sent to your email within minutes. No shipping, no waiting.",
+    "trustTitle": "Why Buy From Bigbl",
     "trust": [
-      "Official Microsoft partner",
-      "Genuine, verified license keys",
+      "Verified, authorized products",
       "Instant email delivery",
       "Secure checkout with Stripe & PayPal",
-      "Lifetime product support"
+      "Responsive customer support",
+      "Fair, transparent prices"
     ],
     "businessTitle": "Business Details",
     "businessCompany": "Legal Company Name",
@@ -255,12 +255,12 @@
     "businessEmail": "Email",
     "businessEmailValue": "support@keyversely.com",
     "ctaTitle": "Ready to get started?",
-    "ctaDesc": "Browse our genuine Microsoft licenses and receive your key in minutes.",
-    "ctaButton": "Shop Licenses"
+    "ctaDesc": "Browse the marketplace and have your digital products delivered in minutes.",
+    "ctaButton": "Shop Now"
   },
   "contact": {
     "title": "Contact Us",
-    "desc": "Questions about an order, activation, or a license key? Our support team is here to help. We usually respond within 24 hours on business days.",
+    "desc": "Questions about an order, a product key or a subscription? Our support team is here to help. We usually respond within 24 hours on business days.",
     "businessTitle": "Business Information",
     "companyName": "Legal Company Name",
     "companyValue": "KeyVersely LLC",
@@ -278,36 +278,36 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "q": "How quickly will I receive my license key?",
-        "a": "Immediately after your payment is confirmed, your license key and download links are sent to the email address you provided at checkout — usually within minutes."
+        "q": "How quickly will I receive my order?",
+        "a": "As soon as your payment is confirmed, your order details and any keys or download links are sent to the email you provided — usually within minutes."
       },
       {
         "q": "What do I receive after I place an order?",
-        "a": "You receive a genuine Microsoft license key together with official download links and an installation guide, delivered to your email inbox."
+        "a": "You receive everything you need to use your product, including activation keys where applicable and download or access instructions, delivered to your email inbox."
       },
       {
-        "q": "Are your license keys genuine?",
-        "a": "Yes. Licendi is operated by KeyVersely LLC, an official Microsoft partner. Every key we sell is genuine and sourced through authorized channels."
+        "q": "Are the products genuine?",
+        "a": "Yes. Bigbl is operated by Keyversely LLC, and products are sourced through authorized channels and verified before they go on sale."
       },
       {
         "q": "Can I get a refund?",
-        "a": "Because digital license keys are delivered instantly and can be activated immediately, purchases are non-refundable once the key has been sent. If you have a genuine issue, contact our support team and we will do our best to help."
+        "a": "Because digital products are delivered instantly and can be used right away, purchases are non-refundable once the key or access link has been sent. If you have a genuine issue, contact our support team and we will do our best to help."
       },
       {
         "q": "What payment methods do you accept?",
         "a": "We accept all major credit and debit cards via Stripe, as well as PayPal."
       },
       {
-        "q": "What if I don't receive the email with my license key?",
-        "a": "First check your spam or junk folder. If it is not there, contact us at support@keyversely.com and we will resend your key within minutes."
+        "q": "What if I don't receive the email with my order?",
+        "a": "First check your spam or junk folder. If it is not there, contact us at support@keyversely.com and we will resend your order details within minutes."
       },
       {
-        "q": "Does the license work in my country?",
-        "a": "Yes, our Microsoft licenses are designed for global activation and work worldwide."
+        "q": "Do your products work in my country?",
+        "a": "Most of our digital products are available worldwide. Check the product page for any regional notes before ordering."
       },
       {
         "q": "What support do you offer?",
-        "a": "Every purchase includes lifetime support. If you need help with activation or installation, contact us and our team will assist you."
+        "a": "Every purchase includes support. If you need help accessing or activating your product, contact us and our team will assist you."
       }
     ]
   },
@@ -316,23 +316,23 @@
     "sections": [
       {
         "heading": "1. Acceptance of Terms",
-        "body": "By accessing or using the Licendi website (the 'Website'), you agree to be bound by these Terms and Conditions. If you do not agree, please do not use the Website."
+        "body": "By accessing or using the Bigbl website (the 'Website'), you agree to be bound by these Terms and Conditions. If you do not agree, please do not use the Website."
       },
       {
         "heading": "2. Products and Services",
-        "body": "Licendi, operated by KeyVersely LLC, sells digital software licenses, primarily genuine Microsoft products such as Windows, Microsoft Office, and Windows Server. All products are delivered electronically."
+        "body": "Bigbl, operated by Keyversely LLC, sells digital products including software keys, game keys, subscriptions and gift cards. All products are delivered electronically."
       },
       {
         "heading": "3. Digital Delivery",
-        "body": "Immediately after a successful payment, license keys and download instructions are sent to the email address you provided. You are responsible for providing a valid and accessible email address."
+        "body": "Immediately after a successful payment, product details, keys and access instructions are sent to the email address you provided. You are responsible for providing a valid and accessible email address."
       },
       {
         "heading": "4. Refund Policy",
-        "body": "Due to the instant electronic delivery of license keys, all sales are final and non-refundable once the key has been sent. Exceptions are considered on a case-by-case basis for genuine delivery or technical issues."
+        "body": "Due to the instant electronic delivery of digital products, all sales are final and non-refundable once the product has been delivered. Exceptions are considered on a case-by-case basis for genuine delivery or technical issues."
       },
       {
         "heading": "5. License Usage",
-        "body": "You may use the purchased license keys only for your own personal or business use in accordance with Microsoft's licensing terms. Reselling, sharing, or redistributing keys is prohibited."
+        "body": "You may use the purchased products only for your own personal or business use in accordance with the applicable licensing terms. Reselling, sharing, or redistributing keys is prohibited."
       },
       {
         "heading": "6. Intellectual Property",
@@ -357,7 +357,7 @@
     "sections": [
       {
         "heading": "1. Introduction",
-        "body": "KeyVersely LLC ('we', 'us', or 'our') operates the Licendi website. This Privacy Policy explains what information we collect, how we use it, and the choices you have."
+        "body": "KeyVersely LLC ('we', 'us', or 'our') operates the Bigbl website. This Privacy Policy explains what information we collect, how we use it, and the choices you have."
       },
       {
         "heading": "2. Information We Collect",
@@ -417,15 +417,15 @@
     "sections": [
       {
         "heading": "1. Overview",
-        "body": "Because our products are digital license keys delivered instantly, all sales are final once the key has been sent."
+        "body": "Because our products are digital and delivered instantly, all sales are final once the product has been delivered."
       },
       {
         "heading": "2. Non-Refundable Digital Products",
-        "body": "Digital products, including software license keys, are non-refundable and non-returnable once the license key has been delivered to your email, because the key can be activated immediately."
+        "body": "Digital products, including software keys, game keys and subscriptions, are non-refundable and non-returnable once the product has been delivered to your email, because it can be used immediately."
       },
       {
         "heading": "3. Exceptions",
-        "body": "We will consider a refund or replacement on a case-by-case basis if: the license key does not activate, the key was not delivered due to a technical error on our side, or you received the wrong product."
+        "body": "We will consider a refund or replacement on a case-by-case basis if: the product key does not work, the product was not delivered due to a technical error on our side, or you received the wrong product."
       },
       {
         "heading": "4. How to Request a Refund or Replacement",
@@ -446,15 +446,15 @@
     "sections": [
       {
         "heading": "1. Digital Delivery",
-        "body": "All products sold on Licendi are digital software licenses. No physical items are shipped. After a successful payment, your license key and download links are sent instantly."
+        "body": "All products sold on Bigbl are digital. No physical items are shipped. After a successful payment, your product details, keys and download links are sent instantly."
       },
       {
         "heading": "2. Delivery Time",
-        "body": "License keys are usually delivered within minutes after payment is confirmed. In rare cases, delivery may take up to a few hours due to payment verification."
+        "body": "Digital products are usually delivered within minutes after payment is confirmed. In rare cases, delivery may take up to a few hours due to payment verification."
       },
       {
         "heading": "3. What You Receive",
-        "body": "Your delivery email contains your license key, official download links, and installation instructions."
+        "body": "Your delivery email contains your keys or access details, download links, and instructions."
       },
       {
         "heading": "4. Email Delivery",
@@ -475,8 +475,8 @@
     ]
   },
   "blog": {
-    "title": "Licendi Blog",
-    "description": "Guides, tips and news about genuine Microsoft software licenses from Licendi.",
+    "title": "Bigbl Blog",
+    "description": "Guides, tips and news about digital products, software and the Bigbl marketplace.",
     "readMore": "Read more",
     "readArticle": "Read article",
     "publishedOn": "Published on",

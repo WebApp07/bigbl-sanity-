@@ -9,7 +9,7 @@ const Loading = () => {
   return (
     <div className="fixed min-h-screen w-full bg-white left-0 top-0 flex items-center justify-center">
       <div className="flex flex-col justify-center items-center gap-1">
-        <Logo>Licendi</Logo>
+        <Logo>Bigbl</Logo>
         <motion.div
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ repeat: Infinity, duration: 1.5 }}

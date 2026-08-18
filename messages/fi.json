@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Licendi – Virallisia Microsoft-ohjelmistolisenssejä",
-    "description": "Osta aitoja Microsoft-ohjelmistolisenssejä, latausavaimia ja välitön digitaalinen toimitus."
+    "title": "Bigbl – Digitaalinen markkinapaikka ohjelmistoille, peleille ja muulle",
+    "description": "Ohjelmistoavaimet, peliavaimet, tilaukset ja lahjakortit yhdessä digitaalisessa markkinapaikassa. Välitön sähköpostitoimitus, turvallinen maksu ja aito tuki."
   },
   "common": {
-    "loading": "Licendi latautuu...",
+    "loading": "Bigbl latautuu...",
     "home": "Etusivu",
     "login": "Kirjaudu",
     "addToCart": "Lisää ostoskoriin",
@@ -36,11 +36,11 @@
     "placeholder": "Hae tuotetta tästä...",
     "searching": "Haku käynnissä...",
     "noMatch": "Mikään ei vastannut hakusanaa {keyword}. Kokeile jotain muuta.",
-    "explore": "Hae ja tutustu tuotteisiisi Licendiissa.",
+    "explore": "Hae ja tutustu tuotteisiisi Bigblissa.",
     "productImage": "tuotekuva"
   },
   "footer": {
-    "description": "Luotettava lähde aidoille Microsoft-ohjelmistolisensseille välittömällä toimituksella ja elinikäisellä tuella.",
+    "description": "Bigbl by Keyversely LLC — digitaalinen markkinapaikka ohjelmistoavaimille, peliavaimille, tilauksille ja lahjakorteille välittömällä toimituksella ja tuella, kun sitä tarvitset.",
     "quickLinks": "Pikalinkit",
     "categories": "Kategoriat",
     "newsletter": "Uutiskirje",
@@ -61,8 +61,8 @@
     "blog": "Blogi"
   },
   "banner": {
-    "title": "Viralliset Microsoft-tuotteet",
-    "subtitle": "Osta aitoja Microsoft-ohjelmistoja ja -ratkaisuja viralliselta Microsoft-kumppanilta. Hanki uusimmat tuotteet, turvalliset lisenssit ja luotettava tuki kaikkiin digitaalisiin tarpeisiisi."
+    "title": "Kaikki digitaalinen yhdessä markkinapaikassa",
+    "subtitle": "Ohjelmistoavaimet, pelit, tilaukset ja lahjakortit — turvallinen maksu, välitön sähköpostitoimitus ja tuki oikeilta ihmisiltä."
   },
   "home": {
     "productsByCategory": "Tuotteet kategorioittain",
@@ -175,7 +175,7 @@
     "paymentMethod": "Maksutapa",
     "downloadInvoice": "Lataa lasku",
     "downloadReceipt": "Lataa kuitti",
-    "printReceipt": "Licendita kuitti",
+    "printReceipt": "Tulosta kuitti",
     "invoiceNotePaypal": "Virallista Stripe-laskua ei ole saatavilla PayPal-tilauksille. Voit tulostaa tämän sivun kuitiksi.",
     "invoiceNote": "Laskun lataus ei ole saatavilla tälle tilaukselle.",
     "product": "Tuote",
@@ -213,39 +213,39 @@
   },
   "purchaseProcess": {
     "title": "Ostoprosessi",
-    "subtitle": "Hanki ohjelmistolisenssi(t) vain 4 yksinkertaisessa vaiheessa",
+    "subtitle": "Hanki digitaalinen tuotteesi vain 4 yksinkertaisessa vaiheessa",
     "step1Title": "Lisää tuote ostoskoriin",
-    "step1Desc": "Löydä tarpeisiisi parhaiten sopiva lisenssi ja lisää se ostoskoriin yhdellä klikkauksella.",
+    "step1Desc": "Löydä tarvitsemasi digitaalinen tuote ja lisää se ostoskoriin yhdellä klikkauksella.",
     "step2Title": "Valitse maksutapa",
-    "step2Desc": "Valitse itsellesi sopivin maksutapa ja viimeistele ostos.",
-    "step3Title": "Vastaanota lisenssisi heti",
-    "step3Desc": "Löydät lisenssiavaimesi, latauslinkit ja asennusoppaan asiakasalueeltasi ja sähköpostistasi.",
+    "step2Desc": "Maksa turvallisesti haluamallasi tavalla ja vahvista tilauksesi.",
+    "step3Title": "Vastaanota tuotteesi heti",
+    "step3Desc": "Avaimet, latauslinkit ja käyttöoikeudet saapuvat sähköpostiisi ja asiakasalueellesi heti maksun jälkeen.",
     "step4Title": "Olemme täällä auttamassa",
-    "step4Desc": "Olemme ylpeitä erinomaisesta asiakaspalvelustamme. Jos tarvitset tukea, voit ottaa meihin yhteyttä chatin, sähköpostin tai puhelimen välityksellä. Lisäksi saat elinikäisen takuun Licendiltä."
+    "step4Desc": "Jos jotain tulee eteen, tavoitat meidät chatin, sähköpostin tai puhelimen välityksellä. Jokainen tilaus sisältää oston jälkeisen tuen, ja kysymyksiin vastataan nopeasti."
   },
   "trustedPartners": {
     "title": "Luottamus käyttämäämme teknologiaan",
-    "subtitle": "Teemme yhteistyötä alan johtavien ja luotettujen alustojen sekä teknologioiden kanssa tarjotaksemme turvallisia, luotettavia ja saumattomia ohjelmistolisenssejä."
+    "subtitle": "Luotamme alan johtaviin ja luotettuihin alustoihin, jotta maksusi pysyy turvallisena ja toimituksesi nopeana."
   },
   "about": {
-    "title": "Tietoja Licendistä",
-    "intro": "Licendi on KeyVersely LLC:n verkkokauppa, joka on virallinen Microsoft-kumppani ja tarjoaa aitoja Microsoft-ohjelmistolisenssejä välittömällä digitaalisella toimituksella.",
+    "title": "Tietoja Bigblistä",
+    "intro": "Bigbl on Keyversely LLC:n digitaalinen markkinapaikka. Myymme ohjelmistoavaimia, peliavaimia, tilauksia ja lahjakortteja välittömällä toimituksella ja turvallisella maksulla.",
     "missionTitle": "Tehtävämme",
-    "mission": "Teemme aidosta Microsoft-ohjelmistosta yksinkertaista, turvallista ja välitöntä. Windowsista ja Officesta Windows Serveriin toimitamme vahvistetut lisenssiavaimet suoraan sähköpostiisi muutamassa minuutissa tilauksesta.",
-    "partnerTitle": "Virallinen Microsoft-kumppani",
-    "partner": "Licendiä ylläpitää KeyVersely LLC, vahvistettu kumppani virallisessa Microsoft-kumppaniluettelossa. Jokainen myymämme lisenssi on aito ja peräisin valtuutetuista kanavista.",
-    "partnerCta": "Näytä Microsoft-kumppaniprofiilimme",
+    "mission": "Haluamme, että digitaalisten tuotteiden ostaminen on yksinkertaista ja turvallista. Tilaat, maksat ja tuote on postilaatikossasi minuuttien kuluttua — ilman odottelua, ilman yllätyksiä.",
+    "partnerTitle": "Luotettava digitaalinen markkinapaikka",
+    "partner": "Bigblä ylläpitää Keyversely LLC. Tuotteet ovat peräisin valtuutetuista kanavista ja tarkistetaan ennen myyntiä; maksut hoitavat Stripe ja PayPal.",
+    "partnerCta": "Selaa markkinapaikkaa",
     "productsTitle": "Mitä myymme",
-    "products": "Erikoistumme aitoihin Microsoft-ohjelmistolisensseihin, kuten Windows-käyttöjärjestelmiin, Microsoft Officeen ja Windows Serveriin — toimitettuna digitaalisesti kilpailukykyiseen hintaan.",
+    "products": "Ohjelmistoavaimet, peliavaimet PC:lle ja konsoleille, suoratoisto- ja sovellustilaukset, lahjakortit ja paljon muuta — toimitettuna digitaalisesti reiluun hintaan.",
     "deliveryTitle": "Välitön digitaalinen toimitus",
-    "delivery": "Maksun jälkeen lisenssiavain ja latauslinkit lähetetään sähköpostiisi muutamassa minuutissa. Ei postikuluja, ei odottelua — aktivoi ja asenna heti.",
-    "trustTitle": "Miksi ostaa Licendistä",
+    "delivery": "Maksun jälkeen avaimesi ja käyttöoikeutesi lähetetään sähköpostiisi muutamassa minuutissa. Ei postikuluja, ei odottelua.",
+    "trustTitle": "Miksi ostaa Bigblistä",
     "trust": [
-      "Virallinen Microsoft-kumppani",
-      "Aidot, vahvistetut lisenssiavaimet",
+      "Tarkistetut, valtuutetut tuotteet",
       "Välitön sähköpostitoimitus",
       "Turvallinen maksu Stripe & PayPal",
-      "Elinaikainen tuotetuki"
+      "Nopea asiakaspalvelu",
+      "Reilut, läpinäkyvät hinnat"
     ],
     "businessTitle": "Yritystiedot",
     "businessCompany": "Yrityksen virallinen nimi",
@@ -255,12 +255,12 @@
     "businessEmail": "Sähköposti",
     "businessEmailValue": "support@keyversely.com",
     "ctaTitle": "Valmiina aloittamaan?",
-    "ctaDesc": "Selaa aitoja Microsoft-lisenssejämme ja saat avaimesi minuuteissa.",
-    "ctaButton": "Osta lisenssejä"
+    "ctaDesc": "Selaa markkinapaikkaa ja saat digitaaliset tuotteesi minuuteissa.",
+    "ctaButton": "Osta nyt"
   },
   "contact": {
     "title": "Ota yhteyttä",
-    "desc": "Kysymyksiä tilauksesta, aktivoinnista tai lisenssiavaimesta? Tukitiimimme on täällä auttamassa. Vastaamme yleensä 24 tunnin kuluessa arkipäivinä.",
+    "desc": "Kysymyksiä tilauksesta, tuoteavaimesta tai muusta tuotteesta? Tukitiimimme on täällä auttamassa. Vastaamme yleensä 24 tunnin kuluessa arkipäivinä.",
     "businessTitle": "Yritystiedot",
     "companyName": "Yrityksen virallinen nimi",
     "companyValue": "KeyVersely LLC",
@@ -278,36 +278,36 @@
     "title": "Usein kysytyt kysymykset",
     "items": [
       {
-        "q": "Kuinka nopeasti saan lisenssiavaimeni?",
-        "a": "Heti kun maksusi on vahvistettu, lisenssiavain ja latauslinkit lähetetään maksun yhteydessä antamaasi sähköpostiosoitteeseen — yleensä muutamassa minuutissa."
+        "q": "Kuinka nopeasti saan tilaukseni?",
+        "a": "Heti kun maksusi on vahvistettu, tilauksesi tiedot ja avaimet tai latauslinkit lähetetään antamaasi sähköpostiosoitteeseen — yleensä muutamassa minuutissa."
       },
       {
         "q": "Mitä saan tilauksen jälkeen?",
-        "a": "Saat aidon Microsoft-lisenssiavaimen sekä viralliset latauslinkit ja asennusoppaan sähköpostiisi."
+        "a": "Saat kaiken tuotteen käyttöön tarvittavan, mukaan lukien aktivointiavaimet, jos sellaisia on, sekä lataus- tai käyttöohjeet sähköpostiisi."
       },
       {
-        "q": "Ovatko lisenssiavaimenne aitoja?",
-        "a": "Kyllä. Licendiä ylläpitää KeyVersely LLC, virallinen Microsoft-kumppani. Jokainen myymämme avain on aito ja peräisin valtuutetuista kanavista."
+        "q": "Ovatko tuotteet aitoja?",
+        "a": "Kyllä. Bigblä ylläpitää Keyversely LLC, ja tuotteet ovat peräisin valtuutetuista kanavista ja tarkistetaan ennen myyntiä."
       },
       {
         "q": "Voinko saada hyvityksen?",
-        "a": "Koska digitaaliset lisenssiavaimet toimitetaan heti ja voidaan aktivoida välittömästi, ostokset eivät ole hyvitettävissä, kun avain on lähetetty. Jos sinulla on todellinen ongelma, ota yhteyttä tukitiimiimme ja autamme parhaamme mukaan."
+        "a": "Koska digitaaliset tuotteet toimitetaan heti ja ne ovat käytettävissä välittömästi, ostokset eivät ole hyvitettävissä, kun avain tai käyttölinkki on lähetetty. Jos sinulla on todellinen ongelma, ota yhteyttä tukitiimiimme ja autamme parhaamme mukaan."
       },
       {
         "q": "Mitä maksutapoja hyväksytte?",
         "a": "Hyväksymme kaikki suurimmat luotto- ja maksukortit Stripen kautta sekä PayPalin."
       },
       {
-        "q": "Entä jos en saa sähköpostia lisenssiavaimellani?",
-        "a": "Tarkista ensin roskaposti- tai roskapostikansiosi. Jos sitä ei ole siellä, ota yhteyttä osoitteeseen support@keyversely.com ja lähetämme avaimesi uudelleen muutamassa minuutissa."
+        "q": "Entä jos en saa sähköpostia tilauksestani?",
+        "a": "Tarkista ensin roskaposti- tai roskapostikansiosi. Jos sitä ei ole siellä, ota yhteyttä osoitteeseen support@keyversely.com ja lähetämme tilauksesi tiedot uudelleen muutamassa minuutissa."
       },
       {
-        "q": "Toimiiko lisenssi maassani?",
-        "a": "Kyllä, Microsoft-lisenssimme on suunniteltu maailmanlaajuiseen aktivointiin ja toimivat kaikkialla maailmassa."
+        "q": "Toimiiko tuotteenne maassani?",
+        "a": "Suurin osa digitaalisista tuotteistamme on saatavilla maailmanlaajuisesti. Tarkista tuotesivulta mahdolliset alueelliset huomautukset ennen tilaamista."
       },
       {
         "q": "Mitä tukea tarjoatte?",
-        "a": "Jokainen ostos sisältää elinikäisen tuen. Jos tarvitset apua aktivoinnissa tai asennuksessa, ota yhteyttä ja tiimimme auttaa sinua."
+        "a": "Jokainen ostos sisältää tuen. Jos tarvitset apua tuotteeseen pääsyssä tai sen aktivoinnissa, ota yhteyttä ja tiimimme auttaa sinua."
       }
     ]
   },
@@ -316,23 +316,23 @@
     "sections": [
       {
         "heading": "1. Ehtojen hyväksyminen",
-        "body": "Käyttämällä Licendi-verkkosivustoa ('Verkkosivusto') sitoudut noudattamaan näitä käyttöehtoja. Jos et hyväksy, älä käytä Verkkosivustoa."
+        "body": "Käyttämällä Bigbl-verkkosivustoa ('Verkkosivusto') sitoudut noudattamaan näitä käyttöehtoja. Jos et hyväksy, älä käytä Verkkosivustoa."
       },
       {
         "heading": "2. Tuotteet ja palvelut",
-        "body": "Licendi, jota ylläpitää KeyVersely LLC, myy digitaalisia ohjelmistolisenssejä, pääasiassa aitoja Microsoft-tuotteita, kuten Windowsia, Microsoft Officea ja Windows Serveriä. Kaikki tuotteet toimitetaan sähköisesti."
+        "body": "Bigbl, jota ylläpitää Keyversely LLC, myy digitaalisia tuotteita, kuten ohjelmistoavaimia, peliavaimia, tilauksia ja lahjakortteja. Kaikki tuotteet toimitetaan sähköisesti."
       },
       {
         "heading": "3. Digitaalinen toimitus",
-        "body": "Heti onnistuneen maksun jälkeen lisenssiavaimet ja latausohjeet lähetetään antamaasi sähköpostiosoitteeseen. Olet vastuussa kelvollisen ja tavoitettavan sähköpostiosoitteen toimittamisesta."
+        "body": "Heti onnistuneen maksun jälkeen tuotetiedot, avaimet ja käyttöohjeet lähetetään antamaasi sähköpostiosoitteeseen. Olet vastuussa kelvollisen ja tavoitettavan sähköpostiosoitteen toimittamisesta."
       },
       {
         "heading": "4. Hyvityskäytäntö",
-        "body": "Lisenssiavainten välittömän sähköisen toimituksen vuoksi kaikki myynnit ovat lopullisia eivätkä hyvitettäviä, kun avain on lähetetty. Poikkeuksia harkitaan tapauskohtaisesti todellisten toimitus- tai teknisten ongelmien yhteydessä."
+        "body": "Digitaalisten tuotteiden välittömän sähköisen toimituksen vuoksi kaikki myynnit ovat lopullisia eivätkä hyvitettäviä, kun tuote on toimitettu. Poikkeuksia harkitaan tapauskohtaisesti todellisten toimitus- tai teknisten ongelmien yhteydessä."
       },
       {
         "heading": "5. Lisenssin käyttö",
-        "body": "Voit käyttää ostettuja lisenssiavaimia vain omaan henkilökohtaiseen tai yrityskäyttöön Microsoftin lisenssiehtojen mukaisesti. Avainten jälleenmyynti, jakaminen tai edelleenluovutus on kielletty."
+        "body": "Voit käyttää ostettuja tuotteita vain omaan henkilökohtaiseen tai yrityskäyttöön sovellettavien lisenssiehtojen mukaisesti. Avainten jälleenmyynti, jakaminen tai edelleenluovutus on kielletty."
       },
       {
         "heading": "6. Immateriaalioikeudet",
@@ -357,7 +357,7 @@
     "sections": [
       {
         "heading": "1. Johdanto",
-        "body": "KeyVersely LLC ('me', 'meidän') ylläpitää Licendi-verkkosivustoa. Tämä tietosuojakäytäntö selittää, mitä tietoja keräämme, miten käytämme niitä ja mitä valintoja sinulla on."
+        "body": "KeyVersely LLC ('me', 'meidän') ylläpitää Bigbl-verkkosivustoa. Tämä tietosuojakäytäntö selittää, mitä tietoja keräämme, miten käytämme niitä ja mitä valintoja sinulla on."
       },
       {
         "heading": "2. Keräämämme tiedot",
@@ -417,15 +417,15 @@
     "sections": [
       {
         "heading": "1. Yleiskatsaus",
-        "body": "Koska tuotteemme ovat digitaalisia lisenssiavaimia, jotka toimitetaan heti, kaikki myynnit ovat lopullisia, kun avain on lähetetty."
+        "body": "Koska tuotteemme ovat digitaalisia ja toimitetaan heti, kaikki myynnit ovat lopullisia, kun tuote on toimitettu."
       },
       {
         "heading": "2. Ei-hyvitettävät digitaaliset tuotteet",
-        "body": "Digitaaliset tuotteet, mukaan lukien ohjelmistolisenssiavaimet, eivät ole hyvitettäviä eivätkä palautettavissa, kun lisenssiavain on toimitettu sähköpostiisi, koska avain voidaan aktivoida välittömästi."
+        "body": "Digitaaliset tuotteet, mukaan lukien ohjelmistoavaimet, peliavaimet ja tilaukset, eivät ole hyvitettäviä eivätkä palautettavissa, kun tuote on toimitettu sähköpostiisi, koska se voidaan käyttää välittömästi."
       },
       {
         "heading": "3. Poikkeukset",
-        "body": "Harkitsemme hyvitystä tai korvausta tapauskohtaisesti, jos: lisenssiavain ei aktivoidu, avainta ei toimitettu meistä johtuvan teknisen virheen vuoksi tai sait väärän tuotteen."
+        "body": "Harkitsemme hyvitystä tai korvausta tapauskohtaisesti, jos: tuoteavain ei toimi, tuotetta ei toimitettu meistä johtuvan teknisen virheen vuoksi tai sait väärän tuotteen."
       },
       {
         "heading": "4. Näin haet hyvitystä tai korvausta",
@@ -446,15 +446,15 @@
     "sections": [
       {
         "heading": "1. Digitaalinen toimitus",
-        "body": "Kaikki Licendissä myytävät tuotteet ovat digitaalisia ohjelmistolisenssejä. Fyysisiä tuotteita ei lähetetä. Onnistuneen maksun jälkeen lisenssiavain ja latauslinkit lähetetään heti."
+        "body": "Kaikki Bigblissä myytävät tuotteet ovat digitaalisia. Fyysisiä tuotteita ei lähetetä. Onnistuneen maksun jälkeen tuotteen tiedot, avaimet ja latauslinkit lähetetään heti."
       },
       {
         "heading": "2. Toimitusaika",
-        "body": "Lisenssiavaimet toimitetaan yleensä muutamassa minuutissa maksun vahvistamisen jälkeen. Harvinaisissa tapauksissa toimitus voi kestää muutaman tunnin maksun vahvistuksen vuoksi."
+        "body": "Digitaaliset tuotteet toimitetaan yleensä muutamassa minuutissa maksun vahvistamisen jälkeen. Harvinaisissa tapauksissa toimitus voi kestää muutaman tunnin maksun vahvistuksen vuoksi."
       },
       {
         "heading": "3. Mitä saat",
-        "body": "Toimitussähköpostisi sisältää lisenssiavaimen, viralliset latauslinkit ja asennusohjeet."
+        "body": "Toimitussähköpostisi sisältää avaimet tai käyttöoikeudet, latauslinkit ja ohjeet."
       },
       {
         "heading": "4. Sähköpostitoimitus",
@@ -475,8 +475,8 @@
     ]
   },
   "blog": {
-    "title": "Licendi-blogi",
-    "description": "Oppaita, vinkkejä ja uutisia aidoista Microsoft-ohjelmistolisensseistä Licendiltä.",
+    "title": "Bigbl-blogi",
+    "description": "Oppaita, vinkkejä ja uutisia digitaalisista tuotteista, ohjelmistoista ja Bigbl-markkinapaikasta.",
     "readMore": "Lue lisää",
     "readArticle": "Lue artikkeli",
     "publishedOn": "Julkaistu",

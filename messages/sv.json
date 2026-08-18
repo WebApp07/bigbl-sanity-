@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Licendi – Officiella Microsoft-programlicenser",
-    "description": "Handla äkta Microsoft-programlicenser, nedladdningsnycklar och omedelbar digital leverans."
+    "title": "Bigbl – Digital marknadsplats för program, spel och mer",
+    "description": "Programnycklar, spelnycklar, prenumerationer och presentkort på en digital marknadsplats. Omedelbar e-postleverans, säker betalning och riktig support."
   },
   "common": {
-    "loading": "Licendi laddas...",
+    "loading": "Bigbl laddas...",
     "home": "Hem",
     "login": "Logga in",
     "addToCart": "Lägg till i kundvagn",
@@ -36,11 +36,11 @@
     "placeholder": "Sök efter din produkt här...",
     "searching": "Sökning pågår...",
     "noMatch": "Inget matchade nyckelordet {keyword}. Försök med något annat.",
-    "explore": "Sök och utforska dina produkter från Licendi.",
+    "explore": "Sök och utforska dina produkter från Bigbl.",
     "productImage": "produktbild"
   },
   "footer": {
-    "description": "Din pålitliga källa för äkta Microsoft-programlicenser med omedelbar leverans och livstidssupport.",
+    "description": "Bigbl by Keyversely LLC — en digital marknadsplats för programnycklar, spelnycklar, prenumerationer och presentkort med omedelbar leverans och support när du behöver den.",
     "quickLinks": "Snabblänkar",
     "categories": "Kategorier",
     "newsletter": "Nyhetsbrev",
@@ -61,8 +61,8 @@
     "blog": "Blogg"
   },
   "banner": {
-    "title": "Officiella Microsoft-produkter",
-    "subtitle": "Handla äkta Microsoft-program och lösningar från en officiell Microsoft-partner. Få de senaste produkterna, säkra licenser och pålitlig support för alla dina digitala behov."
+    "title": "Allt digitalt på en marknadsplats",
+    "subtitle": "Programnycklar, spel, prenumerationer och presentkort — säker betalning, omedelbar e-postleverans och support från riktiga människor."
   },
   "home": {
     "productsByCategory": "Produkter per kategori",
@@ -213,39 +213,39 @@
   },
   "purchaseProcess": {
     "title": "Köpprocess",
-    "subtitle": "Få din programlicens(er) i bara 4 enkla steg",
+    "subtitle": "Få din digitala produkt i bara 4 enkla steg",
     "step1Title": "Lägg till produkten i varukorgen",
-    "step1Desc": "Hitta licensen som passar dina behov bäst och lägg till den i varukorgen med ett enda klick.",
+    "step1Desc": "Hitta den digitala produkt du behöver och lägg till den i varukorgen med ett enda klick.",
     "step2Title": "Välj din betalningsmetod",
-    "step2Desc": "Välj den mest bekväma betalningsmetoden för ditt köp och slutför beställningen.",
-    "step3Title": "Få din licens omedelbart",
-    "step3Desc": "Hitta din licensnyckel, nedladdningslänkar och installationsguide i ditt kundområde och i din inkorg.",
+    "step2Desc": "Betala säkert med den metod du föredrar och bekräfta din beställning.",
+    "step3Title": "Få din produkt omedelbart",
+    "step3Desc": "Dina nycklar, nedladdningslänkar och åtkomstuppgifter landar i din inkorg och ditt kundområde direkt efter köpet.",
     "step4Title": "Vi finns här för att hjälpa dig",
-    "step4Desc": "Vi är stolta över vår utmärkta kundservice. Om du behöver support kan du kontakta oss direkt via chat, e-post eller telefon. Dessutom får du livstidsgaranti med Licendi."
+    "step4Desc": "Om något skulle dyka upp når du oss via chat, e-post eller telefon. Varje beställning inkluderar support efter köpet, och frågor besvaras snabbt."
   },
   "trustedPartners": {
     "title": "Förtroende för den teknik vi använder",
-    "subtitle": "Vi arbetar med branschledande och pålitliga plattformar och teknik för att erbjuda säkra, pålitliga och sömlösa programlicenser."
+    "subtitle": "Vi arbetar med branschledande och pålitliga plattformar så att din betalning förblir säker och din leverans snabb."
   },
   "about": {
-    "title": "Om Licendi",
-    "intro": "Licendi är webbutiken för KeyVersely LLC, en officiell Microsoft-partner som levererar äkta Microsoft-programlicenser med omedelbar digital leverans.",
+    "title": "Om Bigbl",
+    "intro": "Bigbl är Keyversely LLC:s digitala marknadsplats. Vi säljer programnycklar, spelnycklar, prenumerationer och presentkort med omedelbar leverans och säker betalning.",
     "missionTitle": "Vår mission",
-    "mission": "Vi gör äkta Microsoft-programvara enkel, säker och omedelbar. Från Windows och Office till Windows Server levererar vi verifierade licensnycklar direkt till din inkorg några minuter efter din beställning.",
-    "partnerTitle": "Officiell Microsoft-partner",
-    "partner": "Licendi drivs av KeyVersely LLC, en verifierad partner som är listad i den officiella Microsoft-partnerkatalogen. Varje licens vi säljer är äkta och kommer från auktoriserade kanaler.",
-    "partnerCta": "Se vår Microsoft-partnerprofil",
+    "mission": "Vi vill att det ska vara enkelt och säkert att köpa digitala produkter. Du beställer, betalar och produkten ligger i din inkorg några minuter senare — ingen väntan, inga överraskningar.",
+    "partnerTitle": "En digital marknadsplats du kan lita på",
+    "partner": "Bigbl drivs av Keyversely LLC. Produkterna kommer från auktoriserade kanaler och kontrolleras före försäljning; betalningar hanteras av Stripe och PayPal.",
+    "partnerCta": "Utforska marknadsplatsen",
     "productsTitle": "Vad vi säljer",
-    "products": "Vi specialiserar oss på äkta Microsoft-programlicenser, inklusive Windows-operativsystem, Microsoft Office och Windows Server — levererade digitalt till konkurrenskraftiga priser.",
+    "products": "Programnycklar, spelnycklar för PC och konsoler, streaming- och app-prenumerationer, presentkort och mer — levererat digitalt till rättvisa priser.",
     "deliveryTitle": "Omedelbar digital leverans",
-    "delivery": "Efter betalning skickas din licensnyckel och nedladdningslänkar till din e-post inom några minuter. Ingen frakt, ingen väntan — aktivera och installera direkt.",
-    "trustTitle": "Varför köpa från Licendi",
+    "delivery": "Efter betalning skickas dina nycklar och åtkomstuppgifter till din e-post inom några minuter. Ingen frakt, ingen väntan.",
+    "trustTitle": "Varför köpa från Bigbl",
     "trust": [
-      "Officiell Microsoft-partner",
-      "Äkta, verifierade licensnycklar",
+      "Kontrollerade, auktoriserade produkter",
       "Omedelbar e-postleverans",
       "Säker betalning med Stripe & PayPal",
-      "Livstids produktsupport"
+      "Snabb kundsupport",
+      "Rättvisa, transparenta priser"
     ],
     "businessTitle": "Företagsuppgifter",
     "businessCompany": "Juridiskt företagsnamn",
@@ -255,12 +255,12 @@
     "businessEmail": "E-post",
     "businessEmailValue": "support@keyversely.com",
     "ctaTitle": "Redo att börja?",
-    "ctaDesc": "Bläddra bland våra äkta Microsoft-licenser och få din nyckel inom några minuter.",
-    "ctaButton": "Köp licenser"
+    "ctaDesc": "Utforska marknadsplatsen och få dina digitala produkter inom några minuter.",
+    "ctaButton": "Handla nu"
   },
   "contact": {
     "title": "Kontakta oss",
-    "desc": "Frågor om en beställning, aktivering eller en licensnyckel? Vårt supportteam finns här för att hjälpa dig. Vi svarar vanligtvis inom 24 timmar på vardagar.",
+    "desc": "Frågor om en beställning, en produktnyckel eller en prenumeration? Vårt supportteam finns här för att hjälpa dig. Vi svarar vanligtvis inom 24 timmar på vardagar.",
     "businessTitle": "Företagsinformation",
     "companyName": "Juridiskt företagsnamn",
     "companyValue": "KeyVersely LLC",
@@ -278,36 +278,36 @@
     "title": "Vanliga frågor",
     "items": [
       {
-        "q": "Hur snabbt får jag min licensnyckel?",
-        "a": "Omedelbart efter att din betalning har bekräftats skickas din licensnyckel och nedladdningslänkar till den e-postadress du angav vid kassan — vanligtvis inom några minuter."
+        "q": "Hur snabbt får jag min beställning?",
+        "a": "Så snart din betalning har bekräftats skickas beställningsdetaljerna och alla nycklar eller nedladdningslänkar till den e-post du angav — vanligtvis inom några minuter."
       },
       {
         "q": "Vad får jag efter att ha lagt en beställning?",
-        "a": "Du får en äkta Microsoft-licensnyckel tillsammans med officiella nedladdningslänkar och en installationsguide, levererad till din inkorg."
+        "a": "Du får allt du behöver för att använda produkten, inklusive aktiveringsnycklar där det är tillämpligt samt nedladdnings- eller åtkomstinstruktioner, levererat till din inkorg."
       },
       {
-        "q": "Är era licensnycklar äkta?",
-        "a": "Ja. Licendi drivs av KeyVersely LLC, en officiell Microsoft-partner. Varje nyckel vi säljer är äkta och kommer från auktoriserade kanaler."
+        "q": "Är produkterna äkta?",
+        "a": "Ja. Bigbl drivs av Keyversely LLC, och produkterna kommer från auktoriserade kanaler och kontrolleras före försäljning."
       },
       {
         "q": "Kan jag få återbetalning?",
-        "a": "Eftersom digitala licensnycklar levereras direkt och kan aktiveras omedelbart, är köp ej återbetalningsbara när nyckeln väl har skickats. Om du har ett verkligt problem, kontakta vårt supportteam så hjälper vi dig så gott vi kan."
+        "a": "Eftersom digitala produkter levereras direkt och kan användas omedelbart, är köp ej återbetalningsbara när nyckeln eller åtkomstlänken har skickats. Om du har ett verkligt problem, kontakta vårt supportteam så hjälper vi dig så gott vi kan."
       },
       {
         "q": "Vilka betalningsmetoder accepterar ni?",
         "a": "Vi accepterar alla större kredit- och betalkort via Stripe, samt PayPal."
       },
       {
-        "q": "Vad händer om jag inte får e-post med min licensnyckel?",
-        "a": "Kontrollera först din skräppost- eller skräppostmapp. Om den inte finns där, kontakta oss på support@keyversely.com så skickar vi din nyckel inom några minuter."
+        "q": "Vad händer om jag inte får e-post med min beställning?",
+        "a": "Kontrollera först din skräppostmapp. Om den inte finns där, kontakta oss på support@keyversely.com så skickar vi beställningsdetaljerna inom några minuter."
       },
       {
-        "q": "Fungerar licensen i mitt land?",
-        "a": "Ja, våra Microsoft-licenser är utformade för global aktivering och fungerar över hela världen."
+        "q": "Fungerar era produkter i mitt land?",
+        "a": "De flesta av våra digitala produkter finns tillgängliga över hela världen. Kontrollera produktsidan för eventuella regionala anteckningar före beställning."
       },
       {
         "q": "Vilken support erbjuder ni?",
-        "a": "Varje köp inkluderar livstidssupport. Om du behöver hjälp med aktivering eller installation, kontakta oss så hjälper vårt team dig."
+        "a": "Varje köp inkluderar support. Om du behöver hjälp med att komma åt eller aktivera din produkt, kontakta oss så hjälper vårt team dig."
       }
     ]
   },
@@ -316,23 +316,23 @@
     "sections": [
       {
         "heading": "1. Godkännande av villkor",
-        "body": "Genom att komma åt eller använda Licendi-webbplatsen ('Webbplatsen') samtycker du till att vara bunden av dessa villkor. Om du inte samtycker, vänligen använd inte Webbplatsen."
+        "body": "Genom att komma åt eller använda Bigbl-webbplatsen ('Webbplatsen') samtycker du till att vara bunden av dessa villkor. Om du inte samtycker, vänligen använd inte Webbplatsen."
       },
       {
         "heading": "2. Produkter och tjänster",
-        "body": "Licendi, som drivs av KeyVersely LLC, säljer digitala programlicenser, främst äkta Microsoft-produkter som Windows, Microsoft Office och Windows Server. Alla produkter levereras elektroniskt."
+        "body": "Bigbl, som drivs av Keyversely LLC, säljer digitala produkter, inklusive programnycklar, spelnycklar, prenumerationer och presentkort. Alla produkter levereras elektroniskt."
       },
       {
         "heading": "3. Digital leverans",
-        "body": "Omedelbart efter en lyckad betalning skickas licensnycklar och nedladdningsinstruktioner till den e-postadress du angav. Du ansvarar för att ange en giltig och nåbar e-postadress."
+        "body": "Omedelbart efter en lyckad betalning skickas produktdetaljer, nycklar och åtkomstinstruktioner till den e-postadress du angav. Du ansvarar för att ange en giltig och nåbar e-postadress."
       },
       {
         "heading": "4. Återbetalningspolicy",
-        "body": "På grund av omedelbar elektronisk leverans av licensnycklar är alla försäljningar slutgiltiga och ej återbetalningsbara när nyckeln har skickats. Undantag prövas från fall till fall vid verkliga leverans- eller tekniska problem."
+        "body": "På grund av omedelbar elektronisk leverans av digitala produkter är alla försäljningar slutgiltiga och ej återbetalningsbara när produkten har levererats. Undantag prövas från fall till fall vid verkliga leverans- eller tekniska problem."
       },
       {
         "heading": "5. Licensanvändning",
-        "body": "Du får använda de köpta licensnycklarna endast för ditt eget personliga eller företagsmässiga bruk i enlighet med Microsofts licensvillkor. Vidareförsäljning, delning eller redistribuering av nycklar är förbjuden."
+        "body": "Du får använda de köpta produkterna endast för ditt eget personliga eller företagsmässiga bruk i enlighet med tillämpliga licensvillkor. Vidareförsäljning, delning eller redistribuering av nycklar är förbjuden."
       },
       {
         "heading": "6. Immateriella rättigheter",
@@ -357,7 +357,7 @@
     "sections": [
       {
         "heading": "1. Introduktion",
-        "body": "KeyVersely LLC ('vi', 'oss') driver webbplatsen Licendi. Denna integritetspolicy förklarar vilken information vi samlar in, hur vi använder den och vilka val du har."
+        "body": "KeyVersely LLC ('vi', 'oss') driver webbplatsen Bigbl. Denna integritetspolicy förklarar vilken information vi samlar in, hur vi använder den och vilka val du har."
       },
       {
         "heading": "2. Information vi samlar in",
@@ -417,15 +417,15 @@
     "sections": [
       {
         "heading": "1. Översikt",
-        "body": "Eftersom våra produkter är digitala licensnycklar som levereras direkt, är alla försäljningar slutgiltiga när nyckeln väl har skickats."
+        "body": "Eftersom våra produkter är digitala och levereras direkt, är alla försäljningar slutgiltiga när produkten har levererats."
       },
       {
         "heading": "2. Ej återbetalningsbara digitala produkter",
-        "body": "Digitala produkter, inklusive programlicensnycklar, är varken återbetalningsbara eller returbara när licensnyckeln har levererats till din e-post, eftersom nyckeln kan aktiveras omedelbart."
+        "body": "Digitala produkter, inklusive programnycklar, spelnycklar och prenumerationer, är varken återbetalningsbara eller returbara när produkten har levererats till din e-post, eftersom den kan användas omedelbart."
       },
       {
         "heading": "3. Undantag",
-        "body": "Vi överväger återbetalning eller ersättning från fall till fall om: licensnyckeln inte aktiveras, nyckeln inte levererades på grund av ett tekniskt fel hos oss, eller du fick fel produkt."
+        "body": "Vi överväger återbetalning eller ersättning från fall till fall om: produktnyckeln inte fungerar, produkten inte levererades på grund av ett tekniskt fel hos oss, eller du fick fel produkt."
       },
       {
         "heading": "4. Så begär du återbetalning eller ersättning",
@@ -446,15 +446,15 @@
     "sections": [
       {
         "heading": "1. Digital leverans",
-        "body": "Alla produkter som säljs på Licendi är digitala programlicenser. Inga fysiska artiklar skickas. Efter en lyckad betalning skickas din licensnyckel och nedladdningslänkar omedelbart."
+        "body": "Alla produkter som säljs på Bigbl är digitala. Inga fysiska artiklar skickas. Efter en lyckad betalning skickas produktdetaljerna, nycklarna och nedladdningslänkarna omedelbart."
       },
       {
         "heading": "2. Leveranstid",
-        "body": "Licensnycklar levereras vanligtvis inom några minuter efter att betalningen har bekräftats. I sällsynta fall kan leveransen ta upp till några timmar på grund av betalningsverifiering."
+        "body": "Digitala produkter levereras vanligtvis inom några minuter efter att betalningen har bekräftats. I sällsynta fall kan leveransen ta upp till några timmar på grund av betalningsverifiering."
       },
       {
         "heading": "3. Vad du får",
-        "body": "Din leveransmejl innehåller din licensnyckel, officiella nedladdningslänkar och installationsinstruktioner."
+        "body": "Din leveransmejl innehåller dina nycklar eller åtkomstuppgifter, nedladdningslänkar och instruktioner."
       },
       {
         "heading": "4. Leverans via e-post",
@@ -475,8 +475,8 @@
     ]
   },
   "blog": {
-    "title": "Licendi-bloggen",
-    "description": "Guider, tips och nyheter om äkta Microsoft-programlicenser från Licendi.",
+    "title": "Bigbl-bloggen",
+    "description": "Guider, tips och nyheter om digitala produkter, programvara och Bigbl-marknadsplatsen.",
     "readMore": "Läs mer",
     "readArticle": "Läs artikel",
     "publishedOn": "Publicerad",

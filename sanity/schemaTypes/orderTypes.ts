@@ -90,6 +90,21 @@ export const orderType = defineType({
                 { name: "size", type: "string" },
                 { name: "variantSku", type: "string" },
                 { name: "price", type: "number" },
+                {
+                  name: "options",
+                  title: "Selected Options",
+                  type: "array",
+                  of: [
+                    {
+                      type: "object",
+                      name: "optionSelection",
+                      fields: [
+                        { name: "optionKey", type: "string" },
+                        { name: "value", type: "string" },
+                      ],
+                    },
+                  ],
+                },
               ],
             }),
           ],
@@ -103,13 +118,19 @@ export const orderType = defineType({
               currency: "product.currency",
               color: "selectedVariant.color",
               size: "selectedVariant.size",
+              options: "selectedVariant.options",
             },
             prepare(select) {
               const displayPrice = select.variantPrice || select.price;
+              const optionParts = Array.isArray(select.options)
+                ? select.options.map((o: any) => o?.value).filter(Boolean)
+                : [];
               const variantInfo =
-                select.color || select.size
-                  ? ` (${select.color || ""}${select.color && select.size ? "/" : ""}${select.size || ""})`
-                  : "";
+                optionParts.length > 0
+                  ? ` (${optionParts.join(" / ")})`
+                  : select.color || select.size
+                    ? ` (${select.color || ""}${select.color && select.size ? "/" : ""}${select.size || ""})`
+                    : "";
               return {
                 title: `${select.product}${variantInfo} x ${select.quantity}`,
                 subtitle: `${displayPrice * select.quantity}`,

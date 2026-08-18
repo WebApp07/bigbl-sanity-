@@ -1,5 +1,9 @@
 // import { TrolleyIcon } from "@sanity/icons";
 import { defineField, defineType } from "sanity";
+import {
+  productOptionCombinationType,
+  productOptionGroupType,
+} from "./productOptionTypes";
 
 export const productType = defineType({
   name: "product",
@@ -109,6 +113,22 @@ export const productType = defineType({
       ],
     }),
     defineField({
+      name: "options",
+      title: "Product Options",
+      type: "array",
+      of: [{ type: productOptionGroupType.name }],
+      description:
+        "Optional. Define dynamic option groups shown to customers (e.g. Platform, Version, License, Region). Leave empty for simple products.",
+    }),
+    defineField({
+      name: "optionCombinations",
+      title: "Option Combinations",
+      type: "array",
+      of: [{ type: productOptionCombinationType.name }],
+      description:
+        "Optional. Only for products using Product Options. Set per-combination SKU, price, stock or image. Selections not matching any combination use the base price.",
+    }),
+    defineField({
       name: "price",
       title: "Product Price",
       type: "number",
@@ -148,6 +168,8 @@ export const productType = defineType({
       name: "productType",
       title: "Product Type",
       type: "string",
+      description:
+        "Legacy clothing category. New products should use Product Options instead.",
       options: {
         list: [
           { title: "Tshirt", value: "tshirt" },

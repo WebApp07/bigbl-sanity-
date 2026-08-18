@@ -19,6 +19,7 @@ const ProductCharacteristics = ({
     variantSku?: string;
     stock?: number;
     price?: number;
+    options?: { optionKey?: string; value?: string }[] | null;
   };
 }) => {
   const t = useTranslations("product");
@@ -29,6 +30,9 @@ const ProductCharacteristics = ({
     t.has(tKey(`${slug}.intro`))
       ? t(tKey(`${slug}.intro`))
       : product?.intro;
+  const optionNameByKey = new Map(
+    (product?.options || []).map((o) => [o.key, o.name]),
+  );
   return (
     <Accordion type="single" collapsible>
       <AccordionItem value="item-1">
@@ -74,6 +78,18 @@ const ProductCharacteristics = ({
               </span>
             </p>
           )}
+          {selectedVariant?.options?.map((option) => {
+            const name = optionNameByKey.get(option.optionKey || "") || option.optionKey;
+            if (!option.value || !name) return null;
+            return (
+              <p key={option.optionKey} className="flex items-center justify-between">
+                {name}:{" "}
+                <span className="font-semibold tracking-wide">
+                  {option.value}
+                </span>
+              </p>
+            );
+          })}
           {product?.operatingSystemsSupported && (
             <p className="flex items-center justify-between">
               {t("operatingSystems")}:{" "}

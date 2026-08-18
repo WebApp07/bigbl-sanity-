@@ -58,6 +58,7 @@ export async function capturePayPalOrder(
             size: item.selectedVariant.size,
             variantSku: item.selectedVariant.variantSku,
             price: item.selectedVariant.price,
+            options: item.selectedVariant.options || undefined,
           }
         : undefined,
     }));

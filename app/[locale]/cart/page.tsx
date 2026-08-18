@@ -142,7 +142,7 @@ const CartPage = () => {
                       );
                       return (
                         <div
-                          key={`${product?._id}-${selectedVariant?.variantSku || ""}-${selectedVariant?.color || ""}-${selectedVariant?.size || ""}`}
+                          key={`${product?._id}-${selectedVariant?.variantSku || ""}-${selectedVariant?.color || ""}-${selectedVariant?.size || ""}-${(selectedVariant?.options || []).map((o) => `${o.optionKey}:${o.value}`).join("|")}`}
                           className="border-b p-2.5 last:border-b-0 flex items-center justify-between gap-5"
                         >
                           <div className="flex flex-1 items-center gap-2 h-36 md:h-44">
@@ -173,7 +173,12 @@ const CartPage = () => {
                                   {tCommon("variant")}:{" "}
                                   <span className="font-semibold">
                                     {selectedVariant
-                                      ? `${selectedVariant.color || ""} / ${selectedVariant.size || ""}`
+                                      ? selectedVariant.options?.length
+                                        ? selectedVariant.options
+                                            .map((o) => o.value)
+                                            .filter(Boolean)
+                                            .join(" / ")
+                                        : `${selectedVariant.color || ""} / ${selectedVariant.size || ""}`
                                       : tCommon("default")}
                                   </span>
                                 </p>

@@ -6,18 +6,12 @@ import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 import QuantityButtons from "./QuantityButton";
 import PriceFormatter from "./PriceFormatter";
-import useCartStore from "@/store";
+import useCartStore, { CartItem } from "@/store";
 import { useTranslations } from "next-intl";
 interface Props {
   product: Product;
   className?: string;
-  selectedVariant?: {
-    color?: string;
-    size?: string;
-    variantSku?: string;
-    stock?: number;
-    price?: number;
-  } | null;
+  selectedVariant?: CartItem["selectedVariant"] | null;
 }
 
 const AddToCartButton = ({ product, className, selectedVariant }: Props) => {

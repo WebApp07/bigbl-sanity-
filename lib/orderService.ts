@@ -20,6 +20,7 @@ export interface SanityOrderData {
       size?: string;
       variantSku?: string;
       price?: number;
+      options?: { optionKey?: string; value?: string }[];
     };
   }[];
   paymentMethod: "stripe" | "paypal";

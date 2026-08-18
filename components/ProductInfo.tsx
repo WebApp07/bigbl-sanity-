@@ -19,12 +19,28 @@ import { Link } from "@/i18n/navigation";
 export default function ProductInfo({ product }: { product: Product }) {
   const t = useTranslations("product");
   const tCommon = useTranslations("common");
+  const hasOptions = !!product.options?.length;
+
   const [selectedColor, setSelectedColor] = useState(
     product.variants && product.variants.length > 0 ? product.variants[0].color : null
   );
 
   const [selectedSize, setSelectedSize] = useState(
     product.variants && product.variants.length > 0 ? product.variants[0].size : null
+  );
+
+  const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>(
+    () => {
+      const init: Record<string, string> = {};
+      if (hasOptions) {
+        for (const group of product.options || []) {
+          if (group.key && group.values?.length) {
+            init[group.key] = group.values[0].label || "";
+          }
+        }
+      }
+      return init;
+    },
   );
 
   const colors = Array.from(
@@ -40,9 +56,44 @@ export default function ProductInfo({ product }: { product: Product }) {
     availableSizes[0] ||
     null;
 
-  const price = selectedVariant?.price || product.price;
-  const stock =
-    selectedVariant?.stock !== undefined ? selectedVariant.stock : product.stock;
+  const matchingCombination = hasOptions
+    ? product.optionCombinations?.find((combo) => {
+        const selections = combo.selections || [];
+        const groupKeys = (product.options || [])
+          .map((o) => o.key)
+          .filter(Boolean);
+        return (
+          selections.length === groupKeys.length &&
+          selections.every((s) => selectedOptions[s.optionKey || ""] === s.value)
+        );
+      })
+    : undefined;
+
+  const activeVariant = hasOptions
+    ? {
+        options: Object.entries(selectedOptions).map(([key, value]) => ({
+          optionKey: key,
+          value,
+        })),
+        variantSku: matchingCombination?.sku,
+        price: matchingCombination?.price,
+        stock: matchingCombination?.stock,
+        variantImage: matchingCombination?.image,
+      }
+    : selectedVariant;
+
+  const price = hasOptions
+    ? matchingCombination?.price !== undefined
+      ? matchingCombination.price
+      : product.price
+    : selectedVariant?.price || product.price;
+  const stock = hasOptions
+    ? matchingCombination?.stock !== undefined
+      ? matchingCombination.stock
+      : product.stock
+    : selectedVariant?.stock !== undefined
+      ? selectedVariant.stock
+      : product.stock;
 
   const slug = product.slug?.current || "";
   const tKey = (key: string) => key as Parameters<typeof t>[0];
@@ -53,7 +104,7 @@ export default function ProductInfo({ product }: { product: Product }) {
 
   // Compute images to show
   const productImages = product.images || [];
-  const variantImage = selectedVariant?.variantImage;
+  const variantImage = activeVariant?.variantImage;
   const displayImages = variantImage
     ? [
         variantImage,
@@ -106,8 +157,43 @@ export default function ProductInfo({ product }: { product: Product }) {
           {description}
         </p>
 
+        {/* Dynamic Option Selection */}
+        {hasOptions &&
+          product.options?.map((group) => {
+            const groupKey = group.key;
+            if (!groupKey || !group.values?.length) return null;
+            const current = selectedOptions[groupKey];
+            return (
+              <div key={groupKey} className="flex flex-col gap-3">
+                <label className="text-sm font-bold uppercase">
+                  {group.name}: {current}
+                </label>
+                <div className="flex flex-wrap gap-2">
+                  {group.values.map((value) => (
+                    <button
+                      key={value._key || value.label}
+                      onClick={() =>
+                        setSelectedOptions((prev) => ({
+                          ...prev,
+                          [groupKey]: value.label || "",
+                        }))
+                      }
+                      className={`border py-2 px-3 text-sm font-semibold transition-all ${
+                        current === value.label
+                          ? "border-darkColor bg-darkColor text-white"
+                          : "border-gray-200 hover:border-darkColor"
+                      }`}
+                    >
+                      {value.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+
         {/* Color Selection */}
-        {colors.length > 0 && (
+        {!hasOptions && colors.length > 0 && (
           <div className="flex flex-col gap-3">
             <label className="text-sm font-bold uppercase">
               {t("color")}: {selectedColor}
@@ -140,7 +226,7 @@ export default function ProductInfo({ product }: { product: Product }) {
         )}
 
         {/* Size Selection */}
-        {availableSizes.length > 0 && (
+        {!hasOptions && availableSizes.length > 0 && (
           <div className="flex flex-col gap-3">
             <div className="flex items-center justify-between">
               <label className="text-sm font-bold uppercase">
@@ -176,7 +262,7 @@ export default function ProductInfo({ product }: { product: Product }) {
         <div className="flex items-center gap-2.5 lg:gap-5">
           <AddToCartButton
             product={product}
-            selectedVariant={selectedVariant}
+            selectedVariant={activeVariant}
             className="bg-darkColor/80 text-white hover:bg-darkColor hoverEffect"
           />
           <button className="border-2 border-darkColor/30 text-darkColor/60 px-2.5 py-1.5 rounded-md hover:text-darkColor hover:border-darkColor hoverEffect">
@@ -186,7 +272,7 @@ export default function ProductInfo({ product }: { product: Product }) {
 
         <ProductCharacteristics
           product={product}
-          selectedVariant={selectedVariant}
+          selectedVariant={activeVariant}
         />
 
         <div className="flex flex-wrap items-center justify-between gap-2.5 border-b border-b-gray-200 py-5 -mt-2">

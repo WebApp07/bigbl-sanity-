@@ -2,6 +2,10 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { Product } from "./sanity.types";
 
+export type CartVariantImage = NonNullable<
+  Product["variants"]
+>[number]["variantImage"];
+
 export interface CartItem {
   product: Product;
   quantity: number;
@@ -9,17 +13,24 @@ export interface CartItem {
     color?: string;
     size?: string;
     variantSku?: string;
-    variantImage?: {
-      _type: "image";
-      asset: {
-        _ref: string;
-        _type: "reference";
-      };
-    };
+    variantImage?: CartVariantImage;
     stock?: number;
     price?: number;
+    options?: { optionKey?: string; value?: string }[] | null;
   } | null;
 }
+
+const sameSelection = (
+  a?: CartItem["selectedVariant"],
+  b?: CartItem["selectedVariant"],
+) => {
+  return (
+    (a?.variantSku ?? null) === (b?.variantSku ?? null) &&
+    (a?.color ?? null) === (b?.color ?? null) &&
+    (a?.size ?? null) === (b?.size ?? null) &&
+    JSON.stringify(a?.options ?? null) === JSON.stringify(b?.options ?? null)
+  );
+};
 
 interface CartState {
   items: CartItem[];
@@ -54,18 +65,13 @@ const useCartStore = create<CartState>()(
           const existingItem = state.items.find(
             (item) =>
               item.product._id === product._id &&
-              item.selectedVariant?.variantSku === selectedVariant?.variantSku &&
-              item.selectedVariant?.color === selectedVariant?.color &&
-              item.selectedVariant?.size === selectedVariant?.size,
+              sameSelection(item.selectedVariant, selectedVariant),
           );
           if (existingItem) {
             return {
               items: state.items.map((item) =>
                 item.product._id === product._id &&
-                item.selectedVariant?.variantSku ===
-                  selectedVariant?.variantSku &&
-                item.selectedVariant?.color === selectedVariant?.color &&
-                item.selectedVariant?.size === selectedVariant?.size
+                sameSelection(item.selectedVariant, selectedVariant)
                   ? { ...item, quantity: item.quantity + 1 }
                   : item,
               ),
@@ -81,10 +87,7 @@ const useCartStore = create<CartState>()(
           items: state.items.reduce((acc, item) => {
             if (
               item.product._id === productId &&
-              item.selectedVariant?.variantSku ===
-                selectedVariant?.variantSku &&
-              item.selectedVariant?.color === selectedVariant?.color &&
-              item.selectedVariant?.size === selectedVariant?.size
+              sameSelection(item.selectedVariant, selectedVariant)
             ) {
               if (item.quantity > 1) {
                 acc.push({ ...item, quantity: item.quantity - 1 });
@@ -101,10 +104,7 @@ const useCartStore = create<CartState>()(
             (item) =>
               !(
                 item.product._id === productId &&
-                item.selectedVariant?.variantSku ===
-                  selectedVariant?.variantSku &&
-                item.selectedVariant?.color === selectedVariant?.color &&
-                item.selectedVariant?.size === selectedVariant?.size
+                sameSelection(item.selectedVariant, selectedVariant)
               ),
           ),
         })),
@@ -127,9 +127,7 @@ const useCartStore = create<CartState>()(
         const item = get().items.find(
           (item) =>
             item.product._id === productId &&
-            item.selectedVariant?.variantSku === selectedVariant?.variantSku &&
-            item.selectedVariant?.color === selectedVariant?.color &&
-            item.selectedVariant?.size === selectedVariant?.size,
+            sameSelection(item.selectedVariant, selectedVariant),
         );
         return item ? item.quantity : 0;
       },

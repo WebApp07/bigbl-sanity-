@@ -15,6 +15,56 @@
 export declare const internalGroqTypeReferenceTo: unique symbol;
 
 // Source: schema.json
+export type SanityImageAssetReference = {
+  _ref: string;
+  _type: "reference";
+  _weak?: boolean;
+  [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+};
+
+export type ProductOptionCombination = {
+  _type: "productOptionCombination";
+  selections?: Array<
+    {
+      _key: string;
+    } & ProductOptionSelection
+  >;
+  sku?: string;
+  price?: number;
+  stock?: number;
+  image?: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  };
+};
+
+export type ProductOptionSelection = {
+  _type: "productOptionSelection";
+  optionKey?: string;
+  value?: string;
+};
+
+export type ProductOptionGroup = {
+  _type: "productOptionGroup";
+  key?: string;
+  name?: string;
+  helpText?: string;
+  values?: Array<
+    {
+      _key: string;
+    } & ProductOptionValue
+  >;
+};
+
+export type ProductOptionValue = {
+  _type: "productOptionValue";
+  label?: string;
+  code?: string;
+};
+
 export type Table = {
   _type: "table";
   headers?: Array<string>;
@@ -30,18 +80,18 @@ export type TableRow = {
   cells?: Array<string>;
 };
 
-export type SanityImageAssetReference = {
-  _ref: string;
-  _type: "reference";
-  _weak?: boolean;
-  [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
-};
-
 export type AuthorReference = {
   _ref: string;
   _type: "reference";
   _weak?: boolean;
   [internalGroqTypeReferenceTo]?: "author";
+};
+
+export type BrandReference = {
+  _ref: string;
+  _type: "reference";
+  _weak?: boolean;
+  [internalGroqTypeReferenceTo]?: "brand";
 };
 
 export type Post = {
@@ -188,6 +238,12 @@ export type Order = {
       size?: string;
       variantSku?: string;
       price?: number;
+      options?: Array<{
+        optionKey?: string;
+        value?: string;
+        _type: "optionSelection";
+        _key: string;
+      }>;
     };
     _key: string;
   }>;
@@ -204,13 +260,6 @@ export type CategoryReference = {
   _type: "reference";
   _weak?: boolean;
   [internalGroqTypeReferenceTo]?: "category";
-};
-
-export type BrandReference = {
-  _ref: string;
-  _type: "reference";
-  _weak?: boolean;
-  [internalGroqTypeReferenceTo]?: "brand";
 };
 
 export type Product = {
@@ -253,6 +302,16 @@ export type Product = {
     _type: "variant";
     _key: string;
   }>;
+  options?: Array<
+    {
+      _key: string;
+    } & ProductOptionGroup
+  >;
+  optionCombinations?: Array<
+    {
+      _key: string;
+    } & ProductOptionCombination
+  >;
   price?: number;
   discount?: number;
   categories?: Array<
@@ -424,10 +483,15 @@ export type Geopoint = {
 };
 
 export type AllSanitySchemaTypes =
+  | SanityImageAssetReference
+  | ProductOptionCombination
+  | ProductOptionSelection
+  | ProductOptionGroup
+  | ProductOptionValue
   | Table
   | TableRow
-  | SanityImageAssetReference
   | AuthorReference
+  | BrandReference
   | Post
   | SanityImageCrop
   | SanityImageHotspot
@@ -439,6 +503,7 @@ export type AllSanitySchemaTypes =
   | CategoryReference
   | Product
   | Category
+  | Brand
   | SanityImagePaletteSwatch
   | SanityImagePalette
   | SanityImageDimensions
@@ -490,6 +555,7 @@ export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
       intro?: string;
       description?: string;
       brand?: string;
+      brandRef?: BrandReference;
       sku?: string;
       gender?: string;
       nickname?: string;
@@ -510,6 +576,16 @@ export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
         _type: "variant";
         _key: string;
       }>;
+      options?: Array<
+        {
+          _key: string;
+        } & ProductOptionGroup
+      >;
+      optionCombinations?: Array<
+        {
+          _key: string;
+        } & ProductOptionCombination
+      >;
       price?: number;
       discount?: number;
       categories?: Array<
@@ -543,6 +619,12 @@ export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
       size?: string;
       variantSku?: string;
       price?: number;
+      options?: Array<{
+        optionKey?: string;
+        value?: string;
+        _type: "optionSelection";
+        _key: string;
+      }>;
     };
     _key: string;
   }> | null;
@@ -556,7 +638,7 @@ export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
 
 // Source: sanity/helpers/blogQueries.ts
 // Variable: POSTS_QUERY
-// Query: *[_type == "post"] | order(publishedAt desc) {  _id,  _createdAt,  _updatedAt,  title,  slug,  excerpt,  coverImage,  body,  publishedAt,  featured,  tags,  seoTitle,  seoDescription,  "author": author->{    _id,    name,    role,    bio,    slug,    image  }}
+// Query: *[_type == "post"] | order(publishedAt desc) {  _id,  _createdAt,  _updatedAt,  title,  slug,  excerpt,  coverImage,  body,  publishedAt,  featured,  tags,  seoTitle,  seoDescription,  "author": author->{    _id,    name,    role,    bio,    slug,    image  },  "brandRef": brandRef->{    _id,    title,    slug  }}
 export type POSTS_QUERY_RESULT = Array<{
   _id: string;
   _createdAt: string;
@@ -622,11 +704,16 @@ export type POSTS_QUERY_RESULT = Array<{
       _type: "image";
     } | null;
   } | null;
+  brandRef: {
+    _id: string;
+    title: string | null;
+    slug: Slug | null;
+  } | null;
 }>;
 
 // Source: sanity/helpers/blogQueries.ts
 // Variable: POST_BY_SLUG_QUERY
-// Query: *[_type == "post" && slug.current == $slug][0] {  _id,  _createdAt,  _updatedAt,  title,  slug,  excerpt,  coverImage,  body,  publishedAt,  featured,  tags,  seoTitle,  seoDescription,  "author": author->{    _id,    name,    role,    bio,    slug,    image  }}
+// Query: *[_type == "post" && slug.current == $slug][0] {  _id,  _createdAt,  _updatedAt,  title,  slug,  excerpt,  coverImage,  body,  publishedAt,  featured,  tags,  seoTitle,  seoDescription,  "author": author->{    _id,    name,    role,    bio,    slug,    image  },  "brandRef": brandRef->{    _id,    title,    slug  }}
 export type POST_BY_SLUG_QUERY_RESULT = {
   _id: string;
   _createdAt: string;
@@ -692,6 +779,11 @@ export type POST_BY_SLUG_QUERY_RESULT = {
       _type: "image";
     } | null;
   } | null;
+  brandRef: {
+    _id: string;
+    title: string | null;
+    slug: Slug | null;
+  } | null;
 } | null;
 
 // Source: sanity/helpers/blogQueries.ts
@@ -727,9 +819,143 @@ export type LATEST_POSTS_QUERY_RESULT = Array<{
   } | null;
 }>;
 
+// Source: sanity/helpers/brandQueries.ts
+// Variable: BRAND_BY_SLUG_QUERY
+// Query: *[_type == "brand" && slug.current == $slug][0] {  _id,  title,  slug,  description,  seoTitle,  seoDescription,  logo,  officialPartner,  showPosts,  "categories": relatedCategories[]->{    _id,    title,    slug,    description,    "productCount": count(*[_type == "product" && references(^._id)])  },  "products": *[_type == "product" && references(^._id)]{    _id,    name,    slug,    intro,    price,    discount,    images,    stock  } | order(name asc),  "posts": *[_type == "post" && references(^._id)] | order(publishedAt desc){    _id,    title,    slug,    excerpt,    coverImage,    body,    _createdAt,    publishedAt,    tags,    featured,    "author": author->{ _id, name }  }}
+export type BRAND_BY_SLUG_QUERY_RESULT = {
+  _id: string;
+  title: string | null;
+  slug: Slug | null;
+  description: string | null;
+  seoTitle: string | null;
+  seoDescription: string | null;
+  logo: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    altText?: string;
+    _type: "image";
+  } | null;
+  officialPartner: boolean | null;
+  showPosts: boolean | null;
+  categories: Array<{
+    _id: string;
+    title: string | null;
+    slug: Slug | null;
+    description: string | null;
+    productCount: number;
+  }> | null;
+  products: Array<{
+    _id: string;
+    name: string | null;
+    slug: Slug | null;
+    intro: string | null;
+    price: number | null;
+    discount: number | null;
+    images: Array<{
+      asset?: SanityImageAssetReference;
+      media?: unknown;
+      hotspot?: SanityImageHotspot;
+      crop?: SanityImageCrop;
+      _type: "image";
+      _key: string;
+    }> | null;
+    stock: number | null;
+  }>;
+  posts: Array<{
+    _id: string;
+    title: string | null;
+    slug: Slug | null;
+    excerpt: string | null;
+    coverImage: {
+      asset?: SanityImageAssetReference;
+      media?: unknown;
+      hotspot?: SanityImageHotspot;
+      crop?: SanityImageCrop;
+      _type: "image";
+    } | null;
+    body: Array<
+      | ({
+          _key: string;
+        } & Table)
+      | {
+          children?: Array<{
+            marks?: Array<string>;
+            text?: string;
+            _type: "span";
+            _key: string;
+          }>;
+          style?:
+            "blockquote" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "normal";
+          listItem?: "bullet" | "number";
+          markDefs?: Array<{
+            href?: string;
+            _type: "link";
+            _key: string;
+          }>;
+          level?: number;
+          _type: "block";
+          _key: string;
+        }
+      | {
+          asset?: SanityImageAssetReference;
+          media?: unknown;
+          hotspot?: SanityImageHotspot;
+          crop?: SanityImageCrop;
+          _type: "image";
+          _key: string;
+        }
+    > | null;
+    _createdAt: string;
+    publishedAt: string | null;
+    tags: Array<string> | null;
+    featured: boolean | null;
+    author: {
+      _id: string;
+      name: string | null;
+    } | null;
+  }>;
+} | null;
+
+// Source: sanity/helpers/brandQueries.ts
+// Variable: BRANDS_QUERY
+// Query: *[_type == "brand"]{ _id, title, slug, description, seoTitle, seoDescription, officialPartner } | order(title asc)
+export type BRANDS_QUERY_RESULT = Array<{
+  _id: string;
+  title: string | null;
+  slug: Slug | null;
+  description: string | null;
+  seoTitle: string | null;
+  seoDescription: string | null;
+  officialPartner: boolean | null;
+}>;
+
+// Source: sanity/helpers/brandQueries.ts
+// Variable: ELIGIBLE_BRANDS_QUERY
+// Query: *[_type == "brand" && count(*[_type == "product" && references(^._id)]) > 0]{ _id, title, slug, description, seoTitle, seoDescription, officialPartner } | order(title asc)
+export type ELIGIBLE_BRANDS_QUERY_RESULT = Array<{
+  _id: string;
+  title: string | null;
+  slug: Slug | null;
+  description: string | null;
+  seoTitle: string | null;
+  seoDescription: string | null;
+  officialPartner: boolean | null;
+}>;
+
+// Source: sanity/helpers/brandQueries.ts
+// Variable: BRAND_SITEMAP_QUERY
+// Query: *[_type == "brand" && count(*[_type == "product" && references(^._id)]) > 0]{ _id, "slug": slug.current, _updatedAt } | order(_updatedAt desc)
+export type BRAND_SITEMAP_QUERY_RESULT = Array<{
+  _id: string;
+  slug: string | null;
+  _updatedAt: string;
+}>;
+
 // Source: sanity/helpers/queries.ts
 // Variable: PRODUCT_BY_SLUG_QUERY
-// Query: *[_type == 'product' && slug.current == $slug] | order(name asc) [0]
+// Query: *[_type == 'product' && slug.current == $slug] | order(name asc) [0]{      ...,      "brandRef": brandRef->{        _id,        title,        slug,        description,        officialPartner      }    }
 export type PRODUCT_BY_SLUG_QUERY_RESULT = {
   _id: string;
   _type: "product";
@@ -749,6 +975,13 @@ export type PRODUCT_BY_SLUG_QUERY_RESULT = {
   intro?: string;
   description?: string;
   brand?: string;
+  brandRef: {
+    _id: string;
+    title: string | null;
+    slug: Slug | null;
+    description: string | null;
+    officialPartner: boolean | null;
+  } | null;
   sku?: string;
   gender?: string;
   nickname?: string;
@@ -769,6 +1002,16 @@ export type PRODUCT_BY_SLUG_QUERY_RESULT = {
     _type: "variant";
     _key: string;
   }>;
+  options?: Array<
+    {
+      _key: string;
+    } & ProductOptionGroup
+  >;
+  optionCombinations?: Array<
+    {
+      _key: string;
+    } & ProductOptionCombination
+  >;
   price?: number;
   discount?: number;
   categories?: Array<
@@ -815,7 +1058,30 @@ export type CATEGORIES_QUERY_RESULT = Array<{
     crop?: SanityImageCrop;
     _type: "image";
   };
+  brandRef?: BrandReference;
 }>;
+
+// Source: sanity/helpers/queries.ts
+// Variable: CATEGORY_BY_SLUG_QUERY
+// Query: *[_type=="category" && slug.current == $slug][0]{      _id,      title,      slug,      description,      image,      "brandRef": brandRef->{ _id, title, slug }    }
+export type CATEGORY_BY_SLUG_QUERY_RESULT = {
+  _id: string;
+  title: string | null;
+  slug: Slug | null;
+  description: string | null;
+  image: {
+    asset?: SanityImageAssetReference;
+    media?: unknown;
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  } | null;
+  brandRef: {
+    _id: string;
+    title: string | null;
+    slug: Slug | null;
+  } | null;
+} | null;
 
 // Source: sanity/helpers/queries.ts
 // Variable: PRODUCTS_QUERY
@@ -867,6 +1133,7 @@ export type MY_ORDERS_QUERY_RESULT = Array<{
       intro?: string;
       description?: string;
       brand?: string;
+      brandRef?: BrandReference;
       sku?: string;
       gender?: string;
       nickname?: string;
@@ -887,6 +1154,16 @@ export type MY_ORDERS_QUERY_RESULT = Array<{
         _type: "variant";
         _key: string;
       }>;
+      options?: Array<
+        {
+          _key: string;
+        } & ProductOptionGroup
+      >;
+      optionCombinations?: Array<
+        {
+          _key: string;
+        } & ProductOptionCombination
+      >;
       price?: number;
       discount?: number;
       categories?: Array<
@@ -920,6 +1197,12 @@ export type MY_ORDERS_QUERY_RESULT = Array<{
       size?: string;
       variantSku?: string;
       price?: number;
+      options?: Array<{
+        optionKey?: string;
+        value?: string;
+        _type: "optionSelection";
+        _key: string;
+      }>;
     };
     _key: string;
   }> | null;
@@ -973,6 +1256,7 @@ export type ORDER_BY_NUMBER_QUERY_RESULT = {
       intro?: string;
       description?: string;
       brand?: string;
+      brandRef?: BrandReference;
       sku?: string;
       gender?: string;
       nickname?: string;
@@ -993,6 +1277,16 @@ export type ORDER_BY_NUMBER_QUERY_RESULT = {
         _type: "variant";
         _key: string;
       }>;
+      options?: Array<
+        {
+          _key: string;
+        } & ProductOptionGroup
+      >;
+      optionCombinations?: Array<
+        {
+          _key: string;
+        } & ProductOptionCombination
+      >;
       price?: number;
       discount?: number;
       categories?: Array<
@@ -1026,6 +1320,12 @@ export type ORDER_BY_NUMBER_QUERY_RESULT = {
       size?: string;
       variantSku?: string;
       price?: number;
+      options?: Array<{
+        optionKey?: string;
+        value?: string;
+        _type: "optionSelection";
+        _key: string;
+      }>;
     };
     _key: string;
   }> | null;
@@ -1051,11 +1351,16 @@ import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
     "*[_type == 'order' && orderNumber == $orderNumber][0]{\n      ...,products[]{\n        ...,product->\n      }\n    }": GET_ORDER_BY_NUMBER_QUERY_RESULT;
-    '*[_type == "post"] | order(publishedAt desc) {\n  _id,\n  _createdAt,\n  _updatedAt,\n  title,\n  slug,\n  excerpt,\n  coverImage,\n  body,\n  publishedAt,\n  featured,\n  tags,\n  seoTitle,\n  seoDescription,\n  "author": author->{\n    _id,\n    name,\n    role,\n    bio,\n    slug,\n    image\n  }\n}': POSTS_QUERY_RESULT;
-    '*[_type == "post" && slug.current == $slug][0] {\n  _id,\n  _createdAt,\n  _updatedAt,\n  title,\n  slug,\n  excerpt,\n  coverImage,\n  body,\n  publishedAt,\n  featured,\n  tags,\n  seoTitle,\n  seoDescription,\n  "author": author->{\n    _id,\n    name,\n    role,\n    bio,\n    slug,\n    image\n  }\n}': POST_BY_SLUG_QUERY_RESULT;
+    '*[_type == "post"] | order(publishedAt desc) {\n  _id,\n  _createdAt,\n  _updatedAt,\n  title,\n  slug,\n  excerpt,\n  coverImage,\n  body,\n  publishedAt,\n  featured,\n  tags,\n  seoTitle,\n  seoDescription,\n  "author": author->{\n    _id,\n    name,\n    role,\n    bio,\n    slug,\n    image\n  },\n  "brandRef": brandRef->{\n    _id,\n    title,\n    slug\n  }\n}': POSTS_QUERY_RESULT;
+    '*[_type == "post" && slug.current == $slug][0] {\n  _id,\n  _createdAt,\n  _updatedAt,\n  title,\n  slug,\n  excerpt,\n  coverImage,\n  body,\n  publishedAt,\n  featured,\n  tags,\n  seoTitle,\n  seoDescription,\n  "author": author->{\n    _id,\n    name,\n    role,\n    bio,\n    slug,\n    image\n  },\n  "brandRef": brandRef->{\n    _id,\n    title,\n    slug\n  }\n}': POST_BY_SLUG_QUERY_RESULT;
     '*[_type == "post" && (!defined($excludeSlug) || slug.current != $excludeSlug)] | order(publishedAt desc)[0...$limit] {\n      _id,\n      title,\n      slug,\n      excerpt,\n      coverImage,\n      publishedAt,\n      featured,\n      tags,\n      "author": author->{\n        _id,\n        name,\n        role,\n        slug,\n        image\n      }\n    }': LATEST_POSTS_QUERY_RESULT;
-    "*[_type == 'product' && slug.current == $slug] | order(name asc) [0]": PRODUCT_BY_SLUG_QUERY_RESULT;
+    '*[_type == "brand" && slug.current == $slug][0] {\n  _id,\n  title,\n  slug,\n  description,\n  seoTitle,\n  seoDescription,\n  logo,\n  officialPartner,\n  showPosts,\n  "categories": relatedCategories[]->{\n    _id,\n    title,\n    slug,\n    description,\n    "productCount": count(*[_type == "product" && references(^._id)])\n  },\n  "products": *[_type == "product" && references(^._id)]{\n    _id,\n    name,\n    slug,\n    intro,\n    price,\n    discount,\n    images,\n    stock\n  } | order(name asc),\n  "posts": *[_type == "post" && references(^._id)] | order(publishedAt desc){\n    _id,\n    title,\n    slug,\n    excerpt,\n    coverImage,\n    body,\n    _createdAt,\n    publishedAt,\n    tags,\n    featured,\n    "author": author->{ _id, name }\n  }\n}': BRAND_BY_SLUG_QUERY_RESULT;
+    '*[_type == "brand"]{ _id, title, slug, description, seoTitle, seoDescription, officialPartner } | order(title asc)': BRANDS_QUERY_RESULT;
+    '*[_type == "brand" && count(*[_type == "product" && references(^._id)]) > 0]{ _id, title, slug, description, seoTitle, seoDescription, officialPartner } | order(title asc)': ELIGIBLE_BRANDS_QUERY_RESULT;
+    '*[_type == "brand" && count(*[_type == "product" && references(^._id)]) > 0]{ _id, "slug": slug.current, _updatedAt } | order(_updatedAt desc)': BRAND_SITEMAP_QUERY_RESULT;
+    "*[_type == 'product' && slug.current == $slug] | order(name asc) [0]{\n      ...,\n      \"brandRef\": brandRef->{\n        _id,\n        title,\n        slug,\n        description,\n        officialPartner\n      }\n    }": PRODUCT_BY_SLUG_QUERY_RESULT;
     '*[_type=="category"] | order(title asc)': CATEGORIES_QUERY_RESULT;
+    '*[_type=="category" && slug.current == $slug][0]{\n      _id,\n      title,\n      slug,\n      description,\n      image,\n      "brandRef": brandRef->{ _id, title, slug }\n    }': CATEGORY_BY_SLUG_QUERY_RESULT;
     '*[_type=="product"]{slug,_updatedAt} | order(_updatedAt desc)': PRODUCTS_QUERY_RESULT;
     "*[_type == 'order' && clerkUserId == $userId] | order(orderDate desc){\n    ...,\n    paymentMethod,\n    receiptUrl,\n    products[]{\n      ...,product->\n    }\n  }": MY_ORDERS_QUERY_RESULT;
     "*[_type == 'order' && orderNumber == $orderNumber][0]{\n    ...,products[]{\n      ...,product->\n    }\n  }": ORDER_BY_NUMBER_QUERY_RESULT;

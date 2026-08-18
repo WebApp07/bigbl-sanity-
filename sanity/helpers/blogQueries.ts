@@ -41,7 +41,7 @@ export const getAllPosts = async (): Promise<BlogPost[]> => {
   );
   try {
     const posts = await sanityFetch({ query: POSTS_QUERY });
-    return (posts.data as BlogPost[]) || [];
+    return (posts.data as unknown as BlogPost[]) || [];
   } catch (error) {
     console.error("Error fetching all posts:", error);
     return [];
@@ -59,7 +59,7 @@ export const getPostBySlug = async (
       query: POST_BY_SLUG_QUERY,
       params: { slug },
     });
-    return (post?.data as BlogPost | null) || null;
+    return (post?.data as unknown as BlogPost | null) || null;
   } catch (error) {
     console.error("Error fetching post by slug:", error);
     return null;
@@ -94,7 +94,7 @@ export const getLatestPosts = async (
       query: LATEST_POSTS_QUERY,
       params: { limit, excludeSlug: excludeSlug || null },
     });
-    return (posts.data as BlogPost[]) || [];
+    return (posts.data as unknown as BlogPost[]) || [];
   } catch (error) {
     console.error("Error fetching latest posts:", error);
     return [];

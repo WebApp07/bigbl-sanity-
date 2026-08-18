@@ -3,20 +3,14 @@ import React from "react";
 import { Button } from "./ui/button";
 import { Minus, Plus } from "lucide-react";
 import { cn } from "@/lib/utils";
-import useCartStore from "@/store";
+import useCartStore, { CartItem } from "@/store";
 import toast from "react-hot-toast";
 import { useTranslations } from "next-intl";
 
 interface Props {
   product: Product;
   className?: string;
-  selectedVariant?: {
-    color?: string;
-    size?: string;
-    variantSku?: string;
-    stock?: number;
-    price?: number;
-  } | null;
+  selectedVariant?: CartItem["selectedVariant"] | null;
 }
 const QuantityButtons = ({ product, className, selectedVariant }: Props) => {
   const t = useTranslations("common");

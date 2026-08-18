@@ -51,8 +51,13 @@ export async function createCheckoutSession(
 
       line_items: items.map((item) => {
         const itemPrice = item.selectedVariant?.price || item.product.price || 0;
+        const optionParts = item.selectedVariant?.options
+          ?.map((o) => o.value)
+          .filter(Boolean);
         const variantInfo = item.selectedVariant
-          ? ` (${item.selectedVariant.color || ""} / ${item.selectedVariant.size || ""})`
+          ? optionParts && optionParts.length > 0
+            ? ` (${optionParts.join(" / ")})`
+            : ` (${item.selectedVariant.color || ""} / ${item.selectedVariant.size || ""})`
           : "";
 
         return {

@@ -19,6 +19,8 @@ const ProductCard = ({ product }: { product: Product }) => {
               width={500}
               height={500}
               alt={product?.images[0]?.altText || product?.name || "productImage"}
+              loading="lazy"
+              decoding="async"
               className={`w-full h-72 object-contain overflow-hidden hoverEffect ${product?.stock !== 0 && "group-hover:scale-105"}`}
             />
           </Link>

@@ -154,6 +154,18 @@ const SingleProductPage = async ({ params }: SingleProductPageProps) => {
     itemListElement: breadcrumbItems,
   };
 
+  const imageJsonLd = localizedProduct.images?.length
+    ? {
+        "@context": "https://schema.org",
+        "@graph": localizedProduct.images.map((img) => ({
+          "@type": "ImageObject",
+          url: urlFor(img).url(),
+          contentUrl: urlFor(img).url(),
+          caption: img.altText || localizedProduct.name || undefined,
+        })),
+      }
+    : undefined;
+
   return (
     <Container className="py-10">
       <script
@@ -164,6 +176,12 @@ const SingleProductPage = async ({ params }: SingleProductPageProps) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {imageJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(imageJsonLd) }}
+        />
+      )}
       <ProductInfo product={localizedProduct as Product} />
     </Container>
   );

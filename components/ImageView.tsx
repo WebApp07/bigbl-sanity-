@@ -72,6 +72,8 @@ const ImageView = ({ images = [], altFallback = "productImage" }: Props) => {
               alt={image?.altText || altFallback}
               width={100}
               height={100}
+              loading="lazy"
+              decoding="async"
               className="w-full h-auto object-contain"
             />
           </button>

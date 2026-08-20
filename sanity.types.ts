@@ -135,7 +135,6 @@ export type Post = {
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
-        altText?: string;
         _type: "image";
         _key: string;
       }
@@ -276,6 +275,7 @@ export type Product = {
     media?: unknown;
     hotspot?: SanityImageHotspot;
     crop?: SanityImageCrop;
+    altText?: string;
     _type: "image";
     _key: string;
   }>;
@@ -683,7 +683,6 @@ export type POSTS_QUERY_RESULT = Array<{
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
-        altText?: string;
         _type: "image";
         _key: string;
       }
@@ -759,7 +758,6 @@ export type POST_BY_SLUG_QUERY_RESULT = {
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
-        altText?: string;
         _type: "image";
         _key: string;
       }
@@ -862,6 +860,7 @@ export type BRAND_BY_SLUG_QUERY_RESULT = {
       media?: unknown;
       hotspot?: SanityImageHotspot;
       crop?: SanityImageCrop;
+      altText?: string;
       _type: "image";
       _key: string;
     }> | null;
@@ -973,6 +972,7 @@ export type PRODUCT_BY_SLUG_QUERY_RESULT = {
     media?: unknown;
     hotspot?: SanityImageHotspot;
     crop?: SanityImageCrop;
+    altText?: string;
     _type: "image";
     _key: string;
   }>;

@@ -15,6 +15,11 @@ import ProductCharacteristics from "./ProductCharacteristics";
 import ImageView from "./ImageView";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import {
+  findMatchingCombination,
+  resolveProductPrice,
+  resolveProductStock,
+} from "@/lib/pricing";
 
 export default function ProductInfo({ product }: { product: Product }) {
   const t = useTranslations("product");
@@ -56,18 +61,10 @@ export default function ProductInfo({ product }: { product: Product }) {
     availableSizes[0] ||
     null;
 
-  const matchingCombination = hasOptions
-    ? product.optionCombinations?.find((combo) => {
-        const selections = combo.selections || [];
-        const groupKeys = (product.options || [])
-          .map((o) => o.key)
-          .filter(Boolean);
-        return (
-          selections.length === groupKeys.length &&
-          selections.every((s) => selectedOptions[s.optionKey || ""] === s.value)
-        );
-      })
-    : undefined;
+  const matchingCombination = findMatchingCombination(
+    product,
+    selectedOptions,
+  );
 
   const activeVariant = hasOptions
     ? {
@@ -82,18 +79,8 @@ export default function ProductInfo({ product }: { product: Product }) {
       }
     : selectedVariant;
 
-  const price = hasOptions
-    ? matchingCombination?.price !== undefined
-      ? matchingCombination.price
-      : product.price
-    : selectedVariant?.price || product.price;
-  const stock = hasOptions
-    ? matchingCombination?.stock !== undefined
-      ? matchingCombination.stock
-      : product.stock
-    : selectedVariant?.stock !== undefined
-      ? selectedVariant.stock
-      : product.stock;
+  const price = resolveProductPrice(activeVariant?.price, product.price);
+  const stock = resolveProductStock(activeVariant?.stock, product.stock);
 
   const slug = product.slug?.current || "";
   const tKey = (key: string) => key as Parameters<typeof t>[0];

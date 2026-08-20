@@ -24,6 +24,7 @@ import { Link } from "@/i18n/navigation";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useTranslations } from "next-intl";
+import { resolveProductPrice } from "@/lib/pricing";
 import {
   createCheckoutSession,
   Metadata,
@@ -221,8 +222,10 @@ const CartPage = () => {
                             <div className="flex flex-col items-start justify-between h-36 md:h-44 p-0.5 md:p-1">
                               <PriceFormatter
                                 amount={
-                                  (selectedVariant?.price ||
-                                    (product?.price as number)) * itemCount
+                                  (resolveProductPrice(
+                                    selectedVariant?.price,
+                                    product?.price,
+                                  ) ?? 0) * itemCount
                                 }
                                 className="font-bold text-lg"
                               />

@@ -3,6 +3,7 @@
 import { createOrderInSanity, SanityOrderData } from "@/lib/orderService";
 import { CartItem } from "@/store";
 import { DEFAULT_CURRENCY } from "@/lib/currencyConfig";
+import { resolveProductPrice } from "@/lib/pricing";
 
 export async function capturePayPalOrder(
   orderId: string,
@@ -57,7 +58,10 @@ export async function capturePayPalOrder(
             color: item.selectedVariant.color,
             size: item.selectedVariant.size,
             variantSku: item.selectedVariant.variantSku,
-            price: item.selectedVariant.price,
+            price: resolveProductPrice(
+              item.selectedVariant.price,
+              item.product.price,
+            ),
             options: item.selectedVariant.options || undefined,
           }
         : undefined,

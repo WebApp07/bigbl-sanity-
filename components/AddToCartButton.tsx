@@ -8,6 +8,7 @@ import QuantityButtons from "./QuantityButton";
 import PriceFormatter from "./PriceFormatter";
 import useCartStore, { CartItem } from "@/store";
 import { useTranslations } from "next-intl";
+import { resolveProductPrice } from "@/lib/pricing";
 interface Props {
   product: Product;
   className?: string;
@@ -35,7 +36,8 @@ const AddToCartButton = ({ product, className, selectedVariant }: Props) => {
             <span className="text-xs font-semibold">{t("subtotal")}</span>
             <PriceFormatter
               amount={
-                (selectedVariant?.price || product?.price || 0) * itemCount
+                (resolveProductPrice(selectedVariant?.price, product?.price) ?? 0) *
+                itemCount
               }
             />
           </div>

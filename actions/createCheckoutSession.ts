@@ -6,6 +6,7 @@ import { CartItem } from "@/store";
 import { getExchangeRate } from "@/lib/currency";
 import { DEFAULT_CURRENCY } from "@/lib/currencyConfig";
 import { SITE_URL } from "@/lib/site";
+import { resolveProductPrice } from "@/lib/pricing";
 import Stripe from "stripe";
 
 export interface Metadata {
@@ -50,7 +51,8 @@ export async function createCheckoutSession(
       cancel_url: `${SITE_URL}/cart`,
 
       line_items: items.map((item) => {
-        const itemPrice = item.selectedVariant?.price || item.product.price || 0;
+        const itemPrice =
+          resolveProductPrice(item.selectedVariant?.price, item.product.price) ?? 0;
         const optionParts = item.selectedVariant?.options
           ?.map((o) => o.value)
           .filter(Boolean);

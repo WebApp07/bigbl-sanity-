@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { Product } from "./sanity.types";
+import { resolveProductPrice } from "./lib/pricing";
 
 export type CartVariantImage = NonNullable<
   Product["variants"]
@@ -111,13 +112,15 @@ const useCartStore = create<CartState>()(
       resetCart: () => set({ items: [] }),
       getTotalPrice: () => {
         return get().items.reduce((total, item) => {
-          const price = item.selectedVariant?.price || item.product.price || 0;
+          const price =
+            resolveProductPrice(item.selectedVariant?.price, item.product.price) ?? 0;
           return total + price * item.quantity;
         }, 0);
       },
       getSubtotalPrice: () => {
         return get().items.reduce((total, item) => {
-          const price = item.selectedVariant?.price || item.product.price || 0;
+          const price =
+            resolveProductPrice(item.selectedVariant?.price, item.product.price) ?? 0;
           const discount = ((item.product.discount ?? 0) * price) / 100;
           const discountedPrice = price + discount;
           return total + discountedPrice * item.quantity;

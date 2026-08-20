@@ -31,7 +31,22 @@ export const productType = defineType({
       name: "images",
       title: "Product Images",
       type: "array",
-      of: [{ type: "image", options: { hotspot: true } }],
+      of: [
+        {
+          type: "image",
+          options: { hotspot: true },
+          fields: [
+            {
+              name: "altText",
+              title: "Alt Text",
+              type: "string",
+              validation: (Rule) => Rule.max(160),
+              description:
+                "Describe what is visible in this image for screen readers and SEO, e.g. \"Microsoft Windows 10 Education key for 5 PCs with lifetime license\". Keep it concise and natural, describe only what is shown, no marketing claims or prices. Leave empty when the image is decorative.",
+            },
+          ],
+        },
+      ],
     }),
     defineField({
       name: "intro",

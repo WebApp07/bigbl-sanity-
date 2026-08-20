@@ -118,7 +118,7 @@ export default function ProductInfo({ product }: { product: Product }) {
 
   return (
     <div className="flex flex-col md:flex-row gap-10">
-      <ImageView images={displayImages} />
+      <ImageView images={displayImages} altFallback={product.name || "productImage"} />
       <div className="w-full md:w-1/2 flex flex-col gap-5">
         <div>
           {brandRef?.slug?.current ? (

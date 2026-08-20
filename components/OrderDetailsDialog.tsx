@@ -126,7 +126,7 @@ const OrderDetailsDialog: FC<Props> = async ({ order, isOpen, onClose }) => {
                   {product?.product?.images && (
                     <Image
                       src={urlFor(product?.product?.images[0]).url()}
-                      alt="productImage"
+                      alt={product?.product?.images[0]?.altText || "productImage"}
                       width={50}
                       height={50}
                       className="border rounded-sm w-14 h-14 object-contain"

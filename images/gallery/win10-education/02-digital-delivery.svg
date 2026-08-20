@@ -1,0 +1,93 @@
+
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#153a6b"/>
+      <stop offset="45%" stop-color="#0b1e3c"/>
+      <stop offset="100%" stop-color="#040916"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#49e3ff"/>
+      <stop offset="100%" stop-color="#0f6dff"/>
+    </linearGradient>
+    <linearGradient id="cyanDeep" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#083a8f"/>
+      <stop offset="100%" stop-color="#22c7ff"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5fd6ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1a5cff" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="26" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="34" flood-color="#02060f" flood-opacity="0.75"/>
+    </filter>
+    <filter id="shadowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#02060f" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect width="1024" height="1024" fill="url(#grid)"/>
+    <ellipse cx="512" cy="250" rx="520" ry="420" fill="#2f9bff" opacity="0.14" filter="url(#blur)"/>
+    <ellipse cx="150" cy="840" rx="380" ry="300" fill="#0a6bff" opacity="0.16" filter="url(#blur)"/>
+    <ellipse cx="900" cy="860" rx="340" ry="280" fill="#22d3ee" opacity="0.12" filter="url(#blur)"/>
+    <g fill="#7ce7ff" filter="url(#blur)">
+      <circle cx="120" cy="160" r="7" opacity="0.5"/><circle cx="300" cy="120" r="4" opacity="0.4"/>
+      <circle cx="760" cy="180" r="6" opacity="0.45"/><circle cx="900" cy="120" r="4" opacity="0.4"/>
+      <circle cx="200" cy="880" r="5" opacity="0.4"/><circle cx="840" cy="900" r="7" opacity="0.4"/>
+    </g>
+  <ellipse cx="512" cy="560" rx="320" ry="300" fill="#0e7bff" opacity="0.20" filter="url(#blur)"/>
+
+  <!-- envelope -->
+  <g filter="url(#shadow)">
+    <rect x="292" y="170" width="440" height="300" rx="30" fill="#0a1428" stroke="url(#borderGrad)" stroke-width="2"/>
+    <path d="M292 224 L512 372 L732 224" fill="none" stroke="#49e3ff" stroke-width="3" opacity="0.9"/>
+    <rect x="292" y="170" width="440" height="300" rx="30" fill="url(#glass)"/>
+  </g>
+
+  <!-- key chip flying out of envelope -->
+  <g filter="url(#glow)">
+    <rect x="382" y="398" width="260" height="96" rx="18" fill="url(#cyan)"/>
+  </g>
+  <g filter="url(#shadowSoft)">
+    <rect x="382" y="398" width="260" height="96" rx="18" fill="#0e6fdd"/>
+  </g>
+  <rect x="346" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="372" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="398" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="424" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="460" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="486" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="512" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="538" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="574" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="600" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="626" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/><rect x="652" y="412" width="16" height="11.52" rx="3.2" fill="#aef0ff" opacity="0.92"/>
+  <text x="512" y="468" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="24" font-weight="600" fill="#eaffff">Digital License Key</text>
+
+  <!-- delivery motion dots -->
+  <circle cx="300" cy="470" r="5" fill="#49e3ff" opacity="0.9"/>
+  <circle cx="340" cy="520" r="5" fill="#49e3ff" opacity="0.55"/>
+  <circle cx="392" cy="556" r="5" fill="#49e3ff" opacity="0.3"/>
+
+  <text x="512" y="650" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Digital Key</text>
+  <text x="512" y="726" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="38" font-weight="500" fill="#7fd7ff">Fast Delivery</text>
+
+  <rect x="380" y="772" width="264" height="3" rx="1.5" fill="url(#cyan)" opacity="0.55"/>
+
+  
+    <rect x="312" y="812" width="176" height="62" rx="31" fill="url(#glass)" stroke="url(#borderGrad)" stroke-width="1.4"/>
+    <text x="400" y="843" text-anchor="middle" dominant-baseline="central"
+      font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="28" font-weight="600" fill="#e6f7ff">Secure</text>
+  
+    <rect x="536" y="812" width="176" height="62" rx="31" fill="url(#glass)" stroke="url(#borderGrad)" stroke-width="1.4"/>
+    <text x="624" y="843" text-anchor="middle" dominant-baseline="central"
+      font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="28" font-weight="600" fill="#e6f7ff">Email</text>
+
+  <g filter="url(#glow)"><path d="M512 868 l0 -0" stroke="none"/></g>
+</svg>

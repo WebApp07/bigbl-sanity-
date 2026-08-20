@@ -1,0 +1,84 @@
+
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#153a6b"/>
+      <stop offset="45%" stop-color="#0b1e3c"/>
+      <stop offset="100%" stop-color="#040916"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#49e3ff"/>
+      <stop offset="100%" stop-color="#0f6dff"/>
+    </linearGradient>
+    <linearGradient id="cyanDeep" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#083a8f"/>
+      <stop offset="100%" stop-color="#22c7ff"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5fd6ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1a5cff" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="26" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="34" flood-color="#02060f" flood-opacity="0.75"/>
+    </filter>
+    <filter id="shadowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#02060f" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect width="1024" height="1024" fill="url(#grid)"/>
+    <ellipse cx="512" cy="250" rx="520" ry="420" fill="#2f9bff" opacity="0.14" filter="url(#blur)"/>
+    <ellipse cx="150" cy="840" rx="380" ry="300" fill="#0a6bff" opacity="0.16" filter="url(#blur)"/>
+    <ellipse cx="900" cy="860" rx="340" ry="280" fill="#22d3ee" opacity="0.12" filter="url(#blur)"/>
+    <g fill="#7ce7ff" filter="url(#blur)">
+      <circle cx="120" cy="160" r="7" opacity="0.5"/><circle cx="300" cy="120" r="4" opacity="0.4"/>
+      <circle cx="760" cy="180" r="6" opacity="0.45"/><circle cx="900" cy="120" r="4" opacity="0.4"/>
+      <circle cx="200" cy="880" r="5" opacity="0.4"/><circle cx="840" cy="900" r="7" opacity="0.4"/>
+    </g>
+  <ellipse cx="512" cy="530" rx="320" ry="310" fill="#1a8dff" opacity="0.20" filter="url(#blur)"/>
+
+  <!-- device frame (window-ish, NOT a real MS UI) -->
+  <g filter="url(#shadow)">
+    <rect x="232" y="130" width="560" height="440" rx="26" fill="#0a1428" stroke="url(#borderGrad)" stroke-width="2"/>
+    <rect x="248" y="148" width="528" height="60" rx="16" fill="#0d1f3d"/>
+    <circle cx="286" cy="178" r="7" fill="#ff5f57"/><circle cx="320" cy="178" r="7" fill="#febc2e"/><circle cx="354" cy="178" r="7" fill="#28c840"/>
+    <text x="512" y="180" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="22" font-weight="600" fill="#9cc4e8" opacity="0.85">Windows Activation</text>
+  </g>
+
+  <!-- activation window content -->
+  <rect x="482" y="232" width="27.9" height="27.9" rx="12" fill="url(#cyan)" filter="url(#shadowSoft)"/><rect x="514.1" y="232" width="27.9" height="27.9" rx="12" fill="#1a8dff" filter="url(#shadowSoft)"/><rect x="482" y="264.09999999999997" width="27.9" height="27.9" rx="12" fill="#3fd0ff" filter="url(#shadowSoft)"/><rect x="514.1" y="264.09999999999997" width="27.9" height="27.9" rx="12" fill="#0b57d0" filter="url(#shadowSoft)"/>
+  <text x="512" y="332" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="30" font-weight="600" fill="#eaf6ff">Enter your product key</text>
+
+  <g filter="url(#shadowSoft)">
+    <rect x="302" y="372" width="420" height="64" rx="14" fill="#06101f" stroke="#2e6fae" stroke-width="1.5"/>
+  </g>
+  <rect x="233.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="254.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="275.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="296.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="317.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="346.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="367.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="388.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="409.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="430.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="459.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="480.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="501.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="522.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="543.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="572.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="593.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="614.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="635.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="656.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="685.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="706.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="727.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="748.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/><rect x="769.5" y="392" width="13" height="9.36" rx="2.6" fill="#aef0ff" opacity="0.92"/>
+
+  <g filter="url(#glow)">
+    <rect x="352" y="462" width="320" height="62" rx="16" fill="url(#cyan)"/>
+  </g>
+  <text x="512" y="493" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="28" font-weight="700" fill="#06203c">Activate</text>
+
+  <circle cx="512" cy="598" r="30" fill="#14e0a0" opacity="0.9" filter="url(#glow)"/>
+  <path d="M498 598 l10 11 l20 -22" fill="none" stroke="#04160f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="560" y="598" text-anchor="start" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="30" font-weight="600" fill="#9fe8d2">Activated</text>
+
+  <text x="512" y="760" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Easy Activation</text>
+  <text x="512" y="826" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="32" font-weight="500" fill="#7fd7ff">Setup in a few steps</text>
+</svg>

@@ -21,9 +21,11 @@ interface Props {
     crop?: SanityImageCrop;
     _type: "image";
     _key?: string;
+    altText?: string;
   }>;
+  altFallback?: string;
 }
-const ImageView = ({ images = [] }: Props) => {
+const ImageView = ({ images = [], altFallback = "productImage" }: Props) => {
   const [active, setActive] = useState(images[0]);
 
   useEffect(() => {
@@ -45,7 +47,7 @@ const ImageView = ({ images = [] }: Props) => {
         >
           <Image
             src={urlFor(active).url()}
-            alt="productImage"
+            alt={active?.altText || altFallback}
             width={700}
             height={700}
             priority
@@ -67,7 +69,7 @@ const ImageView = ({ images = [] }: Props) => {
           >
             <Image
               src={urlFor(image).url()}
-              alt="productImage"
+              alt={image?.altText || altFallback}
               width={100}
               height={100}
               className="w-full h-auto object-contain"

@@ -153,7 +153,7 @@ const CartPage = () => {
                               >
                                 <Image
                                   src={urlFor(product?.images[0]).url()}
-                                  alt={tSearch("productImage")}
+                                  alt={product?.images[0]?.altText || tSearch("productImage")}
                                   width={500}
                                   height={500}
                                   loading="lazy"

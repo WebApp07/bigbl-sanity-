@@ -101,7 +101,7 @@ const SearchBar = () => {
                           width={200}
                           height={200}
                           src={urlFor(product?.images[0]).url()}
-                          alt={t("productImage")}
+                          alt={product?.images[0]?.altText || t("productImage")}
                           className="object-cover w-full h-full group-hover:scale-110 hoverEffect"
                         />
                       )}

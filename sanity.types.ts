@@ -135,6 +135,7 @@ export type Post = {
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
+        altText?: string;
         _type: "image";
         _key: string;
       }
@@ -549,6 +550,7 @@ export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
+        altText?: string;
         _type: "image";
         _key: string;
       }>;
@@ -681,6 +683,7 @@ export type POSTS_QUERY_RESULT = Array<{
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
+        altText?: string;
         _type: "image";
         _key: string;
       }
@@ -756,6 +759,7 @@ export type POST_BY_SLUG_QUERY_RESULT = {
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
+        altText?: string;
         _type: "image";
         _key: string;
       }
@@ -1127,6 +1131,7 @@ export type MY_ORDERS_QUERY_RESULT = Array<{
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
+        altText?: string;
         _type: "image";
         _key: string;
       }>;
@@ -1250,6 +1255,7 @@ export type ORDER_BY_NUMBER_QUERY_RESULT = {
         media?: unknown;
         hotspot?: SanityImageHotspot;
         crop?: SanityImageCrop;
+        altText?: string;
         _type: "image";
         _key: string;
       }>;

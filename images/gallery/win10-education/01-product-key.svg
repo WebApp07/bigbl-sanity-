@@ -1,0 +1,84 @@
+
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#153a6b"/>
+      <stop offset="45%" stop-color="#0b1e3c"/>
+      <stop offset="100%" stop-color="#040916"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#49e3ff"/>
+      <stop offset="100%" stop-color="#0f6dff"/>
+    </linearGradient>
+    <linearGradient id="cyanDeep" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#083a8f"/>
+      <stop offset="100%" stop-color="#22c7ff"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5fd6ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1a5cff" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="26" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="34" flood-color="#02060f" flood-opacity="0.75"/>
+    </filter>
+    <filter id="shadowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#02060f" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect width="1024" height="1024" fill="url(#grid)"/>
+    <ellipse cx="512" cy="250" rx="520" ry="420" fill="#2f9bff" opacity="0.14" filter="url(#blur)"/>
+    <ellipse cx="150" cy="840" rx="380" ry="300" fill="#0a6bff" opacity="0.16" filter="url(#blur)"/>
+    <ellipse cx="900" cy="860" rx="340" ry="280" fill="#22d3ee" opacity="0.12" filter="url(#blur)"/>
+    <g fill="#7ce7ff" filter="url(#blur)">
+      <circle cx="120" cy="160" r="7" opacity="0.5"/><circle cx="300" cy="120" r="4" opacity="0.4"/>
+      <circle cx="760" cy="180" r="6" opacity="0.45"/><circle cx="900" cy="120" r="4" opacity="0.4"/>
+      <circle cx="200" cy="880" r="5" opacity="0.4"/><circle cx="840" cy="900" r="7" opacity="0.4"/>
+    </g>
+  <!-- ambient halo behind card -->
+  <ellipse cx="512" cy="520" rx="330" ry="330" fill="#1a8dff" opacity="0.20" filter="url(#blur)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="222" y="150" width="580" height="724" rx="34" fill="#0a1428" stroke="url(#borderGrad)" stroke-width="2"/>
+    <rect x="222" y="150" width="580" height="724" rx="34" fill="url(#glass)"/>
+    <rect x="222" y="150" width="580" height="240" rx="34" fill="url(#cyanDeep)" opacity="0.16"/>
+  </g>
+  <rect x="238" y="166" width="548" height="4" rx="2" fill="url(#cyan)" opacity="0.9"/>
+
+  <rect x="452" y="216" width="55.8" height="55.8" rx="24" fill="url(#cyan)" filter="url(#shadowSoft)"/><rect x="516.2" y="216" width="55.8" height="55.8" rx="24" fill="#1a8dff" filter="url(#shadowSoft)"/><rect x="452" y="280.2" width="55.8" height="55.8" rx="24" fill="#3fd0ff" filter="url(#shadowSoft)"/><rect x="516.2" y="280.2" width="55.8" height="55.8" rx="24" fill="#0b57d0" filter="url(#shadowSoft)"/>
+
+  <text x="512" y="430" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Windows 10</text>
+  <text x="512" y="496" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="42" font-weight="600" fill="#7fd7ff">Education</text>
+
+  <rect x="380" y="540" width="264" height="3" rx="1.5" fill="url(#cyan)" opacity="0.55"/>
+
+  
+    <rect x="302" y="578" width="200" height="64" rx="32" fill="url(#glass)" stroke="url(#borderGrad)" stroke-width="1.4"/>
+    <text x="402" y="610" text-anchor="middle" dominant-baseline="central"
+      font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="30" font-weight="600" fill="#e6f7ff">Lifetime License</text>
+  
+    <rect x="522" y="578" width="200" height="64" rx="32" fill="url(#glass)" stroke="url(#borderGrad)" stroke-width="1.4"/>
+    <text x="622" y="610" text-anchor="middle" dominant-baseline="central"
+      font-family="'Segoe UI', 'Segoe UI Variable', Arial, sans-serif" font-size="32" font-weight="600" fill="#e6f7ff">15 PCs</text>
+
+  <g filter="url(#shadowSoft)">
+    <rect x="262" y="690" width="500" height="120" rx="20" fill="#06101f" stroke="url(#borderGrad)" stroke-width="1.6"/>
+  </g>
+  <rect x="113" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="143" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="173" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="203" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="233" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="275" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="305" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="335" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="365" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="395" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="437" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="467" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="497" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="527" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="557" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="599" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="629" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="659" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="689" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="719" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="761" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="791" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="821" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="851" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/><rect x="881" y="736" width="18" height="12.959999999999999" rx="3.6" fill="#aef0ff" opacity="0.92"/>
+</svg>

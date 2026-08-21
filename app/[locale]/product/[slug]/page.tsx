@@ -32,19 +32,21 @@ export async function generateMetadata({
         product.intro || product.description || "",
         locale,
       );
+  const metaTitle = product.seoTitle || name;
+  const metaDescription = product.seoDescription || intro;
 
   const url = localizedUrl(locale, `/product/${slug}`);
 
   return {
-    title: name,
-    description: intro,
+    title: metaTitle,
+    description: metaDescription,
     alternates: {
       canonical: url,
       languages: hreflangAlternates(`/product/${slug}`),
     },
     openGraph: {
-      title: `${name} | ${SITE_NAME}`,
-      description: intro,
+      title: `${metaTitle} | ${SITE_NAME}`,
+      description: metaDescription,
       type: "website",
       url,
       siteName: SITE_NAME,

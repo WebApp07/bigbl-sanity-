@@ -280,6 +280,8 @@ export type Product = {
     _key: string;
   }>;
   intro?: string;
+  seoTitle?: string;
+  seoDescription?: string;
   description?: string;
   brand?: string;
   brandRef?: BrandReference;
@@ -555,6 +557,8 @@ export type GET_ORDER_BY_NUMBER_QUERY_RESULT = {
         _key: string;
       }>;
       intro?: string;
+      seoTitle?: string;
+      seoDescription?: string;
       description?: string;
       brand?: string;
       brandRef?: BrandReference;
@@ -977,6 +981,8 @@ export type PRODUCT_BY_SLUG_QUERY_RESULT = {
     _key: string;
   }>;
   intro?: string;
+  seoTitle?: string;
+  seoDescription?: string;
   description?: string;
   brand?: string;
   brandRef: {
@@ -1136,6 +1142,8 @@ export type MY_ORDERS_QUERY_RESULT = Array<{
         _key: string;
       }>;
       intro?: string;
+      seoTitle?: string;
+      seoDescription?: string;
       description?: string;
       brand?: string;
       brandRef?: BrandReference;
@@ -1260,6 +1268,8 @@ export type ORDER_BY_NUMBER_QUERY_RESULT = {
         _key: string;
       }>;
       intro?: string;
+      seoTitle?: string;
+      seoDescription?: string;
       description?: string;
       brand?: string;
       brandRef?: BrandReference;

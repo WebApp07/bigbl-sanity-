@@ -54,6 +54,23 @@ export const productType = defineType({
       type: "string",
     }),
     defineField({
+      name: "seoTitle",
+      title: "SEO Title",
+      type: "string",
+      validation: (Rule) => Rule.max(60),
+      description:
+        "Overrides the <title> tag for this product. Keep it under 60 characters, primary keyword first. Defaults to the product name.",
+    }),
+    defineField({
+      name: "seoDescription",
+      title: "SEO Description",
+      type: "text",
+      rows: 3,
+      validation: (Rule) => Rule.max(160),
+      description:
+        "Overrides the meta description for this product. 150-160 characters, include the primary keyword and a reason to click. Defaults to the intro.",
+    }),
+    defineField({
       name: "description",
       title: "Description",
       type: "text",
